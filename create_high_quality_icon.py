@@ -1,58 +1,56 @@
+"""
+High-quality ICO file generator with proper transparency support
+"""
 from PIL import Image
 import sys
 
-def create_high_quality_icon(png_path, ico_path='icon.ico'):
+def create_ico_with_transparency(png_path):
     """
-    PNG'den yüksek kaliteli ICO dosyası oluşturur.
-    Windows için önerilen tüm boyutları içerir.
+    Creates a high-quality .ico file from PNG with proper alpha channel handling
     """
     try:
-        # PNG'yi aç
+        # Open the PNG image
         img = Image.open(png_path)
         
-        # RGBA moduna çevir (transparency için)
+        # Ensure the image has an alpha channel
         if img.mode != 'RGBA':
             img = img.convert('RGBA')
         
-        # Windows için standart ikon boyutları
-        # 256x256: Windows 7+ için yüksek çözünürlük
-        # 128x128: Büyük ikonlar
-        # 48x48: Orta boy ikonlar
-        # 32x32: Küçük ikonlar
-        # 16x16: Mini ikonlar (görev çubuğu vb.)
-        sizes = [(256, 256), (128, 128), (64, 64), (48, 48), (32, 32), (16, 16)]
+        # Define sizes for Windows icons (including all standard sizes)
+        sizes = [(16, 16), (32, 32), (48, 48), (64, 64), (128, 128), (256, 256)]
         
-        # Her boyut için optimize edilmiş resimler oluştur
+        # Create resized versions with high-quality resampling
         icon_images = []
         for size in sizes:
-            # LANCZOS resampling ile yüksek kaliteli ölçekleme
+            # Use LANCZOS for best quality downsampling
             resized = img.resize(size, Image.Resampling.LANCZOS)
             icon_images.append(resized)
-            print(f"✓ {size[0]}x{size[1]} boyutu oluşturuldu")
         
-        # ICO dosyasını kaydet
+        # Save as ICO with all sizes
+        output_path = 'icon.ico'
         icon_images[0].save(
-            ico_path,
+            output_path,
             format='ICO',
-            sizes=[(img.width, img.height) for img in icon_images],
+            sizes=sizes,
             append_images=icon_images[1:]
         )
         
-        print(f"\n✅ Yüksek kaliteli ikon başarıyla oluşturuldu: {ico_path}")
-        print(f"📦 İçerdiği boyutlar: {', '.join([f'{s[0]}x{s[1]}' for s in sizes])}")
-        return True
+        print(f"✅ Icon created successfully: {output_path}")
+        print(f"📐 Sizes included: {', '.join([f'{s[0]}x{s[1]}' for s in sizes])}")
+        print(f"✨ Transparency: Preserved")
+        return output_path
         
+    except FileNotFoundError:
+        print(f"❌ Error: File '{png_path}' not found!")
+        sys.exit(1)
     except Exception as e:
-        print(f"❌ Hata: {e}")
-        return False
+        print(f"❌ Error creating icon: {e}")
+        sys.exit(1)
 
 if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        print("Kullanım: python create_high_quality_icon.py <png_dosyasi>")
-        print("Örnek: python create_high_quality_icon.py YouT_Image.png")
+    if len(sys.argv) != 2:
+        print("Usage: python create_high_quality_icon.py <input_png_file>")
         sys.exit(1)
     
     png_file = sys.argv[1]
-    create_high_quality_icon(png_file)
-
-
+    create_ico_with_transparency(png_file)
