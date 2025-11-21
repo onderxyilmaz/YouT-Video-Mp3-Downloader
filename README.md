@@ -12,9 +12,11 @@ YouTube videolarını video (MP4) ve/veya ses (MP3) formatında indirmek için m
 
 </div>
 
-## 📸 Ekran Görüntüleri
+## 📸 Ekran Görüntüsü
 
-> *Yakında eklenecek*
+<div align="center">
+  <img src="YouT_Image.png" alt="YouT Video Mp3 Downloader" width="200"/>
+</div>
 
 ## ✨ Özellikler
 
@@ -79,10 +81,18 @@ ffmpeg -version
 
 ## 📦 Kurulum
 
-### 1. Python Kurulumu
+### Seçenek 1: Windows Exe (En Kolay)
+
+1. [Releases](https://github.com/onderxyilmaz/YouT-Video-Mp3-Downloader/releases) sayfasından son sürümü indirin
+2. `YouT-Video-Mp3-Downloader.exe` dosyasını çalıştırın
+3. Python kurulumu **gerektirmez**
+
+### Seçenek 2: Kaynak Koddan
+
+#### 1. Python Kurulumu
 Python 3.7 veya üzeri sürüm gereklidir. [Python'u buradan indirin](https://www.python.org/downloads/).
 
-### 2. Projeyi İndirin
+#### 2. Projeyi İndirin
 ```bash
 git clone https://github.com/onderxyilmaz/YouT-Video-Mp3-Downloader.git
 cd YouT-Video-Mp3-Downloader
@@ -90,7 +100,7 @@ cd YouT-Video-Mp3-Downloader
 
 veya ZIP olarak indirip açın.
 
-### 3. Gerekli Paketleri Yükleyin
+#### 3. Gerekli Paketleri Yükleyin
 ```bash
 pip install -r requirements.txt
 ```
@@ -104,6 +114,11 @@ pip install -r requirements.txt
 ## 🚀 Kullanım
 
 ### Uygulamayı Başlatın
+
+**Windows Exe:**
+- `YouT-Video-Mp3-Downloader.exe` dosyasını çift tıklayın
+
+**Kaynak Kod:**
 ```bash
 python youtube_downloader.py
 ```
@@ -151,6 +166,21 @@ python youtube_downloader.py
 - Çok uzun (>2 saat) videolarda yavaşlama olabilir
 - Bazı premium içerikler desteklenmez
 
+## 🔧 Windows Exe Oluşturma
+
+Uygulamayı kendiniz .exe dosyasına dönüştürmek için:
+
+```bash
+# Otomatik
+python build_exe.py
+
+# Manuel
+pip install pyinstaller
+pyinstaller --onefile --windowed youtube_downloader.py
+```
+
+Detaylı bilgi için [build_instructions.md](build_instructions.md) dosyasına bakın.
+
 ## 🔄 Sürüm Geçmişi
 
 ### v1.0.0 (2024)
@@ -160,6 +190,7 @@ python youtube_downloader.py
 - 📁 Klasör seçimi ve hatırlama
 - ✅ URL validasyonu
 - 🎨 Modern dark tema arayüz
+- 📦 Windows exe desteği
 
 ## 🤝 Katkıda Bulunma
 

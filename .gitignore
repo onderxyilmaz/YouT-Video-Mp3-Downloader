@@ -9,6 +9,23 @@ temp_ffmpeg/
 # Config dosyası (kullanıcı ayarları)
 config.json
 
+# PyInstaller
+build/
+dist/
+*.spec
+__pycache__/
+
+# Geçici build dosyaları
+venv/
+create_icon.py
+create_simple_icon.py
+build_exe.py
+build_instructions.md
+CREATE_INSTALLER.md
+
+# Installer çıktıları (release'de manuel yüklenecek)
+installer/
+
 # Python
 __pycache__/
 *.py[cod]
