@@ -16,8 +16,10 @@ def create_ico_with_transparency(png_path):
         if img.mode != 'RGBA':
             img = img.convert('RGBA')
         
-        # Define sizes for Windows icons (including all standard sizes)
-        sizes = [(16, 16), (32, 32), (48, 48), (64, 64), (128, 128), (256, 256)]
+        # Define sizes for Windows icons (including desktop icon sizes)
+        # Desktop: 32x32 (small), 48x48 (medium/default), 96x96 (large)
+        # Also include 16, 24, 64, 128, 256 for all scenarios
+        sizes = [(16, 16), (24, 24), (32, 32), (48, 48), (64, 64), (96, 96), (128, 128), (256, 256)]
         
         # Create resized versions with high-quality resampling
         icon_images = []
@@ -27,13 +29,32 @@ def create_ico_with_transparency(png_path):
             icon_images.append(resized)
         
         # Save as ICO with all sizes
+        # PIL's ICO format: first image + append_images list
         output_path = 'icon.ico'
-        icon_images[0].save(
-            output_path,
-            format='ICO',
-            sizes=sizes,
-            append_images=icon_images[1:]
-        )
+        
+        # Save with all images - PIL will automatically include all sizes
+        if len(icon_images) > 1:
+            icon_images[0].save(
+                output_path,
+                format='ICO',
+                sizes=[(img.width, img.height) for img in icon_images],
+                append_images=icon_images[1:]
+            )
+        else:
+            icon_images[0].save(output_path, format='ICO')
+        
+        # Verify the ICO file contains multiple sizes
+        try:
+            verify_img = Image.open(output_path)
+            # Try to get all sizes from the ICO
+            if hasattr(verify_img, 'info'):
+                saved_info = verify_img.info
+                if 'sizes' in saved_info:
+                    print(f"📋 Verified sizes in ICO: {saved_info['sizes']}")
+                else:
+                    print(f"⚠️  Warning: Could not verify sizes, but ICO created successfully")
+        except Exception as e:
+            print(f"⚠️  Warning: Could not verify ICO: {e}")
         
         print(f"✅ Icon created successfully: {output_path}")
         print(f"📐 Sizes included: {', '.join([f'{s[0]}x{s[1]}' for s in sizes])}")

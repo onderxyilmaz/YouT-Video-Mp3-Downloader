@@ -64,8 +64,8 @@ Source: "LICENSE"; DestDir: "{app}"; Flags: ignoreversion
 ; Başlat menüsü kısayolu
 Name: "{group}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"
 Name: "{group}\{cm:UninstallProgram,{#MyAppName}}"; Filename: "{uninstallexe}"
-; Masaüstü kısayolu (opsiyonel) - İkon dosyasını kullan
-Name: "{autodesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; IconFilename: "{app}\icon.ico"; Tasks: desktopicon
+; Masaüstü kısayolu (opsiyonel) - EXE'nin kendi ikonunu kullan (PyInstaller embed etti)
+Name: "{autodesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; Tasks: desktopicon
 ; Hızlı başlatma (opsiyonel)
 Name: "{userappdata}\Microsoft\Internet Explorer\Quick Launch\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; Tasks: quicklaunchicon
 

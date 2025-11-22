@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tree:*)",
+      "Bash(python create_high_quality_icon.py:*)",
+      "Bash(python:*)",
+      "Bash(\"/c/Program Files (x86)/Inno Setup 6/ISCC.exe\":*)",
+      "Bash(pyinstaller:*)",
+      "Bash(\"/c/Program Files (x86)/Inno Setup 6/ISCC.exe\" installer_script.iss)",
+      "Bash(where:*)",
+      "Bash(C:Python312python.exe --version 2)",
+      "Bash(nul)",
+      "Bash(\"C:\\Program Files (x86)\\Inno Setup 6\\ISCC.exe\" installer_script.iss)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
