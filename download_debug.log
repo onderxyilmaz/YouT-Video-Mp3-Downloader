@@ -1,0 +1,2193 @@
+
+[2025-11-23 03:02:21.433693] FFmpeg ayarları:
+  - ffmpeg_path: D:\_Under_All\Masaüstü\YouTube Video Dowload Tool\ffmpeg.EXE
+  - ffmpeg_dir: D:\_Under_All\Masaüstü\YouTube Video Dowload Tool
+  - ffmpeg.exe exists: True
+
+============================================================
+Zaman: 2025-11-23 03:02:21.434844
+Kalite ayarı: 720p
+Format string: bv*[height<=720]+ba/best[height<=720]
+FFmpeg var mı: True
+FFmpeg yolu: D:\_Under_All\Masaüstü\YouTube Video Dowload Tool\ffmpeg.EXE
+FFmpeg location (base_opts): D:\_Under_All\Masaüstü\YouTube Video Dowload Tool
+============================================================
+
+[2025-11-23 03:02:36.873311] FFmpeg ayarları:
+  - ffmpeg_path: D:\_Under_All\Masaüstü\YouTube Video Dowload Tool\ffmpeg.EXE
+  - ffmpeg_dir: D:\_Under_All\Masaüstü\YouTube Video Dowload Tool
+  - ffmpeg.exe exists: True
+
+============================================================
+Zaman: 2025-11-23 03:02:36.877078
+Kalite ayarı: 720p
+Format string: bv*[height<=720]+ba/best[height<=720]
+FFmpeg var mı: True
+FFmpeg yolu: D:\_Under_All\Masaüstü\YouTube Video Dowload Tool\ffmpeg.EXE
+FFmpeg location (base_opts): D:\_Under_All\Masaüstü\YouTube Video Dowload Tool
+============================================================
+
+[2025-11-23 03:02:44.829474] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:44.832332] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:44.835795] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:44.838289] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:44.843487] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:44.846512] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:44.851333] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:44.859983] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:44.891589] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:44.955641] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:45.078458] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:45.327558] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:46.014869] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:46.225746] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:46.299432] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:46.310191] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:46.319739] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:46.321202] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:46.322640] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:46.324207] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:46.325273] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:46.332685] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:46.365649] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:46.428685] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:46.552006] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:46.800837] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:47.297725] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:47.690378] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:47.755758] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:47.757790] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:47.759748] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:47.761005] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:47.762945] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:47.767275] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:47.769083] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:47.785222] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:47.815593] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:47.879237] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:48.003741] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:48.255592] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:48.749861] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:48.980223] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:49.042565] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:49.044555] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:49.046528] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:49.054018] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:49.055366] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:49.057112] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:49.058828] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:49.071440] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:49.102638] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:49.164930] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:49.289215] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:49.755081] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:50.252520] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:50.455326] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:50.489964] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:50.509893] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:50.515540] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:50.527541] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:50.537707] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:50.539249] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:50.540613] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:50.542693] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:50.570827] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:50.632986] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:50.759378] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:51.008189] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:51.666069] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:51.903446] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:51.957405] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:51.958744] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:51.973136] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:51.974624] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:51.975780] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:51.976996] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:51.978173] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:51.987155] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:52.017675] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:52.080042] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:52.204287] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:52.454335] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:52.949845] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:53.140699] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:53.188292] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:53.194600] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:53.204176] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:53.206082] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:53.223502] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:53.235137] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:53.240883] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:53.255326] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:53.267873] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:53.331035] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:53.617186] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:53.866628] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:54.363233] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:54.576194] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:54.627366] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:54.628641] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:54.629935] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:54.631447] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:54.632530] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:54.633614] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:54.641045] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:54.656657] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:54.688214] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:54.751086] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:54.876661] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:55.125263] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:55.796437] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:56.035202] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:56.092088] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:56.109891] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:56.123292] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:56.124994] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:56.126418] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:56.127534] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:56.128884] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:56.136859] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:56.167888] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:56.230163] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:56.397145] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:56.768379] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:57.269754] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:57.678920] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:57.786771] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:57.789009] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:57.793879] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:57.802848] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:57.805267] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:57.807362] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:57.811429] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:57.820135] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:57.851485] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:57.915270] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:58.037904] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:58.286691] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:58.784548] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:58.968348] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:59.009673] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:59.021828] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:59.032408] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:59.033568] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:59.034777] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:59.035993] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:59.037234] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:59.045255] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:59.076356] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:59.140418] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:59.265435] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:02:59.686441] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:00.183899] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:00.370492] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:00.421884] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:00.488054] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:00.493912] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:00.496661] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:00.498311] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:00.500346] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:00.533285] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:00.551898] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:00.565522] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:00.626173] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:00.751820] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:01.001736] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:01.548479] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:01.973607] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:02.114706] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:02.117340] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:02.121424] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:02.122818] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:02.126298] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:02.129319] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:02.132103] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:02.141948] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:02.174479] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:02.235841] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:02.360959] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:02.611200] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:03.106975] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:03.343733] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:03.397691] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:03.413875] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:03.430150] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:03.436253] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:03.452342] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:03.465479] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:03.467192] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:03.492061] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:03.549037] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:03.611054] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:03.735664] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:03.984191] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:04.481555] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:04.686362] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:04.716667] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:04.733351] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:04.746078] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:04.772896] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:04.790673] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:04.797020] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:04.813690] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:04.826567] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:04.840800] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:04.903019] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:05.029290] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:05.278511] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:05.932315] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:06.138131] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:06.204212] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:06.208743] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:06.222137] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:06.223625] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:06.225406] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:06.252511] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:06.269807] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:06.283261] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:06.299073] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:06.361077] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:06.485485] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:06.734274] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:07.232261] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:07.530481] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:07.648695] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:07.657608] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:07.675858] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:07.685671] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:07.705835] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:07.721494] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:07.723433] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:07.759850] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:07.778395] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:07.835395] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:07.959995] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:08.207975] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:08.705325] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:08.925159] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:08.984615] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:09.004575] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:09.023752] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:09.025731] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:09.039893] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:09.041285] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:09.070605] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:09.090256] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:09.104709] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:09.164971] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:09.288718] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:09.677957] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:10.175405] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:10.418373] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:10.473177] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:10.488381] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:10.508076] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:10.515752] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:10.539355] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:10.555381] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:10.557082] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:10.587467] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:10.607242] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:10.662967] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:10.787241] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:11.036228] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:11.691491] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:11.933102] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:12.001526] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:12.004794] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:12.041792] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:12.049647] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:12.070962] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:12.089341] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:12.091659] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:12.124472] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:12.149558] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:12.199662] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:12.324197] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:12.572510] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:13.070073] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:13.286045] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:13.320057] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:13.332590] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:13.341210] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:13.362792] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:13.394979] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:13.416454] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:13.432284] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:13.450245] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:13.483988] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:13.531544] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:13.678454] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:13.939340] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:14.588158] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:14.829474] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:14.868855] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:14.892937] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:14.911404] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:14.945272] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:14.968332] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:14.977085] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:14.999209] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:15.017211] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:15.054122] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:15.101738] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:15.228660] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:15.618131] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:16.162048] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:16.578403] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:16.627169] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:16.640811] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:16.668754] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:16.688956] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:16.690914] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:16.726794] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:16.749724] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:16.767092] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:16.802706] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:16.848176] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:16.973690] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:17.222550] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:17.958202] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:18.142384] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:18.206580] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:18.208353] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:18.209663] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:18.245680] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:18.269686] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:18.278610] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:18.302161] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:18.343017] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:18.372097] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:18.418367] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:18.542609] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:18.792300] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:19.288916] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:19.627198] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:19.715917] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:19.719269] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:19.743053] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:19.761337] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:19.802061] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:19.834848] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:19.846113] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:19.872425] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:19.908888] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:19.957546] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:20.082451] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:20.331051] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:20.421273] İndirilen format:
+  - Format ID: 398
+  - Format note: 720p, ANDR-S
+  - Resolution: 1280x720
+
+[2025-11-23 03:03:20.519834] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:20.557244] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:20.582170] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:20.601191] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:20.604246] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:20.644837] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:20.670278] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:20.688791] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:20.728148] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:20.772878] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:20.897367] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:21.146373] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:21.833200] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:22.055340] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:22.103447] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:22.122964] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:22.148999] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:22.167721] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:22.220272] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:22.245834] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:22.264954] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:22.303230] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:22.329634] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:22.380088] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:22.504648] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:22.753739] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:23.251556] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:23.549785] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:23.590999] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:23.618107] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:23.627715] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:23.654149] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:23.673614] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:23.675373] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:23.718320] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:23.746477] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:23.773649] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:23.848817] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:23.973733] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:24.220200] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:24.718211] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:24.957200] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:25.013462] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:25.031642] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:25.072019] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:25.101589] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:25.121735] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:25.169095] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:25.200769] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:25.222264] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:25.272457] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:25.317286] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:25.632124] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:25.885989] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:26.383224] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:26.603774] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:26.667211] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:26.701465] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:26.713607] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:26.751072] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:26.799976] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:26.836289] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:26.863386] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:26.888207] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:26.940400] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:26.986894] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:27.112054] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:27.399028] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:28.043176] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:28.245920] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:28.282510] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:28.287438] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:28.309886] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:28.353043] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:28.381874] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:28.403159] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:28.445803] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:28.473852] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:28.496081] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:28.550311] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:28.673944] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:28.922941] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:29.515477] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only
+
+[2025-11-23 03:03:29.808638] İndirilen format:
+  - Format ID: 251
+  - Format note: medium, ANDR-S
+  - Resolution: audio only

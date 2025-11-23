@@ -1,0 +1,953 @@
+2025-11-23 03:02:21,438 - yt-dlp - DEBUG - [debug] Encodings: locale cp1254, fs utf-8, pref cp1254, out utf-8, error utf-8, screen utf-8
+2025-11-23 03:02:21,438 - yt-dlp - DEBUG - [debug] yt-dlp version stable@2025.11.12 from yt-dlp/yt-dlp [335653be8] (pip) API
+2025-11-23 03:02:21,438 - yt-dlp - DEBUG - [debug] params: {'outtmpl': 'D:/_Under_All/Masaüstü\\%(title)s.%(ext)s', 'progress_hooks': [<bound method DownloadManager._download_hook of <downloader.DownloadManager object at 0x0000029C0A15D400>>], 'noplaylist': True, 'quiet': False, 'no_warnings': False, 'verbose': True, 'postprocessor_hooks': [<bound method DownloadManager._postprocessor_hook of <downloader.DownloadManager object at 0x0000029C0A15D400>>], 'extractor_args': {'youtube': {'player_client': ['default']}}, 'ffmpeg_location': 'D:\\_Under_All\\Masaüstü\\YouTube Video Dowload Tool', 'format': 'bv*[height<=720]+ba/best[height<=720]', 'merge_output_format': 'mp4', 'logger': <Logger yt-dlp (DEBUG)>, 'js_runtimes': {'deno': {}}, 'remote_components': set(), 'compat_opts': set(), 'http_headers': {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'Accept-Language': 'en-us,en;q=0.5', 'Sec-Fetch-Mode': 'navigate'}}
+2025-11-23 03:02:21,482 - yt-dlp - DEBUG - [debug] Python 3.14.0 (CPython AMD64 64bit) - Windows-10-10.0.19045-SP0 (OpenSSL 3.0.18 30 Sep 2025)
+2025-11-23 03:02:21,966 - yt-dlp - DEBUG - [debug] exe versions: ffmpeg 8.0.1-essentials_build-www.gyan.dev (setts)
+2025-11-23 03:02:21,966 - yt-dlp - DEBUG - [debug] Optional libraries: certifi-2025.11.12, requests-2.32.5, sqlite3-3.50.4, urllib3-2.5.0
+2025-11-23 03:02:21,972 - yt-dlp - DEBUG - [debug] JS runtimes: none
+2025-11-23 03:02:21,972 - yt-dlp - DEBUG - [debug] Proxy map: {}
+2025-11-23 03:02:21,973 - yt-dlp - DEBUG - [debug] Request Handlers: urllib, requests
+2025-11-23 03:02:21,975 - yt-dlp - DEBUG - [debug] Plugin directories: none
+2025-11-23 03:02:22,052 - yt-dlp - DEBUG - [debug] Loaded 1844 extractors
+2025-11-23 03:02:22,062 - yt-dlp - DEBUG - [debug] [youtube] [jsc] JS Challenge Providers: bun (unavailable), deno (unavailable), node (unavailable), quickjs (unavailable)
+2025-11-23 03:02:22,062 - yt-dlp - DEBUG - [youtube] Extracting URL: https://www.youtube.com/watch?v=SE4IA4olRIk
+2025-11-23 03:02:22,063 - yt-dlp - DEBUG - [youtube] SE4IA4olRIk: Downloading webpage
+2025-11-23 03:02:23,633 - yt-dlp - DEBUG - [youtube] SE4IA4olRIk: Downloading android sdkless player API JSON
+2025-11-23 03:02:23,812 - yt-dlp - DEBUG - [youtube] SE4IA4olRIk: Downloading web safari player API JSON
+2025-11-23 03:02:24,093 - yt-dlp - DEBUG - [youtube] SE4IA4olRIk: Downloading m3u8 information
+2025-11-23 03:02:24,751 - yt-dlp - DEBUG - [debug] Sort order given by extractor: quality, res, fps, hdr:12, source, vcodec, channels, acodec, lang, proto
+2025-11-23 03:02:24,751 - yt-dlp - DEBUG - [debug] Formats sorted by: hasvid, ie_pref, quality, res, fps, hdr:12(7), source, vcodec, channels, acodec, lang, proto, size, br, asr, vext, aext, hasaud, id
+2025-11-23 03:02:24,792 - yt-dlp - DEBUG - [info] SE4IA4olRIk: Downloading 1 format(s): 398+251
+2025-11-23 03:02:24,821 - yt-dlp - DEBUG - [download] D:\_Under_All\Masaüstü\nasıl şarkı yapıyorum？.mp4 has already been downloaded
+2025-11-23 03:02:36,881 - yt-dlp - DEBUG - [debug] Encodings: locale cp1254, fs utf-8, pref cp1254, out utf-8, error utf-8, screen utf-8
+2025-11-23 03:02:36,881 - yt-dlp - DEBUG - [debug] Encodings: locale cp1254, fs utf-8, pref cp1254, out utf-8, error utf-8, screen utf-8
+2025-11-23 03:02:36,882 - yt-dlp - DEBUG - [debug] yt-dlp version stable@2025.11.12 from yt-dlp/yt-dlp [335653be8] (pip) API
+2025-11-23 03:02:36,882 - yt-dlp - DEBUG - [debug] yt-dlp version stable@2025.11.12 from yt-dlp/yt-dlp [335653be8] (pip) API
+2025-11-23 03:02:36,882 - yt-dlp - DEBUG - [debug] params: {'outtmpl': 'D:/_Under_All/Masaüstü\\%(title)s.%(ext)s', 'progress_hooks': [<bound method DownloadManager._download_hook of <downloader.DownloadManager object at 0x0000029C0A16A210>>], 'noplaylist': True, 'quiet': False, 'no_warnings': False, 'verbose': True, 'postprocessor_hooks': [<bound method DownloadManager._postprocessor_hook of <downloader.DownloadManager object at 0x0000029C0A16A210>>], 'extractor_args': {'youtube': {'player_client': ['default']}}, 'ffmpeg_location': 'D:\\_Under_All\\Masaüstü\\YouTube Video Dowload Tool', 'format': 'bv*[height<=720]+ba/best[height<=720]', 'merge_output_format': 'mp4', 'logger': <Logger yt-dlp (DEBUG)>, 'js_runtimes': {'deno': {}}, 'remote_components': set(), 'compat_opts': set(), 'http_headers': {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'Accept-Language': 'en-us,en;q=0.5', 'Sec-Fetch-Mode': 'navigate'}}
+2025-11-23 03:02:36,882 - yt-dlp - DEBUG - [debug] params: {'outtmpl': 'D:/_Under_All/Masaüstü\\%(title)s.%(ext)s', 'progress_hooks': [<bound method DownloadManager._download_hook of <downloader.DownloadManager object at 0x0000029C0A16A210>>], 'noplaylist': True, 'quiet': False, 'no_warnings': False, 'verbose': True, 'postprocessor_hooks': [<bound method DownloadManager._postprocessor_hook of <downloader.DownloadManager object at 0x0000029C0A16A210>>], 'extractor_args': {'youtube': {'player_client': ['default']}}, 'ffmpeg_location': 'D:\\_Under_All\\Masaüstü\\YouTube Video Dowload Tool', 'format': 'bv*[height<=720]+ba/best[height<=720]', 'merge_output_format': 'mp4', 'logger': <Logger yt-dlp (DEBUG)>, 'js_runtimes': {'deno': {}}, 'remote_components': set(), 'compat_opts': set(), 'http_headers': {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'Accept-Language': 'en-us,en;q=0.5', 'Sec-Fetch-Mode': 'navigate'}}
+2025-11-23 03:02:36,882 - yt-dlp - DEBUG - [debug] Python 3.14.0 (CPython AMD64 64bit) - Windows-10-10.0.19045-SP0 (OpenSSL 3.0.18 30 Sep 2025)
+2025-11-23 03:02:36,882 - yt-dlp - DEBUG - [debug] Python 3.14.0 (CPython AMD64 64bit) - Windows-10-10.0.19045-SP0 (OpenSSL 3.0.18 30 Sep 2025)
+2025-11-23 03:02:36,893 - yt-dlp - DEBUG - [debug] exe versions: ffmpeg 8.0.1-essentials_build-www.gyan.dev (setts)
+2025-11-23 03:02:36,893 - yt-dlp - DEBUG - [debug] exe versions: ffmpeg 8.0.1-essentials_build-www.gyan.dev (setts)
+2025-11-23 03:02:36,894 - yt-dlp - DEBUG - [debug] Optional libraries: certifi-2025.11.12, requests-2.32.5, sqlite3-3.50.4, urllib3-2.5.0
+2025-11-23 03:02:36,894 - yt-dlp - DEBUG - [debug] Optional libraries: certifi-2025.11.12, requests-2.32.5, sqlite3-3.50.4, urllib3-2.5.0
+2025-11-23 03:02:36,899 - yt-dlp - DEBUG - [debug] JS runtimes: none
+2025-11-23 03:02:36,899 - yt-dlp - DEBUG - [debug] JS runtimes: none
+2025-11-23 03:02:36,899 - yt-dlp - DEBUG - [debug] Proxy map: {}
+2025-11-23 03:02:36,899 - yt-dlp - DEBUG - [debug] Proxy map: {}
+2025-11-23 03:02:36,900 - yt-dlp - DEBUG - [debug] Request Handlers: urllib, requests
+2025-11-23 03:02:36,900 - yt-dlp - DEBUG - [debug] Request Handlers: urllib, requests
+2025-11-23 03:02:36,901 - yt-dlp - DEBUG - [debug] Plugin directories: none
+2025-11-23 03:02:36,901 - yt-dlp - DEBUG - [debug] Plugin directories: none
+2025-11-23 03:02:36,984 - yt-dlp - DEBUG - [debug] Loaded 1844 extractors
+2025-11-23 03:02:36,984 - yt-dlp - DEBUG - [debug] Loaded 1844 extractors
+2025-11-23 03:02:36,996 - yt-dlp - DEBUG - [debug] [youtube] [jsc] JS Challenge Providers: bun (unavailable), deno (unavailable), node (unavailable), quickjs (unavailable)
+2025-11-23 03:02:36,996 - yt-dlp - DEBUG - [debug] [youtube] [jsc] JS Challenge Providers: bun (unavailable), deno (unavailable), node (unavailable), quickjs (unavailable)
+2025-11-23 03:02:36,996 - yt-dlp - DEBUG - [youtube] Extracting URL: https://www.youtube.com/watch?v=SE4IA4olRIk
+2025-11-23 03:02:36,996 - yt-dlp - DEBUG - [youtube] Extracting URL: https://www.youtube.com/watch?v=SE4IA4olRIk
+2025-11-23 03:02:36,999 - yt-dlp - DEBUG - [youtube] SE4IA4olRIk: Downloading webpage
+2025-11-23 03:02:36,999 - yt-dlp - DEBUG - [youtube] SE4IA4olRIk: Downloading webpage
+2025-11-23 03:02:38,575 - yt-dlp - DEBUG - [youtube] SE4IA4olRIk: Downloading android sdkless player API JSON
+2025-11-23 03:02:38,575 - yt-dlp - DEBUG - [youtube] SE4IA4olRIk: Downloading android sdkless player API JSON
+2025-11-23 03:02:38,736 - yt-dlp - DEBUG - [youtube] SE4IA4olRIk: Downloading web safari player API JSON
+2025-11-23 03:02:38,736 - yt-dlp - DEBUG - [youtube] SE4IA4olRIk: Downloading web safari player API JSON
+2025-11-23 03:02:39,044 - yt-dlp - DEBUG - [youtube] SE4IA4olRIk: Downloading m3u8 information
+2025-11-23 03:02:39,044 - yt-dlp - DEBUG - [youtube] SE4IA4olRIk: Downloading m3u8 information
+2025-11-23 03:02:39,698 - yt-dlp - DEBUG - [debug] Sort order given by extractor: quality, res, fps, hdr:12, source, vcodec, channels, acodec, lang, proto
+2025-11-23 03:02:39,698 - yt-dlp - DEBUG - [debug] Sort order given by extractor: quality, res, fps, hdr:12, source, vcodec, channels, acodec, lang, proto
+2025-11-23 03:02:39,698 - yt-dlp - DEBUG - [debug] Formats sorted by: hasvid, ie_pref, quality, res, fps, hdr:12(7), source, vcodec, channels, acodec, lang, proto, size, br, asr, vext, aext, hasaud, id
+2025-11-23 03:02:39,698 - yt-dlp - DEBUG - [debug] Formats sorted by: hasvid, ie_pref, quality, res, fps, hdr:12(7), source, vcodec, channels, acodec, lang, proto, size, br, asr, vext, aext, hasaud, id
+2025-11-23 03:02:39,742 - yt-dlp - DEBUG - [info] SE4IA4olRIk: Downloading 1 format(s): 398+251
+2025-11-23 03:02:39,742 - yt-dlp - DEBUG - [info] SE4IA4olRIk: Downloading 1 format(s): 398+251
+2025-11-23 03:02:39,773 - yt-dlp - DEBUG - [debug] Invoking http downloader on "https://rr7---sn-u0g3uxax3-pnur.googlevideo.com/videoplayback?expire=1763877759&ei=H08iaYyfN_Wo8uMPxM6z4Ac&ip=46.1.54.101&id=o-AKx_qCfFQf_QElOpd6msZ8LrNRsEbwDb2pjhE7mW-Aai&itag=398&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=83&met=1763856159%2C&mh=S5&mm=31%2C29&mn=sn-u0g3uxax3-pnur%2Csn-hgn7rnll&ms=au%2Crdu&mv=m&mvi=7&pcm2cms=yes&pl=23&rms=au%2Cau&initcwndbps=1946250&bui=AdEuB5TE9bFjEfJYY0UzB9zyzUKV8VqFx3c_e5nQn2tlvREP5LZVXqjsSMNJV1FzPA5Qh0149DQ_Uscd&spc=6b0G_JgQveWi&vprv=1&svpuc=1&mime=video%2Fmp4&rqh=1&gir=yes&clen=249982460&dur=4208.570&lmt=1763589050600841&mt=1763855816&fvip=3&keepalive=yes&fexp=51552689%2C51565115%2C51565681%2C51580968&c=ANDROID&txp=443G534&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRgIhAP297W8VvKGFWrLD9Wkw9qdBF5ya3LFvpl-fjp_nWjoFAiEA2cXsW0-1afVnZBPxNh_ktb8yXv2gEFMkAC_4iZqZ8Nc%3D&lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpcm2cms%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRQIgPvnrYSsiIFVDp8qPGM_mJYoYiU4plWv_qZ_pQu8kyLgCIQD7c7JspQgKKKe9cGP_4-WMLyytQdageC65cq5YgNaBKw%3D%3D"
+2025-11-23 03:02:39,773 - yt-dlp - DEBUG - [debug] Invoking http downloader on "https://rr7---sn-u0g3uxax3-pnur.googlevideo.com/videoplayback?expire=1763877759&ei=H08iaYyfN_Wo8uMPxM6z4Ac&ip=46.1.54.101&id=o-AKx_qCfFQf_QElOpd6msZ8LrNRsEbwDb2pjhE7mW-Aai&itag=398&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=83&met=1763856159%2C&mh=S5&mm=31%2C29&mn=sn-u0g3uxax3-pnur%2Csn-hgn7rnll&ms=au%2Crdu&mv=m&mvi=7&pcm2cms=yes&pl=23&rms=au%2Cau&initcwndbps=1946250&bui=AdEuB5TE9bFjEfJYY0UzB9zyzUKV8VqFx3c_e5nQn2tlvREP5LZVXqjsSMNJV1FzPA5Qh0149DQ_Uscd&spc=6b0G_JgQveWi&vprv=1&svpuc=1&mime=video%2Fmp4&rqh=1&gir=yes&clen=249982460&dur=4208.570&lmt=1763589050600841&mt=1763855816&fvip=3&keepalive=yes&fexp=51552689%2C51565115%2C51565681%2C51580968&c=ANDROID&txp=443G534&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRgIhAP297W8VvKGFWrLD9Wkw9qdBF5ya3LFvpl-fjp_nWjoFAiEA2cXsW0-1afVnZBPxNh_ktb8yXv2gEFMkAC_4iZqZ8Nc%3D&lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpcm2cms%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRQIgPvnrYSsiIFVDp8qPGM_mJYoYiU4plWv_qZ_pQu8kyLgCIQD7c7JspQgKKKe9cGP_4-WMLyytQdageC65cq5YgNaBKw%3D%3D"
+2025-11-23 03:02:39,774 - yt-dlp - DEBUG - [download] Sleeping 5.00 seconds as required by the site...
+2025-11-23 03:02:39,774 - yt-dlp - DEBUG - [download] Sleeping 5.00 seconds as required by the site...
+2025-11-23 03:02:44,828 - yt-dlp - DEBUG - [debug] File locking is not supported. Proceeding without locking
+2025-11-23 03:02:44,828 - yt-dlp - DEBUG - [debug] File locking is not supported. Proceeding without locking
+2025-11-23 03:02:44,828 - yt-dlp - DEBUG - [download] Destination: D:\_Under_All\Masaüstü\nasıl şarkı yapıyorum？.f398.mp4
+2025-11-23 03:02:44,828 - yt-dlp - DEBUG - [download] Destination: D:\_Under_All\Masaüstü\nasıl şarkı yapıyorum？.f398.mp4
+2025-11-23 03:02:44,829 - yt-dlp - DEBUG - [download] [0;94m  0.0%[0m of  238.40MiB at [0;32m 491.60KiB/s[0m ETA [0;33m08:18[0m
+2025-11-23 03:02:44,829 - yt-dlp - DEBUG - [download] [0;94m  0.0%[0m of  238.40MiB at [0;32m 491.60KiB/s[0m ETA [0;33m08:18[0m
+2025-11-23 03:02:44,831 - yt-dlp - DEBUG - [download] [0;94m  0.0%[0m of  238.40MiB at [0;32m 628.20KiB/s[0m ETA [0;33m06:29[0m
+2025-11-23 03:02:44,831 - yt-dlp - DEBUG - [download] [0;94m  0.0%[0m of  238.40MiB at [0;32m 628.20KiB/s[0m ETA [0;33m06:29[0m
+2025-11-23 03:02:44,835 - yt-dlp - DEBUG - [download] [0;94m  0.0%[0m of  238.40MiB at [0;32m 843.37KiB/s[0m ETA [0;33m04:49[0m
+2025-11-23 03:02:44,835 - yt-dlp - DEBUG - [download] [0;94m  0.0%[0m of  238.40MiB at [0;32m 843.37KiB/s[0m ETA [0;33m04:49[0m
+2025-11-23 03:02:44,837 - yt-dlp - DEBUG - [download] [0;94m  0.0%[0m of  238.40MiB at [0;32m   1.36MiB/s[0m ETA [0;33m02:54[0m
+2025-11-23 03:02:44,837 - yt-dlp - DEBUG - [download] [0;94m  0.0%[0m of  238.40MiB at [0;32m   1.36MiB/s[0m ETA [0;33m02:54[0m
+2025-11-23 03:02:44,843 - yt-dlp - DEBUG - [download] [0;94m  0.0%[0m of  238.40MiB at [0;32m   1.90MiB/s[0m ETA [0;33m02:05[0m
+2025-11-23 03:02:44,843 - yt-dlp - DEBUG - [download] [0;94m  0.0%[0m of  238.40MiB at [0;32m   1.90MiB/s[0m ETA [0;33m02:05[0m
+2025-11-23 03:02:44,845 - yt-dlp - DEBUG - [download] [0;94m  0.0%[0m of  238.40MiB at [0;32m   3.39MiB/s[0m ETA [0;33m01:10[0m
+2025-11-23 03:02:44,845 - yt-dlp - DEBUG - [download] [0;94m  0.0%[0m of  238.40MiB at [0;32m   3.39MiB/s[0m ETA [0;33m01:10[0m
+2025-11-23 03:02:44,850 - yt-dlp - DEBUG - [download] [0;94m  0.1%[0m of  238.40MiB at [0;32m   5.21MiB/s[0m ETA [0;33m00:45[0m
+2025-11-23 03:02:44,850 - yt-dlp - DEBUG - [download] [0;94m  0.1%[0m of  238.40MiB at [0;32m   5.21MiB/s[0m ETA [0;33m00:45[0m
+2025-11-23 03:02:44,859 - yt-dlp - DEBUG - [download] [0;94m  0.1%[0m of  238.40MiB at [0;32m   7.67MiB/s[0m ETA [0;33m00:31[0m
+2025-11-23 03:02:44,859 - yt-dlp - DEBUG - [download] [0;94m  0.1%[0m of  238.40MiB at [0;32m   7.67MiB/s[0m ETA [0;33m00:31[0m
+2025-11-23 03:02:44,891 - yt-dlp - DEBUG - [download] [0;94m  0.2%[0m of  238.40MiB at [0;32m   7.80MiB/s[0m ETA [0;33m00:30[0m
+2025-11-23 03:02:44,891 - yt-dlp - DEBUG - [download] [0;94m  0.2%[0m of  238.40MiB at [0;32m   7.80MiB/s[0m ETA [0;33m00:30[0m
+2025-11-23 03:02:44,954 - yt-dlp - DEBUG - [download] [0;94m  0.4%[0m of  238.40MiB at [0;32m   7.85MiB/s[0m ETA [0;33m00:30[0m
+2025-11-23 03:02:44,954 - yt-dlp - DEBUG - [download] [0;94m  0.4%[0m of  238.40MiB at [0;32m   7.85MiB/s[0m ETA [0;33m00:30[0m
+2025-11-23 03:02:45,077 - yt-dlp - DEBUG - [download] [0;94m  0.8%[0m of  238.40MiB at [0;32m   7.97MiB/s[0m ETA [0;33m00:29[0m
+2025-11-23 03:02:45,077 - yt-dlp - DEBUG - [download] [0;94m  0.8%[0m of  238.40MiB at [0;32m   7.97MiB/s[0m ETA [0;33m00:29[0m
+2025-11-23 03:02:45,326 - yt-dlp - DEBUG - [download] [0;94m  1.7%[0m of  238.40MiB at [0;32m   8.00MiB/s[0m ETA [0;33m00:29[0m
+2025-11-23 03:02:45,326 - yt-dlp - DEBUG - [download] [0;94m  1.7%[0m of  238.40MiB at [0;32m   8.00MiB/s[0m ETA [0;33m00:29[0m
+2025-11-23 03:02:46,014 - yt-dlp - DEBUG - [download] [0;94m  3.4%[0m of  238.40MiB at [0;32m   6.74MiB/s[0m ETA [0;33m00:34[0m
+2025-11-23 03:02:46,014 - yt-dlp - DEBUG - [download] [0;94m  3.4%[0m of  238.40MiB at [0;32m   6.74MiB/s[0m ETA [0;33m00:34[0m
+2025-11-23 03:02:46,225 - yt-dlp - DEBUG - [download] [0;94m  4.1%[0m of  238.40MiB at [0;32m   6.93MiB/s[0m ETA [0;33m00:32[0m
+2025-11-23 03:02:46,225 - yt-dlp - DEBUG - [download] [0;94m  4.1%[0m of  238.40MiB at [0;32m   6.93MiB/s[0m ETA [0;33m00:32[0m
+2025-11-23 03:02:46,299 - yt-dlp - DEBUG - [download] [0;94m  4.1%[0m of  238.40MiB at [0;32m Unknown B/s[0m ETA [0;33mUnknown[0m
+2025-11-23 03:02:46,299 - yt-dlp - DEBUG - [download] [0;94m  4.1%[0m of  238.40MiB at [0;32m Unknown B/s[0m ETA [0;33mUnknown[0m
+2025-11-23 03:02:46,299 - yt-dlp - DEBUG - [download] [0;94m  4.1%[0m of  238.40MiB at [0;32m   1.57MiB/s[0m ETA [0;33m02:25[0m
+2025-11-23 03:02:46,299 - yt-dlp - DEBUG - [download] [0;94m  4.1%[0m of  238.40MiB at [0;32m   1.57MiB/s[0m ETA [0;33m02:25[0m
+2025-11-23 03:02:46,311 - yt-dlp - DEBUG - [download] [0;94m  4.1%[0m of  238.40MiB at [0;32m 531.86KiB/s[0m ETA [0;33m07:20[0m
+2025-11-23 03:02:46,311 - yt-dlp - DEBUG - [download] [0;94m  4.1%[0m of  238.40MiB at [0;32m 531.86KiB/s[0m ETA [0;33m07:20[0m
+2025-11-23 03:02:46,320 - yt-dlp - DEBUG - [download] [0;94m  4.1%[0m of  238.40MiB at [0;32m 665.50KiB/s[0m ETA [0;33m05:52[0m
+2025-11-23 03:02:46,320 - yt-dlp - DEBUG - [download] [0;94m  4.1%[0m of  238.40MiB at [0;32m 665.50KiB/s[0m ETA [0;33m05:52[0m
+2025-11-23 03:02:46,322 - yt-dlp - DEBUG - [download] [0;94m  4.1%[0m of  238.40MiB at [0;32m   1.25MiB/s[0m ETA [0;33m03:02[0m
+2025-11-23 03:02:46,322 - yt-dlp - DEBUG - [download] [0;94m  4.1%[0m of  238.40MiB at [0;32m   1.25MiB/s[0m ETA [0;33m03:02[0m
+2025-11-23 03:02:46,323 - yt-dlp - DEBUG - [download] [0;94m  4.1%[0m of  238.40MiB at [0;32m   2.40MiB/s[0m ETA [0;33m01:35[0m
+2025-11-23 03:02:46,323 - yt-dlp - DEBUG - [download] [0;94m  4.1%[0m of  238.40MiB at [0;32m   2.40MiB/s[0m ETA [0;33m01:35[0m
+2025-11-23 03:02:46,324 - yt-dlp - DEBUG - [download] [0;94m  4.1%[0m of  238.40MiB at [0;32m   4.61MiB/s[0m ETA [0;33m00:49[0m
+2025-11-23 03:02:46,324 - yt-dlp - DEBUG - [download] [0;94m  4.1%[0m of  238.40MiB at [0;32m   4.61MiB/s[0m ETA [0;33m00:49[0m
+2025-11-23 03:02:46,332 - yt-dlp - DEBUG - [download] [0;94m  4.2%[0m of  238.40MiB at [0;32m   7.28MiB/s[0m ETA [0;33m00:31[0m
+2025-11-23 03:02:46,332 - yt-dlp - DEBUG - [download] [0;94m  4.2%[0m of  238.40MiB at [0;32m   7.28MiB/s[0m ETA [0;33m00:31[0m
+2025-11-23 03:02:46,365 - yt-dlp - DEBUG - [download] [0;94m  4.3%[0m of  238.40MiB at [0;32m   7.44MiB/s[0m ETA [0;33m00:30[0m
+2025-11-23 03:02:46,365 - yt-dlp - DEBUG - [download] [0;94m  4.3%[0m of  238.40MiB at [0;32m   7.44MiB/s[0m ETA [0;33m00:30[0m
+2025-11-23 03:02:46,428 - yt-dlp - DEBUG - [download] [0;94m  4.5%[0m of  238.40MiB at [0;32m   7.71MiB/s[0m ETA [0;33m00:29[0m
+2025-11-23 03:02:46,428 - yt-dlp - DEBUG - [download] [0;94m  4.5%[0m of  238.40MiB at [0;32m   7.71MiB/s[0m ETA [0;33m00:29[0m
+2025-11-23 03:02:46,551 - yt-dlp - DEBUG - [download] [0;94m  4.9%[0m of  238.40MiB at [0;32m   7.89MiB/s[0m ETA [0;33m00:28[0m
+2025-11-23 03:02:46,551 - yt-dlp - DEBUG - [download] [0;94m  4.9%[0m of  238.40MiB at [0;32m   7.89MiB/s[0m ETA [0;33m00:28[0m
+2025-11-23 03:02:46,800 - yt-dlp - DEBUG - [download] [0;94m  5.7%[0m of  238.40MiB at [0;32m   7.96MiB/s[0m ETA [0;33m00:28[0m
+2025-11-23 03:02:46,800 - yt-dlp - DEBUG - [download] [0;94m  5.7%[0m of  238.40MiB at [0;32m   7.96MiB/s[0m ETA [0;33m00:28[0m
+2025-11-23 03:02:47,297 - yt-dlp - DEBUG - [download] [0;94m  7.4%[0m of  238.40MiB at [0;32m   8.01MiB/s[0m ETA [0;33m00:27[0m
+2025-11-23 03:02:47,297 - yt-dlp - DEBUG - [download] [0;94m  7.4%[0m of  238.40MiB at [0;32m   8.01MiB/s[0m ETA [0;33m00:27[0m
+2025-11-23 03:02:47,689 - yt-dlp - DEBUG - [download] [0;94m  8.1%[0m of  238.40MiB at [0;32m   6.97MiB/s[0m ETA [0;33m00:31[0m
+2025-11-23 03:02:47,689 - yt-dlp - DEBUG - [download] [0;94m  8.1%[0m of  238.40MiB at [0;32m   6.97MiB/s[0m ETA [0;33m00:31[0m
+2025-11-23 03:02:47,754 - yt-dlp - DEBUG - [download] [0;94m  8.1%[0m of  238.40MiB at [0;32m 725.53KiB/s[0m ETA [0;33m05:10[0m
+2025-11-23 03:02:47,754 - yt-dlp - DEBUG - [download] [0;94m  8.1%[0m of  238.40MiB at [0;32m 725.53KiB/s[0m ETA [0;33m05:10[0m
+2025-11-23 03:02:47,756 - yt-dlp - DEBUG - [download] [0;94m  8.1%[0m of  238.40MiB at [0;32m 874.97KiB/s[0m ETA [0;33m04:16[0m
+2025-11-23 03:02:47,756 - yt-dlp - DEBUG - [download] [0;94m  8.1%[0m of  238.40MiB at [0;32m 874.97KiB/s[0m ETA [0;33m04:16[0m
+2025-11-23 03:02:47,759 - yt-dlp - DEBUG - [download] [0;94m  8.1%[0m of  238.40MiB at [0;32m   1.16MiB/s[0m ETA [0;33m03:08[0m
+2025-11-23 03:02:47,759 - yt-dlp - DEBUG - [download] [0;94m  8.1%[0m of  238.40MiB at [0;32m   1.16MiB/s[0m ETA [0;33m03:08[0m
+2025-11-23 03:02:47,760 - yt-dlp - DEBUG - [download] [0;94m  8.1%[0m of  238.40MiB at [0;32m   2.16MiB/s[0m ETA [0;33m01:41[0m
+2025-11-23 03:02:47,760 - yt-dlp - DEBUG - [download] [0;94m  8.1%[0m of  238.40MiB at [0;32m   2.16MiB/s[0m ETA [0;33m01:41[0m
+2025-11-23 03:02:47,762 - yt-dlp - DEBUG - [download] [0;94m  8.1%[0m of  238.40MiB at [0;32m   3.65MiB/s[0m ETA [0;33m01:00[0m
+2025-11-23 03:02:47,762 - yt-dlp - DEBUG - [download] [0;94m  8.1%[0m of  238.40MiB at [0;32m   3.65MiB/s[0m ETA [0;33m01:00[0m
+2025-11-23 03:02:47,765 - yt-dlp - DEBUG - [download] [0;94m  8.2%[0m of  238.40MiB at [0;32m   5.79MiB/s[0m ETA [0;33m00:37[0m
+2025-11-23 03:02:47,765 - yt-dlp - DEBUG - [download] [0;94m  8.2%[0m of  238.40MiB at [0;32m   5.79MiB/s[0m ETA [0;33m00:37[0m
+2025-11-23 03:02:47,768 - yt-dlp - DEBUG - [download] [0;94m  8.2%[0m of  238.40MiB at [0;32m   8.21MiB/s[0m ETA [0;33m00:26[0m
+2025-11-23 03:02:47,768 - yt-dlp - DEBUG - [download] [0;94m  8.2%[0m of  238.40MiB at [0;32m   8.21MiB/s[0m ETA [0;33m00:26[0m
+2025-11-23 03:02:47,784 - yt-dlp - DEBUG - [download] [0;94m  8.2%[0m of  238.40MiB at [0;32m   8.07MiB/s[0m ETA [0;33m00:27[0m
+2025-11-23 03:02:47,784 - yt-dlp - DEBUG - [download] [0;94m  8.2%[0m of  238.40MiB at [0;32m   8.07MiB/s[0m ETA [0;33m00:27[0m
+2025-11-23 03:02:47,815 - yt-dlp - DEBUG - [download] [0;94m  8.3%[0m of  238.40MiB at [0;32m   8.10MiB/s[0m ETA [0;33m00:26[0m
+2025-11-23 03:02:47,815 - yt-dlp - DEBUG - [download] [0;94m  8.3%[0m of  238.40MiB at [0;32m   8.10MiB/s[0m ETA [0;33m00:26[0m
+2025-11-23 03:02:47,878 - yt-dlp - DEBUG - [download] [0;94m  8.5%[0m of  238.40MiB at [0;32m   7.98MiB/s[0m ETA [0;33m00:27[0m
+2025-11-23 03:02:47,878 - yt-dlp - DEBUG - [download] [0;94m  8.5%[0m of  238.40MiB at [0;32m   7.98MiB/s[0m ETA [0;33m00:27[0m
+2025-11-23 03:02:48,003 - yt-dlp - DEBUG - [download] [0;94m  9.0%[0m of  238.40MiB at [0;32m   8.01MiB/s[0m ETA [0;33m00:27[0m
+2025-11-23 03:02:48,003 - yt-dlp - DEBUG - [download] [0;94m  9.0%[0m of  238.40MiB at [0;32m   8.01MiB/s[0m ETA [0;33m00:27[0m
+2025-11-23 03:02:48,254 - yt-dlp - DEBUG - [download] [0;94m  9.8%[0m of  238.40MiB at [0;32m   7.99MiB/s[0m ETA [0;33m00:26[0m
+2025-11-23 03:02:48,254 - yt-dlp - DEBUG - [download] [0;94m  9.8%[0m of  238.40MiB at [0;32m   7.99MiB/s[0m ETA [0;33m00:26[0m
+2025-11-23 03:02:48,749 - yt-dlp - DEBUG - [download] [0;94m 11.5%[0m of  238.40MiB at [0;32m   8.04MiB/s[0m ETA [0;33m00:26[0m
+2025-11-23 03:02:48,749 - yt-dlp - DEBUG - [download] [0;94m 11.5%[0m of  238.40MiB at [0;32m   8.04MiB/s[0m ETA [0;33m00:26[0m
+2025-11-23 03:02:48,979 - yt-dlp - DEBUG - [download] [0;94m 12.3%[0m of  238.40MiB at [0;32m   8.06MiB/s[0m ETA [0;33m00:25[0m
+2025-11-23 03:02:48,979 - yt-dlp - DEBUG - [download] [0;94m 12.3%[0m of  238.40MiB at [0;32m   8.06MiB/s[0m ETA [0;33m00:25[0m
+2025-11-23 03:02:49,041 - yt-dlp - DEBUG - [download] [0;94m 12.3%[0m of  238.40MiB at [0;32m 725.91KiB/s[0m ETA [0;33m04:56[0m
+2025-11-23 03:02:49,041 - yt-dlp - DEBUG - [download] [0;94m 12.3%[0m of  238.40MiB at [0;32m 725.91KiB/s[0m ETA [0;33m04:56[0m
+2025-11-23 03:02:49,043 - yt-dlp - DEBUG - [download] [0;94m 12.3%[0m of  238.40MiB at [0;32m   1.10MiB/s[0m ETA [0;33m03:09[0m
+2025-11-23 03:02:49,043 - yt-dlp - DEBUG - [download] [0;94m 12.3%[0m of  238.40MiB at [0;32m   1.10MiB/s[0m ETA [0;33m03:09[0m
+2025-11-23 03:02:49,045 - yt-dlp - DEBUG - [download] [0;94m 12.3%[0m of  238.40MiB at [0;32m   1.42MiB/s[0m ETA [0;33m02:27[0m
+2025-11-23 03:02:49,045 - yt-dlp - DEBUG - [download] [0;94m 12.3%[0m of  238.40MiB at [0;32m   1.42MiB/s[0m ETA [0;33m02:27[0m
+2025-11-23 03:02:49,047 - yt-dlp - DEBUG - [download] [0;94m 12.3%[0m of  238.40MiB at [0;32m   2.14MiB/s[0m ETA [0;33m01:37[0m
+2025-11-23 03:02:49,047 - yt-dlp - DEBUG - [download] [0;94m 12.3%[0m of  238.40MiB at [0;32m   2.14MiB/s[0m ETA [0;33m01:37[0m
+2025-11-23 03:02:49,054 - yt-dlp - DEBUG - [download] [0;94m 12.3%[0m of  238.40MiB at [0;32m   2.13MiB/s[0m ETA [0;33m01:38[0m
+2025-11-23 03:02:49,054 - yt-dlp - DEBUG - [download] [0;94m 12.3%[0m of  238.40MiB at [0;32m   2.13MiB/s[0m ETA [0;33m01:38[0m
+2025-11-23 03:02:49,056 - yt-dlp - DEBUG - [download] [0;94m 12.3%[0m of  238.40MiB at [0;32m   3.80MiB/s[0m ETA [0;33m00:55[0m
+2025-11-23 03:02:49,056 - yt-dlp - DEBUG - [download] [0;94m 12.3%[0m of  238.40MiB at [0;32m   3.80MiB/s[0m ETA [0;33m00:55[0m
+2025-11-23 03:02:49,058 - yt-dlp - DEBUG - [download] [0;94m 12.3%[0m of  238.40MiB at [0;32m   6.90MiB/s[0m ETA [0;33m00:30[0m
+2025-11-23 03:02:49,058 - yt-dlp - DEBUG - [download] [0;94m 12.3%[0m of  238.40MiB at [0;32m   6.90MiB/s[0m ETA [0;33m00:30[0m
+2025-11-23 03:02:49,071 - yt-dlp - DEBUG - [download] [0;94m 12.4%[0m of  238.40MiB at [0;32m   8.16MiB/s[0m ETA [0;33m00:25[0m
+2025-11-23 03:02:49,071 - yt-dlp - DEBUG - [download] [0;94m 12.4%[0m of  238.40MiB at [0;32m   8.16MiB/s[0m ETA [0;33m00:25[0m
+2025-11-23 03:02:49,102 - yt-dlp - DEBUG - [download] [0;94m 12.5%[0m of  238.40MiB at [0;32m   8.10MiB/s[0m ETA [0;33m00:25[0m
+2025-11-23 03:02:49,102 - yt-dlp - DEBUG - [download] [0;94m 12.5%[0m of  238.40MiB at [0;32m   8.10MiB/s[0m ETA [0;33m00:25[0m
+2025-11-23 03:02:49,164 - yt-dlp - DEBUG - [download] [0;94m 12.7%[0m of  238.40MiB at [0;32m   8.07MiB/s[0m ETA [0;33m00:25[0m
+2025-11-23 03:02:49,164 - yt-dlp - DEBUG - [download] [0;94m 12.7%[0m of  238.40MiB at [0;32m   8.07MiB/s[0m ETA [0;33m00:25[0m
+2025-11-23 03:02:49,288 - yt-dlp - DEBUG - [download] [0;94m 13.1%[0m of  238.40MiB at [0;32m   8.05MiB/s[0m ETA [0;33m00:25[0m
+2025-11-23 03:02:49,288 - yt-dlp - DEBUG - [download] [0;94m 13.1%[0m of  238.40MiB at [0;32m   8.05MiB/s[0m ETA [0;33m00:25[0m
+2025-11-23 03:02:49,754 - yt-dlp - DEBUG - [download] [0;94m 14.0%[0m of  238.40MiB at [0;32m   5.60MiB/s[0m ETA [0;33m00:36[0m
+2025-11-23 03:02:49,754 - yt-dlp - DEBUG - [download] [0;94m 14.0%[0m of  238.40MiB at [0;32m   5.60MiB/s[0m ETA [0;33m00:36[0m
+2025-11-23 03:02:50,252 - yt-dlp - DEBUG - [download] [0;94m 15.6%[0m of  238.40MiB at [0;32m   6.60MiB/s[0m ETA [0;33m00:30[0m
+2025-11-23 03:02:50,252 - yt-dlp - DEBUG - [download] [0;94m 15.6%[0m of  238.40MiB at [0;32m   6.60MiB/s[0m ETA [0;33m00:30[0m
+2025-11-23 03:02:50,454 - yt-dlp - DEBUG - [download] [0;94m 16.3%[0m of  238.40MiB at [0;32m   6.82MiB/s[0m ETA [0;33m00:29[0m
+2025-11-23 03:02:50,454 - yt-dlp - DEBUG - [download] [0;94m 16.3%[0m of  238.40MiB at [0;32m   6.82MiB/s[0m ETA [0;33m00:29[0m
+2025-11-23 03:02:50,483 - yt-dlp - DEBUG - [download] [0;94m 16.3%[0m of  238.40MiB at [0;32m 750.32KiB/s[0m ETA [0;33m04:33[0m
+2025-11-23 03:02:50,483 - yt-dlp - DEBUG - [download] [0;94m 16.3%[0m of  238.40MiB at [0;32m 750.32KiB/s[0m ETA [0;33m04:33[0m
+2025-11-23 03:02:50,491 - yt-dlp - DEBUG - [download] [0;94m 16.3%[0m of  238.40MiB at [0;32m 355.82KiB/s[0m ETA [0;33m09:34[0m
+2025-11-23 03:02:50,491 - yt-dlp - DEBUG - [download] [0;94m 16.3%[0m of  238.40MiB at [0;32m 355.82KiB/s[0m ETA [0;33m09:34[0m
+2025-11-23 03:02:50,510 - yt-dlp - DEBUG - [download] [0;94m 16.3%[0m of  238.40MiB at [0;32m 246.10KiB/s[0m ETA [0;33m13:50[0m
+2025-11-23 03:02:50,510 - yt-dlp - DEBUG - [download] [0;94m 16.3%[0m of  238.40MiB at [0;32m 246.10KiB/s[0m ETA [0;33m13:50[0m
+2025-11-23 03:02:50,516 - yt-dlp - DEBUG - [download] [0;94m 16.3%[0m of  238.40MiB at [0;32m 441.97KiB/s[0m ETA [0;33m07:42[0m
+2025-11-23 03:02:50,516 - yt-dlp - DEBUG - [download] [0;94m 16.3%[0m of  238.40MiB at [0;32m 441.97KiB/s[0m ETA [0;33m07:42[0m
+2025-11-23 03:02:50,529 - yt-dlp - DEBUG - [download] [0;94m 16.3%[0m of  238.40MiB at [0;32m 667.79KiB/s[0m ETA [0;33m05:05[0m
+2025-11-23 03:02:50,529 - yt-dlp - DEBUG - [download] [0;94m 16.3%[0m of  238.40MiB at [0;32m 667.79KiB/s[0m ETA [0;33m05:05[0m
+2025-11-23 03:02:50,538 - yt-dlp - DEBUG - [download] [0;94m 16.3%[0m of  238.40MiB at [0;32m   1.09MiB/s[0m ETA [0;33m03:02[0m
+2025-11-23 03:02:50,538 - yt-dlp - DEBUG - [download] [0;94m 16.3%[0m of  238.40MiB at [0;32m   1.09MiB/s[0m ETA [0;33m03:02[0m
+2025-11-23 03:02:50,540 - yt-dlp - DEBUG - [download] [0;94m 16.4%[0m of  238.40MiB at [0;32m   2.14MiB/s[0m ETA [0;33m01:33[0m
+2025-11-23 03:02:50,540 - yt-dlp - DEBUG - [download] [0;94m 16.4%[0m of  238.40MiB at [0;32m   2.14MiB/s[0m ETA [0;33m01:33[0m
+2025-11-23 03:02:50,542 - yt-dlp - DEBUG - [download] [0;94m 16.4%[0m of  238.40MiB at [0;32m   4.16MiB/s[0m ETA [0;33m00:47[0m
+2025-11-23 03:02:50,542 - yt-dlp - DEBUG - [download] [0;94m 16.4%[0m of  238.40MiB at [0;32m   4.16MiB/s[0m ETA [0;33m00:47[0m
+2025-11-23 03:02:50,570 - yt-dlp - DEBUG - [download] [0;94m 16.5%[0m of  238.40MiB at [0;32m   5.67MiB/s[0m ETA [0;33m00:35[0m
+2025-11-23 03:02:50,570 - yt-dlp - DEBUG - [download] [0;94m 16.5%[0m of  238.40MiB at [0;32m   5.67MiB/s[0m ETA [0;33m00:35[0m
+2025-11-23 03:02:50,632 - yt-dlp - DEBUG - [download] [0;94m 16.7%[0m of  238.40MiB at [0;32m   6.65MiB/s[0m ETA [0;33m00:29[0m
+2025-11-23 03:02:50,632 - yt-dlp - DEBUG - [download] [0;94m 16.7%[0m of  238.40MiB at [0;32m   6.65MiB/s[0m ETA [0;33m00:29[0m
+2025-11-23 03:02:50,758 - yt-dlp - DEBUG - [download] [0;94m 17.2%[0m of  238.40MiB at [0;32m   7.23MiB/s[0m ETA [0;33m00:27[0m
+2025-11-23 03:02:50,758 - yt-dlp - DEBUG - [download] [0;94m 17.2%[0m of  238.40MiB at [0;32m   7.23MiB/s[0m ETA [0;33m00:27[0m
+2025-11-23 03:02:51,007 - yt-dlp - DEBUG - [download] [0;94m 18.0%[0m of  238.40MiB at [0;32m   7.61MiB/s[0m ETA [0;33m00:25[0m
+2025-11-23 03:02:51,007 - yt-dlp - DEBUG - [download] [0;94m 18.0%[0m of  238.40MiB at [0;32m   7.61MiB/s[0m ETA [0;33m00:25[0m
+2025-11-23 03:02:51,665 - yt-dlp - DEBUG - [download] [0;94m 19.7%[0m of  238.40MiB at [0;32m   6.76MiB/s[0m ETA [0;33m00:28[0m
+2025-11-23 03:02:51,665 - yt-dlp - DEBUG - [download] [0;94m 19.7%[0m of  238.40MiB at [0;32m   6.76MiB/s[0m ETA [0;33m00:28[0m
+2025-11-23 03:02:51,902 - yt-dlp - DEBUG - [download] [0;94m 20.5%[0m of  238.40MiB at [0;32m   6.99MiB/s[0m ETA [0;33m00:27[0m
+2025-11-23 03:02:51,902 - yt-dlp - DEBUG - [download] [0;94m 20.5%[0m of  238.40MiB at [0;32m   6.99MiB/s[0m ETA [0;33m00:27[0m
+2025-11-23 03:02:51,956 - yt-dlp - DEBUG - [download] [0;94m 20.5%[0m of  238.40MiB at [0;32m 678.14KiB/s[0m ETA [0;33m04:47[0m
+2025-11-23 03:02:51,956 - yt-dlp - DEBUG - [download] [0;94m 20.5%[0m of  238.40MiB at [0;32m 678.14KiB/s[0m ETA [0;33m04:47[0m
+2025-11-23 03:02:51,958 - yt-dlp - DEBUG - [download] [0;94m 20.5%[0m of  238.40MiB at [0;32m   1.05MiB/s[0m ETA [0;33m03:00[0m
+2025-11-23 03:02:51,958 - yt-dlp - DEBUG - [download] [0;94m 20.5%[0m of  238.40MiB at [0;32m   1.05MiB/s[0m ETA [0;33m03:00[0m
+2025-11-23 03:02:51,960 - yt-dlp - DEBUG - [download] [0;94m 20.5%[0m of  238.40MiB at [0;32m   1.48MiB/s[0m ETA [0;33m02:08[0m
+2025-11-23 03:02:51,960 - yt-dlp - DEBUG - [download] [0;94m 20.5%[0m of  238.40MiB at [0;32m   1.48MiB/s[0m ETA [0;33m02:08[0m
+2025-11-23 03:02:51,974 - yt-dlp - DEBUG - [download] [0;94m 20.5%[0m of  238.40MiB at [0;32m 808.65KiB/s[0m ETA [0;33m04:00[0m
+2025-11-23 03:02:51,974 - yt-dlp - DEBUG - [download] [0;94m 20.5%[0m of  238.40MiB at [0;32m 808.65KiB/s[0m ETA [0;33m04:00[0m
+2025-11-23 03:02:51,975 - yt-dlp - DEBUG - [download] [0;94m 20.5%[0m of  238.40MiB at [0;32m   1.51MiB/s[0m ETA [0;33m02:05[0m
+2025-11-23 03:02:51,975 - yt-dlp - DEBUG - [download] [0;94m 20.5%[0m of  238.40MiB at [0;32m   1.51MiB/s[0m ETA [0;33m02:05[0m
+2025-11-23 03:02:51,976 - yt-dlp - DEBUG - [download] [0;94m 20.5%[0m of  238.40MiB at [0;32m   2.90MiB/s[0m ETA [0;33m01:05[0m
+2025-11-23 03:02:51,976 - yt-dlp - DEBUG - [download] [0;94m 20.5%[0m of  238.40MiB at [0;32m   2.90MiB/s[0m ETA [0;33m01:05[0m
+2025-11-23 03:02:51,977 - yt-dlp - DEBUG - [download] [0;94m 20.5%[0m of  238.40MiB at [0;32m   5.55MiB/s[0m ETA [0;33m00:34[0m
+2025-11-23 03:02:51,977 - yt-dlp - DEBUG - [download] [0;94m 20.5%[0m of  238.40MiB at [0;32m   5.55MiB/s[0m ETA [0;33m00:34[0m
+2025-11-23 03:02:51,986 - yt-dlp - DEBUG - [download] [0;94m 20.6%[0m of  238.40MiB at [0;32m   8.12MiB/s[0m ETA [0;33m00:23[0m
+2025-11-23 03:02:51,986 - yt-dlp - DEBUG - [download] [0;94m 20.6%[0m of  238.40MiB at [0;32m   8.12MiB/s[0m ETA [0;33m00:23[0m
+2025-11-23 03:02:52,017 - yt-dlp - DEBUG - [download] [0;94m 20.7%[0m of  238.40MiB at [0;32m   8.09MiB/s[0m ETA [0;33m00:23[0m
+2025-11-23 03:02:52,017 - yt-dlp - DEBUG - [download] [0;94m 20.7%[0m of  238.40MiB at [0;32m   8.09MiB/s[0m ETA [0;33m00:23[0m
+2025-11-23 03:02:52,079 - yt-dlp - DEBUG - [download] [0;94m 20.9%[0m of  238.40MiB at [0;32m   8.06MiB/s[0m ETA [0;33m00:23[0m
+2025-11-23 03:02:52,079 - yt-dlp - DEBUG - [download] [0;94m 20.9%[0m of  238.40MiB at [0;32m   8.06MiB/s[0m ETA [0;33m00:23[0m
+2025-11-23 03:02:52,203 - yt-dlp - DEBUG - [download] [0;94m 21.3%[0m of  238.40MiB at [0;32m   8.05MiB/s[0m ETA [0;33m00:23[0m
+2025-11-23 03:02:52,203 - yt-dlp - DEBUG - [download] [0;94m 21.3%[0m of  238.40MiB at [0;32m   8.05MiB/s[0m ETA [0;33m00:23[0m
+2025-11-23 03:02:52,453 - yt-dlp - DEBUG - [download] [0;94m 22.2%[0m of  238.40MiB at [0;32m   8.03MiB/s[0m ETA [0;33m00:23[0m
+2025-11-23 03:02:52,453 - yt-dlp - DEBUG - [download] [0;94m 22.2%[0m of  238.40MiB at [0;32m   8.03MiB/s[0m ETA [0;33m00:23[0m
+2025-11-23 03:02:52,949 - yt-dlp - DEBUG - [download] [0;94m 23.8%[0m of  238.40MiB at [0;32m   8.05MiB/s[0m ETA [0;33m00:22[0m
+2025-11-23 03:02:52,949 - yt-dlp - DEBUG - [download] [0;94m 23.8%[0m of  238.40MiB at [0;32m   8.05MiB/s[0m ETA [0;33m00:22[0m
+2025-11-23 03:02:53,140 - yt-dlp - DEBUG - [download] [0;94m 24.5%[0m of  238.40MiB at [0;32m   8.06MiB/s[0m ETA [0;33m00:22[0m
+2025-11-23 03:02:53,140 - yt-dlp - DEBUG - [download] [0;94m 24.5%[0m of  238.40MiB at [0;32m   8.06MiB/s[0m ETA [0;33m00:22[0m
+2025-11-23 03:02:53,187 - yt-dlp - DEBUG - [download] [0;94m 24.5%[0m of  238.40MiB at [0;32m 637.63KiB/s[0m ETA [0;33m04:50[0m
+2025-11-23 03:02:53,187 - yt-dlp - DEBUG - [download] [0;94m 24.5%[0m of  238.40MiB at [0;32m 637.63KiB/s[0m ETA [0;33m04:50[0m
+2025-11-23 03:02:53,188 - yt-dlp - DEBUG - [download] [0;94m 24.5%[0m of  238.40MiB at [0;32m   1.11MiB/s[0m ETA [0;33m02:42[0m
+2025-11-23 03:02:53,188 - yt-dlp - DEBUG - [download] [0;94m 24.5%[0m of  238.40MiB at [0;32m   1.11MiB/s[0m ETA [0;33m02:42[0m
+2025-11-23 03:02:53,195 - yt-dlp - DEBUG - [download] [0;94m 24.5%[0m of  238.40MiB at [0;32m 757.58KiB/s[0m ETA [0;33m04:03[0m
+2025-11-23 03:02:53,195 - yt-dlp - DEBUG - [download] [0;94m 24.5%[0m of  238.40MiB at [0;32m 757.58KiB/s[0m ETA [0;33m04:03[0m
+2025-11-23 03:02:53,204 - yt-dlp - DEBUG - [download] [0;94m 24.5%[0m of  238.40MiB at [0;32m 808.23KiB/s[0m ETA [0;33m03:48[0m
+2025-11-23 03:02:53,204 - yt-dlp - DEBUG - [download] [0;94m 24.5%[0m of  238.40MiB at [0;32m 808.23KiB/s[0m ETA [0;33m03:48[0m
+2025-11-23 03:02:53,207 - yt-dlp - DEBUG - [download] [0;94m 24.5%[0m of  238.40MiB at [0;32m   1.47MiB/s[0m ETA [0;33m02:02[0m
+2025-11-23 03:02:53,207 - yt-dlp - DEBUG - [download] [0;94m 24.5%[0m of  238.40MiB at [0;32m   1.47MiB/s[0m ETA [0;33m02:02[0m
+2025-11-23 03:02:53,224 - yt-dlp - DEBUG - [download] [0;94m 24.5%[0m of  238.40MiB at [0;32m   1.62MiB/s[0m ETA [0;33m01:51[0m
+2025-11-23 03:02:53,224 - yt-dlp - DEBUG - [download] [0;94m 24.5%[0m of  238.40MiB at [0;32m   1.62MiB/s[0m ETA [0;33m01:51[0m
+2025-11-23 03:02:53,236 - yt-dlp - DEBUG - [download] [0;94m 24.5%[0m of  238.40MiB at [0;32m   2.48MiB/s[0m ETA [0;33m01:12[0m
+2025-11-23 03:02:53,236 - yt-dlp - DEBUG - [download] [0;94m 24.5%[0m of  238.40MiB at [0;32m   2.48MiB/s[0m ETA [0;33m01:12[0m
+2025-11-23 03:02:53,243 - yt-dlp - DEBUG - [download] [0;94m 24.6%[0m of  238.40MiB at [0;32m   4.37MiB/s[0m ETA [0;33m00:41[0m
+2025-11-23 03:02:53,243 - yt-dlp - DEBUG - [download] [0;94m 24.6%[0m of  238.40MiB at [0;32m   4.37MiB/s[0m ETA [0;33m00:41[0m
+2025-11-23 03:02:53,267 - yt-dlp - DEBUG - [download] [0;94m 24.7%[0m of  238.40MiB at [0;32m   6.15MiB/s[0m ETA [0;33m00:29[0m
+2025-11-23 03:02:53,267 - yt-dlp - DEBUG - [download] [0;94m 24.7%[0m of  238.40MiB at [0;32m   6.15MiB/s[0m ETA [0;33m00:29[0m
+2025-11-23 03:02:53,330 - yt-dlp - DEBUG - [download] [0;94m 24.9%[0m of  238.40MiB at [0;32m   6.93MiB/s[0m ETA [0;33m00:25[0m
+2025-11-23 03:02:53,330 - yt-dlp - DEBUG - [download] [0;94m 24.9%[0m of  238.40MiB at [0;32m   6.93MiB/s[0m ETA [0;33m00:25[0m
+2025-11-23 03:02:53,616 - yt-dlp - DEBUG - [download] [0;94m 25.3%[0m of  238.40MiB at [0;32m   4.64MiB/s[0m ETA [0;33m00:38[0m
+2025-11-23 03:02:53,616 - yt-dlp - DEBUG - [download] [0;94m 25.3%[0m of  238.40MiB at [0;32m   4.64MiB/s[0m ETA [0;33m00:38[0m
+2025-11-23 03:02:53,866 - yt-dlp - DEBUG - [download] [0;94m 26.2%[0m of  238.40MiB at [0;32m   5.89MiB/s[0m ETA [0;33m00:29[0m
+2025-11-23 03:02:53,866 - yt-dlp - DEBUG - [download] [0;94m 26.2%[0m of  238.40MiB at [0;32m   5.89MiB/s[0m ETA [0;33m00:29[0m
+2025-11-23 03:02:54,362 - yt-dlp - DEBUG - [download] [0;94m 27.8%[0m of  238.40MiB at [0;32m   6.80MiB/s[0m ETA [0;33m00:25[0m
+2025-11-23 03:02:54,362 - yt-dlp - DEBUG - [download] [0;94m 27.8%[0m of  238.40MiB at [0;32m   6.80MiB/s[0m ETA [0;33m00:25[0m
+2025-11-23 03:02:54,575 - yt-dlp - DEBUG - [download] [0;94m 28.6%[0m of  238.40MiB at [0;32m   7.01MiB/s[0m ETA [0;33m00:24[0m
+2025-11-23 03:02:54,575 - yt-dlp - DEBUG - [download] [0;94m 28.6%[0m of  238.40MiB at [0;32m   7.01MiB/s[0m ETA [0;33m00:24[0m
+2025-11-23 03:02:54,626 - yt-dlp - DEBUG - [download] [0;94m 28.6%[0m of  238.40MiB at [0;32m 728.18KiB/s[0m ETA [0;33m04:00[0m
+2025-11-23 03:02:54,626 - yt-dlp - DEBUG - [download] [0;94m 28.6%[0m of  238.40MiB at [0;32m 728.18KiB/s[0m ETA [0;33m04:00[0m
+2025-11-23 03:02:54,628 - yt-dlp - DEBUG - [download] [0;94m 28.6%[0m of  238.40MiB at [0;32m   1.18MiB/s[0m ETA [0;33m02:24[0m
+2025-11-23 03:02:54,628 - yt-dlp - DEBUG - [download] [0;94m 28.6%[0m of  238.40MiB at [0;32m   1.18MiB/s[0m ETA [0;33m02:24[0m
+2025-11-23 03:02:54,629 - yt-dlp - DEBUG - [download] [0;94m 28.6%[0m of  238.40MiB at [0;32m   1.71MiB/s[0m ETA [0;33m01:39[0m
+2025-11-23 03:02:54,629 - yt-dlp - DEBUG - [download] [0;94m 28.6%[0m of  238.40MiB at [0;32m   1.71MiB/s[0m ETA [0;33m01:39[0m
+2025-11-23 03:02:54,631 - yt-dlp - DEBUG - [download] [0;94m 28.6%[0m of  238.40MiB at [0;32m   2.67MiB/s[0m ETA [0;33m01:03[0m
+2025-11-23 03:02:54,631 - yt-dlp - DEBUG - [download] [0;94m 28.6%[0m of  238.40MiB at [0;32m   2.67MiB/s[0m ETA [0;33m01:03[0m
+2025-11-23 03:02:54,632 - yt-dlp - DEBUG - [download] [0;94m 28.6%[0m of  238.40MiB at [0;32m   4.55MiB/s[0m ETA [0;33m00:37[0m
+2025-11-23 03:02:54,632 - yt-dlp - DEBUG - [download] [0;94m 28.6%[0m of  238.40MiB at [0;32m   4.55MiB/s[0m ETA [0;33m00:37[0m
+2025-11-23 03:02:54,633 - yt-dlp - DEBUG - [download] [0;94m 28.6%[0m of  238.40MiB at [0;32m   7.88MiB/s[0m ETA [0;33m00:21[0m
+2025-11-23 03:02:54,633 - yt-dlp - DEBUG - [download] [0;94m 28.6%[0m of  238.40MiB at [0;32m   7.88MiB/s[0m ETA [0;33m00:21[0m
+2025-11-23 03:02:54,640 - yt-dlp - DEBUG - [download] [0;94m 28.6%[0m of  238.40MiB at [0;32m   8.28MiB/s[0m ETA [0;33m00:20[0m
+2025-11-23 03:02:54,640 - yt-dlp - DEBUG - [download] [0;94m 28.6%[0m of  238.40MiB at [0;32m   8.28MiB/s[0m ETA [0;33m00:20[0m
+2025-11-23 03:02:54,656 - yt-dlp - DEBUG - [download] [0;94m 28.7%[0m of  238.40MiB at [0;32m   8.13MiB/s[0m ETA [0;33m00:20[0m
+2025-11-23 03:02:54,656 - yt-dlp - DEBUG - [download] [0;94m 28.7%[0m of  238.40MiB at [0;32m   8.13MiB/s[0m ETA [0;33m00:20[0m
+2025-11-23 03:02:54,687 - yt-dlp - DEBUG - [download] [0;94m 28.8%[0m of  238.40MiB at [0;32m   8.07MiB/s[0m ETA [0;33m00:21[0m
+2025-11-23 03:02:54,687 - yt-dlp - DEBUG - [download] [0;94m 28.8%[0m of  238.40MiB at [0;32m   8.07MiB/s[0m ETA [0;33m00:21[0m
+2025-11-23 03:02:54,750 - yt-dlp - DEBUG - [download] [0;94m 29.0%[0m of  238.40MiB at [0;32m   8.03MiB/s[0m ETA [0;33m00:21[0m
+2025-11-23 03:02:54,750 - yt-dlp - DEBUG - [download] [0;94m 29.0%[0m of  238.40MiB at [0;32m   8.03MiB/s[0m ETA [0;33m00:21[0m
+2025-11-23 03:02:54,875 - yt-dlp - DEBUG - [download] [0;94m 29.4%[0m of  238.40MiB at [0;32m   8.00MiB/s[0m ETA [0;33m00:21[0m
+2025-11-23 03:02:54,875 - yt-dlp - DEBUG - [download] [0;94m 29.4%[0m of  238.40MiB at [0;32m   8.00MiB/s[0m ETA [0;33m00:21[0m
+2025-11-23 03:02:55,124 - yt-dlp - DEBUG - [download] [0;94m 30.3%[0m of  238.40MiB at [0;32m   8.02MiB/s[0m ETA [0;33m00:20[0m
+2025-11-23 03:02:55,124 - yt-dlp - DEBUG - [download] [0;94m 30.3%[0m of  238.40MiB at [0;32m   8.02MiB/s[0m ETA [0;33m00:20[0m
+2025-11-23 03:02:55,796 - yt-dlp - DEBUG - [download] [0;94m 31.9%[0m of  238.40MiB at [0;32m   6.84MiB/s[0m ETA [0;33m00:23[0m
+2025-11-23 03:02:55,796 - yt-dlp - DEBUG - [download] [0;94m 31.9%[0m of  238.40MiB at [0;32m   6.84MiB/s[0m ETA [0;33m00:23[0m
+2025-11-23 03:02:56,034 - yt-dlp - DEBUG - [download] [0;94m 32.7%[0m of  238.40MiB at [0;32m   7.05MiB/s[0m ETA [0;33m00:22[0m
+2025-11-23 03:02:56,034 - yt-dlp - DEBUG - [download] [0;94m 32.7%[0m of  238.40MiB at [0;32m   7.05MiB/s[0m ETA [0;33m00:22[0m
+2025-11-23 03:02:56,091 - yt-dlp - DEBUG - [download] [0;94m 32.7%[0m of  238.40MiB at [0;32m 620.28KiB/s[0m ETA [0;33m04:25[0m
+2025-11-23 03:02:56,091 - yt-dlp - DEBUG - [download] [0;94m 32.7%[0m of  238.40MiB at [0;32m 620.28KiB/s[0m ETA [0;33m04:25[0m
+2025-11-23 03:02:56,092 - yt-dlp - DEBUG - [download] [0;94m 32.8%[0m of  238.40MiB at [0;32m 967.69KiB/s[0m ETA [0;33m02:49[0m
+2025-11-23 03:02:56,092 - yt-dlp - DEBUG - [download] [0;94m 32.8%[0m of  238.40MiB at [0;32m 967.69KiB/s[0m ETA [0;33m02:49[0m
+2025-11-23 03:02:56,111 - yt-dlp - DEBUG - [download] [0;94m 32.8%[0m of  238.40MiB at [0;32m 331.86KiB/s[0m ETA [0;33m08:14[0m
+2025-11-23 03:02:56,111 - yt-dlp - DEBUG - [download] [0;94m 32.8%[0m of  238.40MiB at [0;32m 331.86KiB/s[0m ETA [0;33m08:14[0m
+2025-11-23 03:02:56,124 - yt-dlp - DEBUG - [download] [0;94m 32.8%[0m of  238.40MiB at [0;32m 437.39KiB/s[0m ETA [0;33m06:15[0m
+2025-11-23 03:02:56,124 - yt-dlp - DEBUG - [download] [0;94m 32.8%[0m of  238.40MiB at [0;32m 437.39KiB/s[0m ETA [0;33m06:15[0m
+2025-11-23 03:02:56,126 - yt-dlp - DEBUG - [download] [0;94m 32.8%[0m of  238.40MiB at [0;32m 856.54KiB/s[0m ETA [0;33m03:11[0m
+2025-11-23 03:02:56,126 - yt-dlp - DEBUG - [download] [0;94m 32.8%[0m of  238.40MiB at [0;32m 856.54KiB/s[0m ETA [0;33m03:11[0m
+2025-11-23 03:02:56,127 - yt-dlp - DEBUG - [download] [0;94m 32.8%[0m of  238.40MiB at [0;32m   1.65MiB/s[0m ETA [0;33m01:37[0m
+2025-11-23 03:02:56,127 - yt-dlp - DEBUG - [download] [0;94m 32.8%[0m of  238.40MiB at [0;32m   1.65MiB/s[0m ETA [0;33m01:37[0m
+2025-11-23 03:02:56,128 - yt-dlp - DEBUG - [download] [0;94m 32.8%[0m of  238.40MiB at [0;32m   3.21MiB/s[0m ETA [0;33m00:49[0m
+2025-11-23 03:02:56,128 - yt-dlp - DEBUG - [download] [0;94m 32.8%[0m of  238.40MiB at [0;32m   3.21MiB/s[0m ETA [0;33m00:49[0m
+2025-11-23 03:02:56,136 - yt-dlp - DEBUG - [download] [0;94m 32.9%[0m of  238.40MiB at [0;32m   5.35MiB/s[0m ETA [0;33m00:29[0m
+2025-11-23 03:02:56,136 - yt-dlp - DEBUG - [download] [0;94m 32.9%[0m of  238.40MiB at [0;32m   5.35MiB/s[0m ETA [0;33m00:29[0m
+2025-11-23 03:02:56,167 - yt-dlp - DEBUG - [download] [0;94m 33.0%[0m of  238.40MiB at [0;32m   6.44MiB/s[0m ETA [0;33m00:24[0m
+2025-11-23 03:02:56,167 - yt-dlp - DEBUG - [download] [0;94m 33.0%[0m of  238.40MiB at [0;32m   6.44MiB/s[0m ETA [0;33m00:24[0m
+2025-11-23 03:02:56,229 - yt-dlp - DEBUG - [download] [0;94m 33.2%[0m of  238.40MiB at [0;32m   7.15MiB/s[0m ETA [0;33m00:22[0m
+2025-11-23 03:02:56,229 - yt-dlp - DEBUG - [download] [0;94m 33.2%[0m of  238.40MiB at [0;32m   7.15MiB/s[0m ETA [0;33m00:22[0m
+2025-11-23 03:02:56,396 - yt-dlp - DEBUG - [download] [0;94m 33.6%[0m of  238.40MiB at [0;32m   6.52MiB/s[0m ETA [0;33m00:24[0m
+2025-11-23 03:02:56,396 - yt-dlp - DEBUG - [download] [0;94m 33.6%[0m of  238.40MiB at [0;32m   6.52MiB/s[0m ETA [0;33m00:24[0m
+2025-11-23 03:02:56,767 - yt-dlp - DEBUG - [download] [0;94m 34.4%[0m of  238.40MiB at [0;32m   5.90MiB/s[0m ETA [0;33m00:26[0m
+2025-11-23 03:02:56,767 - yt-dlp - DEBUG - [download] [0;94m 34.4%[0m of  238.40MiB at [0;32m   5.90MiB/s[0m ETA [0;33m00:26[0m
+2025-11-23 03:02:57,268 - yt-dlp - DEBUG - [download] [0;94m 36.1%[0m of  238.40MiB at [0;32m   6.79MiB/s[0m ETA [0;33m00:22[0m
+2025-11-23 03:02:57,268 - yt-dlp - DEBUG - [download] [0;94m 36.1%[0m of  238.40MiB at [0;32m   6.79MiB/s[0m ETA [0;33m00:22[0m
+2025-11-23 03:02:57,678 - yt-dlp - DEBUG - [download] [0;94m 36.9%[0m of  238.40MiB at [0;32m   6.17MiB/s[0m ETA [0;33m00:24[0m
+2025-11-23 03:02:57,678 - yt-dlp - DEBUG - [download] [0;94m 36.9%[0m of  238.40MiB at [0;32m   6.17MiB/s[0m ETA [0;33m00:24[0m
+2025-11-23 03:02:57,785 - yt-dlp - DEBUG - [download] [0;94m 36.9%[0m of  238.40MiB at [0;32m Unknown B/s[0m ETA [0;33m02:35[0m
+2025-11-23 03:02:57,785 - yt-dlp - DEBUG - [download] [0;94m 36.9%[0m of  238.40MiB at [0;32m Unknown B/s[0m ETA [0;33m02:35[0m
+2025-11-23 03:02:57,788 - yt-dlp - DEBUG - [download] [0;94m 36.9%[0m of  238.40MiB at [0;32m 830.06KiB/s[0m ETA [0;33m03:06[0m
+2025-11-23 03:02:57,788 - yt-dlp - DEBUG - [download] [0;94m 36.9%[0m of  238.40MiB at [0;32m 830.06KiB/s[0m ETA [0;33m03:06[0m
+2025-11-23 03:02:57,791 - yt-dlp - DEBUG - [download] [0;94m 36.9%[0m of  238.40MiB at [0;32m 983.52KiB/s[0m ETA [0;33m02:36[0m
+2025-11-23 03:02:57,791 - yt-dlp - DEBUG - [download] [0;94m 36.9%[0m of  238.40MiB at [0;32m 983.52KiB/s[0m ETA [0;33m02:36[0m
+2025-11-23 03:02:57,795 - yt-dlp - DEBUG - [download] [0;94m 36.9%[0m of  238.40MiB at [0;32m   1.31MiB/s[0m ETA [0;33m01:54[0m
+2025-11-23 03:02:57,795 - yt-dlp - DEBUG - [download] [0;94m 36.9%[0m of  238.40MiB at [0;32m   1.31MiB/s[0m ETA [0;33m01:54[0m
+2025-11-23 03:02:57,804 - yt-dlp - DEBUG - [download] [0;94m 36.9%[0m of  238.40MiB at [0;32m   1.55MiB/s[0m ETA [0;33m01:37[0m
+2025-11-23 03:02:57,804 - yt-dlp - DEBUG - [download] [0;94m 36.9%[0m of  238.40MiB at [0;32m   1.55MiB/s[0m ETA [0;33m01:37[0m
+2025-11-23 03:02:57,806 - yt-dlp - DEBUG - [download] [0;94m 36.9%[0m of  238.40MiB at [0;32m   2.78MiB/s[0m ETA [0;33m00:54[0m
+2025-11-23 03:02:57,806 - yt-dlp - DEBUG - [download] [0;94m 36.9%[0m of  238.40MiB at [0;32m   2.78MiB/s[0m ETA [0;33m00:54[0m
+2025-11-23 03:02:57,810 - yt-dlp - DEBUG - [download] [0;94m 36.9%[0m of  238.40MiB at [0;32m   4.85MiB/s[0m ETA [0;33m00:31[0m
+2025-11-23 03:02:57,810 - yt-dlp - DEBUG - [download] [0;94m 36.9%[0m of  238.40MiB at [0;32m   4.85MiB/s[0m ETA [0;33m00:31[0m
+2025-11-23 03:02:57,819 - yt-dlp - DEBUG - [download] [0;94m 37.0%[0m of  238.40MiB at [0;32m   7.04MiB/s[0m ETA [0;33m00:21[0m
+2025-11-23 03:02:57,819 - yt-dlp - DEBUG - [download] [0;94m 37.0%[0m of  238.40MiB at [0;32m   7.04MiB/s[0m ETA [0;33m00:21[0m
+2025-11-23 03:02:57,851 - yt-dlp - DEBUG - [download] [0;94m 37.1%[0m of  238.40MiB at [0;32m   7.48MiB/s[0m ETA [0;33m00:20[0m
+2025-11-23 03:02:57,851 - yt-dlp - DEBUG - [download] [0;94m 37.1%[0m of  238.40MiB at [0;32m   7.48MiB/s[0m ETA [0;33m00:20[0m
+2025-11-23 03:02:57,914 - yt-dlp - DEBUG - [download] [0;94m 37.3%[0m of  238.40MiB at [0;32m   7.71MiB/s[0m ETA [0;33m00:19[0m
+2025-11-23 03:02:57,914 - yt-dlp - DEBUG - [download] [0;94m 37.3%[0m of  238.40MiB at [0;32m   7.71MiB/s[0m ETA [0;33m00:19[0m
+2025-11-23 03:02:58,037 - yt-dlp - DEBUG - [download] [0;94m 37.7%[0m of  238.40MiB at [0;32m   7.90MiB/s[0m ETA [0;33m00:18[0m
+2025-11-23 03:02:58,037 - yt-dlp - DEBUG - [download] [0;94m 37.7%[0m of  238.40MiB at [0;32m   7.90MiB/s[0m ETA [0;33m00:18[0m
+2025-11-23 03:02:58,286 - yt-dlp - DEBUG - [download] [0;94m 38.5%[0m of  238.40MiB at [0;32m   7.97MiB/s[0m ETA [0;33m00:18[0m
+2025-11-23 03:02:58,286 - yt-dlp - DEBUG - [download] [0;94m 38.5%[0m of  238.40MiB at [0;32m   7.97MiB/s[0m ETA [0;33m00:18[0m
+2025-11-23 03:02:58,784 - yt-dlp - DEBUG - [download] [0;94m 40.2%[0m of  238.40MiB at [0;32m   8.00MiB/s[0m ETA [0;33m00:17[0m
+2025-11-23 03:02:58,784 - yt-dlp - DEBUG - [download] [0;94m 40.2%[0m of  238.40MiB at [0;32m   8.00MiB/s[0m ETA [0;33m00:17[0m
+2025-11-23 03:02:58,967 - yt-dlp - DEBUG - [download] [0;94m 40.8%[0m of  238.40MiB at [0;32m   8.03MiB/s[0m ETA [0;33m00:17[0m
+2025-11-23 03:02:58,967 - yt-dlp - DEBUG - [download] [0;94m 40.8%[0m of  238.40MiB at [0;32m   8.03MiB/s[0m ETA [0;33m00:17[0m
+2025-11-23 03:02:59,009 - yt-dlp - DEBUG - [download] [0;94m 40.8%[0m of  238.40MiB at [0;32m 701.27KiB/s[0m ETA [0;33m03:27[0m
+2025-11-23 03:02:59,009 - yt-dlp - DEBUG - [download] [0;94m 40.8%[0m of  238.40MiB at [0;32m 701.27KiB/s[0m ETA [0;33m03:27[0m
+2025-11-23 03:02:59,010 - yt-dlp - DEBUG - [download] [0;94m 40.8%[0m of  238.40MiB at [0;32m   1.15MiB/s[0m ETA [0;33m02:03[0m
+2025-11-23 03:02:59,010 - yt-dlp - DEBUG - [download] [0;94m 40.8%[0m of  238.40MiB at [0;32m   1.15MiB/s[0m ETA [0;33m02:03[0m
+2025-11-23 03:02:59,022 - yt-dlp - DEBUG - [download] [0;94m 40.8%[0m of  238.40MiB at [0;32m 474.88KiB/s[0m ETA [0;33m05:04[0m
+2025-11-23 03:02:59,022 - yt-dlp - DEBUG - [download] [0;94m 40.8%[0m of  238.40MiB at [0;32m 474.88KiB/s[0m ETA [0;33m05:04[0m
+2025-11-23 03:02:59,033 - yt-dlp - DEBUG - [download] [0;94m 40.8%[0m of  238.40MiB at [0;32m 594.44KiB/s[0m ETA [0;33m04:02[0m
+2025-11-23 03:02:59,033 - yt-dlp - DEBUG - [download] [0;94m 40.8%[0m of  238.40MiB at [0;32m 594.44KiB/s[0m ETA [0;33m04:02[0m
+2025-11-23 03:02:59,034 - yt-dlp - DEBUG - [download] [0;94m 40.9%[0m of  238.40MiB at [0;32m   1.14MiB/s[0m ETA [0;33m02:03[0m
+2025-11-23 03:02:59,034 - yt-dlp - DEBUG - [download] [0;94m 40.9%[0m of  238.40MiB at [0;32m   1.14MiB/s[0m ETA [0;33m02:03[0m
+2025-11-23 03:02:59,035 - yt-dlp - DEBUG - [download] [0;94m 40.9%[0m of  238.40MiB at [0;32m   2.21MiB/s[0m ETA [0;33m01:03[0m
+2025-11-23 03:02:59,035 - yt-dlp - DEBUG - [download] [0;94m 40.9%[0m of  238.40MiB at [0;32m   2.21MiB/s[0m ETA [0;33m01:03[0m
+2025-11-23 03:02:59,036 - yt-dlp - DEBUG - [download] [0;94m 40.9%[0m of  238.40MiB at [0;32m   4.26MiB/s[0m ETA [0;33m00:33[0m
+2025-11-23 03:02:59,036 - yt-dlp - DEBUG - [download] [0;94m 40.9%[0m of  238.40MiB at [0;32m   4.26MiB/s[0m ETA [0;33m00:33[0m
+2025-11-23 03:02:59,044 - yt-dlp - DEBUG - [download] [0;94m 40.9%[0m of  238.40MiB at [0;32m   6.76MiB/s[0m ETA [0;33m00:20[0m
+2025-11-23 03:02:59,044 - yt-dlp - DEBUG - [download] [0;94m 40.9%[0m of  238.40MiB at [0;32m   6.76MiB/s[0m ETA [0;33m00:20[0m
+2025-11-23 03:02:59,075 - yt-dlp - DEBUG - [download] [0;94m 41.1%[0m of  238.40MiB at [0;32m   7.35MiB/s[0m ETA [0;33m00:19[0m
+2025-11-23 03:02:59,075 - yt-dlp - DEBUG - [download] [0;94m 41.1%[0m of  238.40MiB at [0;32m   7.35MiB/s[0m ETA [0;33m00:19[0m
+2025-11-23 03:02:59,139 - yt-dlp - DEBUG - [download] [0;94m 41.3%[0m of  238.40MiB at [0;32m   7.60MiB/s[0m ETA [0;33m00:18[0m
+2025-11-23 03:02:59,139 - yt-dlp - DEBUG - [download] [0;94m 41.3%[0m of  238.40MiB at [0;32m   7.60MiB/s[0m ETA [0;33m00:18[0m
+2025-11-23 03:02:59,264 - yt-dlp - DEBUG - [download] [0;94m 41.7%[0m of  238.40MiB at [0;32m   7.80MiB/s[0m ETA [0;33m00:17[0m
+2025-11-23 03:02:59,264 - yt-dlp - DEBUG - [download] [0;94m 41.7%[0m of  238.40MiB at [0;32m   7.80MiB/s[0m ETA [0;33m00:17[0m
+2025-11-23 03:02:59,685 - yt-dlp - DEBUG - [download] [0;94m 42.5%[0m of  238.40MiB at [0;32m   5.90MiB/s[0m ETA [0;33m00:23[0m
+2025-11-23 03:02:59,685 - yt-dlp - DEBUG - [download] [0;94m 42.5%[0m of  238.40MiB at [0;32m   5.90MiB/s[0m ETA [0;33m00:23[0m
+2025-11-23 03:03:00,183 - yt-dlp - DEBUG - [download] [0;94m 44.2%[0m of  238.40MiB at [0;32m   6.80MiB/s[0m ETA [0;33m00:19[0m
+2025-11-23 03:03:00,183 - yt-dlp - DEBUG - [download] [0;94m 44.2%[0m of  238.40MiB at [0;32m   6.80MiB/s[0m ETA [0;33m00:19[0m
+2025-11-23 03:03:00,370 - yt-dlp - DEBUG - [download] [0;94m 44.8%[0m of  238.40MiB at [0;32m   6.99MiB/s[0m ETA [0;33m00:18[0m
+2025-11-23 03:03:00,370 - yt-dlp - DEBUG - [download] [0;94m 44.8%[0m of  238.40MiB at [0;32m   6.99MiB/s[0m ETA [0;33m00:18[0m
+2025-11-23 03:03:00,420 - yt-dlp - DEBUG - [download] [0;94m 44.8%[0m of  238.40MiB at [0;32m Unknown B/s[0m ETA [0;33mUnknown[0m
+2025-11-23 03:03:00,420 - yt-dlp - DEBUG - [download] [0;94m 44.8%[0m of  238.40MiB at [0;32m Unknown B/s[0m ETA [0;33mUnknown[0m
+2025-11-23 03:03:00,423 - yt-dlp - DEBUG - [download] [0;94m 44.8%[0m of  238.40MiB at [0;32m 849.57KiB/s[0m ETA [0;33m02:38[0m
+2025-11-23 03:03:00,423 - yt-dlp - DEBUG - [download] [0;94m 44.8%[0m of  238.40MiB at [0;32m 849.57KiB/s[0m ETA [0;33m02:38[0m
+2025-11-23 03:03:00,493 - yt-dlp - DEBUG - [download] [0;94m 44.8%[0m of  238.40MiB at [0;32m  95.03KiB/s[0m ETA [0;33m23:37[0m
+2025-11-23 03:03:00,493 - yt-dlp - DEBUG - [download] [0;94m 44.8%[0m of  238.40MiB at [0;32m  95.03KiB/s[0m ETA [0;33m23:37[0m
+2025-11-23 03:03:00,495 - yt-dlp - DEBUG - [download] [0;94m 44.8%[0m of  238.40MiB at [0;32m 196.04KiB/s[0m ETA [0;33m11:26[0m
+2025-11-23 03:03:00,495 - yt-dlp - DEBUG - [download] [0;94m 44.8%[0m of  238.40MiB at [0;32m 196.04KiB/s[0m ETA [0;33m11:26[0m
+2025-11-23 03:03:00,497 - yt-dlp - DEBUG - [download] [0;94m 44.9%[0m of  238.40MiB at [0;32m 395.38KiB/s[0m ETA [0;33m05:40[0m
+2025-11-23 03:03:00,497 - yt-dlp - DEBUG - [download] [0;94m 44.9%[0m of  238.40MiB at [0;32m 395.38KiB/s[0m ETA [0;33m05:40[0m
+2025-11-23 03:03:00,499 - yt-dlp - DEBUG - [download] [0;94m 44.9%[0m of  238.40MiB at [0;32m 783.34KiB/s[0m ETA [0;33m02:51[0m
+2025-11-23 03:03:00,499 - yt-dlp - DEBUG - [download] [0;94m 44.9%[0m of  238.40MiB at [0;32m 783.34KiB/s[0m ETA [0;33m02:51[0m
+2025-11-23 03:03:00,501 - yt-dlp - DEBUG - [download] [0;94m 44.9%[0m of  238.40MiB at [0;32m   1.51MiB/s[0m ETA [0;33m01:27[0m
+2025-11-23 03:03:00,501 - yt-dlp - DEBUG - [download] [0;94m 44.9%[0m of  238.40MiB at [0;32m   1.51MiB/s[0m ETA [0;33m01:27[0m
+2025-11-23 03:03:00,534 - yt-dlp - DEBUG - [download] [0;94m 44.9%[0m of  238.40MiB at [0;32m   2.15MiB/s[0m ETA [0;33m01:00[0m
+2025-11-23 03:03:00,534 - yt-dlp - DEBUG - [download] [0;94m 44.9%[0m of  238.40MiB at [0;32m   2.15MiB/s[0m ETA [0;33m01:00[0m
+2025-11-23 03:03:00,563 - yt-dlp - DEBUG - [download] [0;94m 45.0%[0m of  238.40MiB at [0;32m   3.46MiB/s[0m ETA [0;33m00:37[0m
+2025-11-23 03:03:00,563 - yt-dlp - DEBUG - [download] [0;94m 45.0%[0m of  238.40MiB at [0;32m   3.46MiB/s[0m ETA [0;33m00:37[0m
+2025-11-23 03:03:00,625 - yt-dlp - DEBUG - [download] [0;94m 45.3%[0m of  238.40MiB at [0;32m   4.84MiB/s[0m ETA [0;33m00:26[0m
+2025-11-23 03:03:00,625 - yt-dlp - DEBUG - [download] [0;94m 45.3%[0m of  238.40MiB at [0;32m   4.84MiB/s[0m ETA [0;33m00:26[0m
+2025-11-23 03:03:00,751 - yt-dlp - DEBUG - [download] [0;94m 45.7%[0m of  238.40MiB at [0;32m   6.02MiB/s[0m ETA [0;33m00:21[0m
+2025-11-23 03:03:00,751 - yt-dlp - DEBUG - [download] [0;94m 45.7%[0m of  238.40MiB at [0;32m   6.02MiB/s[0m ETA [0;33m00:21[0m
+2025-11-23 03:03:01,001 - yt-dlp - DEBUG - [download] [0;94m 46.5%[0m of  238.40MiB at [0;32m   6.87MiB/s[0m ETA [0;33m00:18[0m
+2025-11-23 03:03:01,001 - yt-dlp - DEBUG - [download] [0;94m 46.5%[0m of  238.40MiB at [0;32m   6.87MiB/s[0m ETA [0;33m00:18[0m
+2025-11-23 03:03:01,548 - yt-dlp - DEBUG - [download] [0;94m 48.2%[0m of  238.40MiB at [0;32m   7.09MiB/s[0m ETA [0;33m00:17[0m
+2025-11-23 03:03:01,548 - yt-dlp - DEBUG - [download] [0;94m 48.2%[0m of  238.40MiB at [0;32m   7.09MiB/s[0m ETA [0;33m00:17[0m
+2025-11-23 03:03:01,973 - yt-dlp - DEBUG - [download] [0;94m 48.9%[0m of  238.40MiB at [0;32m   6.26MiB/s[0m ETA [0;33m00:19[0m
+2025-11-23 03:03:01,973 - yt-dlp - DEBUG - [download] [0;94m 48.9%[0m of  238.40MiB at [0;32m   6.26MiB/s[0m ETA [0;33m00:19[0m
+2025-11-23 03:03:02,113 - yt-dlp - DEBUG - [download] [0;94m 48.9%[0m of  238.40MiB at [0;32m Unknown B/s[0m ETA [0;33mUnknown[0m
+2025-11-23 03:03:02,113 - yt-dlp - DEBUG - [download] [0;94m 48.9%[0m of  238.40MiB at [0;32m Unknown B/s[0m ETA [0;33mUnknown[0m
+2025-11-23 03:03:02,116 - yt-dlp - DEBUG - [download] [0;94m 48.9%[0m of  238.40MiB at [0;32m 830.34KiB/s[0m ETA [0;33m02:30[0m
+2025-11-23 03:03:02,116 - yt-dlp - DEBUG - [download] [0;94m 48.9%[0m of  238.40MiB at [0;32m 830.34KiB/s[0m ETA [0;33m02:30[0m
+2025-11-23 03:03:02,120 - yt-dlp - DEBUG - [download] [0;94m 48.9%[0m of  238.40MiB at [0;32m 997.12KiB/s[0m ETA [0;33m02:05[0m
+2025-11-23 03:03:02,120 - yt-dlp - DEBUG - [download] [0;94m 48.9%[0m of  238.40MiB at [0;32m 997.12KiB/s[0m ETA [0;33m02:05[0m
+2025-11-23 03:03:02,122 - yt-dlp - DEBUG - [download] [0;94m 48.9%[0m of  238.40MiB at [0;32m   1.46MiB/s[0m ETA [0;33m01:23[0m
+2025-11-23 03:03:02,122 - yt-dlp - DEBUG - [download] [0;94m 48.9%[0m of  238.40MiB at [0;32m   1.46MiB/s[0m ETA [0;33m01:23[0m
+2025-11-23 03:03:02,125 - yt-dlp - DEBUG - [download] [0;94m 48.9%[0m of  238.40MiB at [0;32m   2.45MiB/s[0m ETA [0;33m00:49[0m
+2025-11-23 03:03:02,125 - yt-dlp - DEBUG - [download] [0;94m 48.9%[0m of  238.40MiB at [0;32m   2.45MiB/s[0m ETA [0;33m00:49[0m
+2025-11-23 03:03:02,127 - yt-dlp - DEBUG - [download] [0;94m 48.9%[0m of  238.40MiB at [0;32m   4.04MiB/s[0m ETA [0;33m00:30[0m
+2025-11-23 03:03:02,127 - yt-dlp - DEBUG - [download] [0;94m 48.9%[0m of  238.40MiB at [0;32m   4.04MiB/s[0m ETA [0;33m00:30[0m
+2025-11-23 03:03:02,130 - yt-dlp - DEBUG - [download] [0;94m 49.0%[0m of  238.40MiB at [0;32m   6.88MiB/s[0m ETA [0;33m00:17[0m
+2025-11-23 03:03:02,130 - yt-dlp - DEBUG - [download] [0;94m 49.0%[0m of  238.40MiB at [0;32m   6.88MiB/s[0m ETA [0;33m00:17[0m
+2025-11-23 03:03:02,141 - yt-dlp - DEBUG - [download] [0;94m 49.0%[0m of  238.40MiB at [0;32m   8.52MiB/s[0m ETA [0;33m00:14[0m
+2025-11-23 03:03:02,141 - yt-dlp - DEBUG - [download] [0;94m 49.0%[0m of  238.40MiB at [0;32m   8.52MiB/s[0m ETA [0;33m00:14[0m
+2025-11-23 03:03:02,173 - yt-dlp - DEBUG - [download] [0;94m 49.1%[0m of  238.40MiB at [0;32m   8.23MiB/s[0m ETA [0;33m00:14[0m
+2025-11-23 03:03:02,173 - yt-dlp - DEBUG - [download] [0;94m 49.1%[0m of  238.40MiB at [0;32m   8.23MiB/s[0m ETA [0;33m00:14[0m
+2025-11-23 03:03:02,235 - yt-dlp - DEBUG - [download] [0;94m 49.3%[0m of  238.40MiB at [0;32m   8.14MiB/s[0m ETA [0;33m00:14[0m
+2025-11-23 03:03:02,235 - yt-dlp - DEBUG - [download] [0;94m 49.3%[0m of  238.40MiB at [0;32m   8.14MiB/s[0m ETA [0;33m00:14[0m
+2025-11-23 03:03:02,360 - yt-dlp - DEBUG - [download] [0;94m 49.8%[0m of  238.40MiB at [0;32m   8.07MiB/s[0m ETA [0;33m00:14[0m
+2025-11-23 03:03:02,360 - yt-dlp - DEBUG - [download] [0;94m 49.8%[0m of  238.40MiB at [0;32m   8.07MiB/s[0m ETA [0;33m00:14[0m
+2025-11-23 03:03:02,610 - yt-dlp - DEBUG - [download] [0;94m 50.6%[0m of  238.40MiB at [0;32m   8.04MiB/s[0m ETA [0;33m00:14[0m
+2025-11-23 03:03:02,610 - yt-dlp - DEBUG - [download] [0;94m 50.6%[0m of  238.40MiB at [0;32m   8.04MiB/s[0m ETA [0;33m00:14[0m
+2025-11-23 03:03:03,106 - yt-dlp - DEBUG - [download] [0;94m 52.3%[0m of  238.40MiB at [0;32m   8.05MiB/s[0m ETA [0;33m00:14[0m
+2025-11-23 03:03:03,106 - yt-dlp - DEBUG - [download] [0;94m 52.3%[0m of  238.40MiB at [0;32m   8.05MiB/s[0m ETA [0;33m00:14[0m
+2025-11-23 03:03:03,343 - yt-dlp - DEBUG - [download] [0;94m 53.0%[0m of  238.40MiB at [0;32m   8.00MiB/s[0m ETA [0;33m00:13[0m
+2025-11-23 03:03:03,343 - yt-dlp - DEBUG - [download] [0;94m 53.0%[0m of  238.40MiB at [0;32m   8.00MiB/s[0m ETA [0;33m00:13[0m
+2025-11-23 03:03:03,397 - yt-dlp - DEBUG - [download] [0;94m 53.0%[0m of  238.40MiB at [0;32m 422.09KiB/s[0m ETA [0;33m04:32[0m
+2025-11-23 03:03:03,397 - yt-dlp - DEBUG - [download] [0;94m 53.0%[0m of  238.40MiB at [0;32m 422.09KiB/s[0m ETA [0;33m04:32[0m
+2025-11-23 03:03:03,398 - yt-dlp - DEBUG - [download] [0;94m 53.0%[0m of  238.40MiB at [0;32m 791.28KiB/s[0m ETA [0;33m02:25[0m
+2025-11-23 03:03:03,398 - yt-dlp - DEBUG - [download] [0;94m 53.0%[0m of  238.40MiB at [0;32m 791.28KiB/s[0m ETA [0;33m02:25[0m
+2025-11-23 03:03:03,414 - yt-dlp - DEBUG - [download] [0;94m 53.1%[0m of  238.40MiB at [0;32m 350.67KiB/s[0m ETA [0;33m05:26[0m
+2025-11-23 03:03:03,414 - yt-dlp - DEBUG - [download] [0;94m 53.1%[0m of  238.40MiB at [0;32m 350.67KiB/s[0m ETA [0;33m05:26[0m
+2025-11-23 03:03:03,430 - yt-dlp - DEBUG - [download] [0;94m 53.1%[0m of  238.40MiB at [0;32m 416.41KiB/s[0m ETA [0;33m04:35[0m
+2025-11-23 03:03:03,430 - yt-dlp - DEBUG - [download] [0;94m 53.1%[0m of  238.40MiB at [0;32m 416.41KiB/s[0m ETA [0;33m04:35[0m
+2025-11-23 03:03:03,436 - yt-dlp - DEBUG - [download] [0;94m 53.1%[0m of  238.40MiB at [0;32m 735.38KiB/s[0m ETA [0;33m02:35[0m
+2025-11-23 03:03:03,436 - yt-dlp - DEBUG - [download] [0;94m 53.1%[0m of  238.40MiB at [0;32m 735.38KiB/s[0m ETA [0;33m02:35[0m
+2025-11-23 03:03:03,453 - yt-dlp - DEBUG - [download] [0;94m 53.1%[0m of  238.40MiB at [0;32m   1.05MiB/s[0m ETA [0;33m01:46[0m
+2025-11-23 03:03:03,453 - yt-dlp - DEBUG - [download] [0;94m 53.1%[0m of  238.40MiB at [0;32m   1.05MiB/s[0m ETA [0;33m01:46[0m
+2025-11-23 03:03:03,466 - yt-dlp - DEBUG - [download] [0;94m 53.1%[0m of  238.40MiB at [0;32m   1.73MiB/s[0m ETA [0;33m01:04[0m
+2025-11-23 03:03:03,466 - yt-dlp - DEBUG - [download] [0;94m 53.1%[0m of  238.40MiB at [0;32m   1.73MiB/s[0m ETA [0;33m01:04[0m
+2025-11-23 03:03:03,470 - yt-dlp - DEBUG - [download] [0;94m 53.2%[0m of  238.40MiB at [0;32m   3.28MiB/s[0m ETA [0;33m00:34[0m
+2025-11-23 03:03:03,470 - yt-dlp - DEBUG - [download] [0;94m 53.2%[0m of  238.40MiB at [0;32m   3.28MiB/s[0m ETA [0;33m00:34[0m
+2025-11-23 03:03:03,548 - yt-dlp - DEBUG - [download] [0;94m 53.3%[0m of  238.40MiB at [0;32m   3.25MiB/s[0m ETA [0;33m00:34[0m
+2025-11-23 03:03:03,548 - yt-dlp - DEBUG - [download] [0;94m 53.3%[0m of  238.40MiB at [0;32m   3.25MiB/s[0m ETA [0;33m00:34[0m
+2025-11-23 03:03:03,610 - yt-dlp - DEBUG - [download] [0;94m 53.5%[0m of  238.40MiB at [0;32m   4.63MiB/s[0m ETA [0;33m00:23[0m
+2025-11-23 03:03:03,610 - yt-dlp - DEBUG - [download] [0;94m 53.5%[0m of  238.40MiB at [0;32m   4.63MiB/s[0m ETA [0;33m00:23[0m
+2025-11-23 03:03:03,735 - yt-dlp - DEBUG - [download] [0;94m 53.9%[0m of  238.40MiB at [0;32m   5.87MiB/s[0m ETA [0;33m00:18[0m
+2025-11-23 03:03:03,735 - yt-dlp - DEBUG - [download] [0;94m 53.9%[0m of  238.40MiB at [0;32m   5.87MiB/s[0m ETA [0;33m00:18[0m
+2025-11-23 03:03:03,983 - yt-dlp - DEBUG - [download] [0;94m 54.7%[0m of  238.40MiB at [0;32m   6.79MiB/s[0m ETA [0;33m00:15[0m
+2025-11-23 03:03:03,983 - yt-dlp - DEBUG - [download] [0;94m 54.7%[0m of  238.40MiB at [0;32m   6.79MiB/s[0m ETA [0;33m00:15[0m
+2025-11-23 03:03:04,481 - yt-dlp - DEBUG - [download] [0;94m 56.4%[0m of  238.40MiB at [0;32m   7.36MiB/s[0m ETA [0;33m00:14[0m
+2025-11-23 03:03:04,481 - yt-dlp - DEBUG - [download] [0;94m 56.4%[0m of  238.40MiB at [0;32m   7.36MiB/s[0m ETA [0;33m00:14[0m
+2025-11-23 03:03:04,685 - yt-dlp - DEBUG - [download] [0;94m 57.1%[0m of  238.40MiB at [0;32m   7.48MiB/s[0m ETA [0;33m00:13[0m
+2025-11-23 03:03:04,685 - yt-dlp - DEBUG - [download] [0;94m 57.1%[0m of  238.40MiB at [0;32m   7.48MiB/s[0m ETA [0;33m00:13[0m
+2025-11-23 03:03:04,703 - yt-dlp - DEBUG - [download] [0;94m 57.1%[0m of  238.40MiB at [0;32m 685.12KiB/s[0m ETA [0;33m02:33[0m
+2025-11-23 03:03:04,703 - yt-dlp - DEBUG - [download] [0;94m 57.1%[0m of  238.40MiB at [0;32m 685.12KiB/s[0m ETA [0;33m02:33[0m
+2025-11-23 03:03:04,717 - yt-dlp - DEBUG - [download] [0;94m 57.1%[0m of  238.40MiB at [0;32m 196.66KiB/s[0m ETA [0;33m08:52[0m
+2025-11-23 03:03:04,717 - yt-dlp - DEBUG - [download] [0;94m 57.1%[0m of  238.40MiB at [0;32m 196.66KiB/s[0m ETA [0;33m08:52[0m
+2025-11-23 03:03:04,734 - yt-dlp - DEBUG - [download] [0;94m 57.1%[0m of  238.40MiB at [0;32m 218.43KiB/s[0m ETA [0;33m07:59[0m
+2025-11-23 03:03:04,734 - yt-dlp - DEBUG - [download] [0;94m 57.1%[0m of  238.40MiB at [0;32m 218.43KiB/s[0m ETA [0;33m07:59[0m
+2025-11-23 03:03:04,747 - yt-dlp - DEBUG - [download] [0;94m 57.1%[0m of  238.40MiB at [0;32m 332.62KiB/s[0m ETA [0;33m05:14[0m
+2025-11-23 03:03:04,747 - yt-dlp - DEBUG - [download] [0;94m 57.1%[0m of  238.40MiB at [0;32m 332.62KiB/s[0m ETA [0;33m05:14[0m
+2025-11-23 03:03:04,773 - yt-dlp - DEBUG - [download] [0;94m 57.1%[0m of  238.40MiB at [0;32m 432.47KiB/s[0m ETA [0;33m04:02[0m
+2025-11-23 03:03:04,773 - yt-dlp - DEBUG - [download] [0;94m 57.1%[0m of  238.40MiB at [0;32m 432.47KiB/s[0m ETA [0;33m04:02[0m
+2025-11-23 03:03:04,793 - yt-dlp - DEBUG - [download] [0;94m 57.1%[0m of  238.40MiB at [0;32m 691.02KiB/s[0m ETA [0;33m02:31[0m
+2025-11-23 03:03:04,793 - yt-dlp - DEBUG - [download] [0;94m 57.1%[0m of  238.40MiB at [0;32m 691.02KiB/s[0m ETA [0;33m02:31[0m
+2025-11-23 03:03:04,797 - yt-dlp - DEBUG - [download] [0;94m 57.2%[0m of  238.40MiB at [0;32m   1.30MiB/s[0m ETA [0;33m01:18[0m
+2025-11-23 03:03:04,797 - yt-dlp - DEBUG - [download] [0;94m 57.2%[0m of  238.40MiB at [0;32m   1.30MiB/s[0m ETA [0;33m01:18[0m
+2025-11-23 03:03:04,814 - yt-dlp - DEBUG - [download] [0;94m 57.2%[0m of  238.40MiB at [0;32m   2.21MiB/s[0m ETA [0;33m00:46[0m
+2025-11-23 03:03:04,814 - yt-dlp - DEBUG - [download] [0;94m 57.2%[0m of  238.40MiB at [0;32m   2.21MiB/s[0m ETA [0;33m00:46[0m
+2025-11-23 03:03:04,840 - yt-dlp - DEBUG - [download] [0;94m 57.3%[0m of  238.40MiB at [0;32m   3.61MiB/s[0m ETA [0;33m00:28[0m
+2025-11-23 03:03:04,840 - yt-dlp - DEBUG - [download] [0;94m 57.3%[0m of  238.40MiB at [0;32m   3.61MiB/s[0m ETA [0;33m00:28[0m
+2025-11-23 03:03:04,902 - yt-dlp - DEBUG - [download] [0;94m 57.5%[0m of  238.40MiB at [0;32m   4.99MiB/s[0m ETA [0;33m00:20[0m
+2025-11-23 03:03:04,902 - yt-dlp - DEBUG - [download] [0;94m 57.5%[0m of  238.40MiB at [0;32m   4.99MiB/s[0m ETA [0;33m00:20[0m
+2025-11-23 03:03:05,028 - yt-dlp - DEBUG - [download] [0;94m 57.9%[0m of  238.40MiB at [0;32m   6.12MiB/s[0m ETA [0;33m00:16[0m
+2025-11-23 03:03:05,028 - yt-dlp - DEBUG - [download] [0;94m 57.9%[0m of  238.40MiB at [0;32m   6.12MiB/s[0m ETA [0;33m00:16[0m
+2025-11-23 03:03:05,277 - yt-dlp - DEBUG - [download] [0;94m 58.8%[0m of  238.40MiB at [0;32m   6.95MiB/s[0m ETA [0;33m00:14[0m
+2025-11-23 03:03:05,277 - yt-dlp - DEBUG - [download] [0;94m 58.8%[0m of  238.40MiB at [0;32m   6.95MiB/s[0m ETA [0;33m00:14[0m
+2025-11-23 03:03:05,931 - yt-dlp - DEBUG - [download] [0;94m 60.5%[0m of  238.40MiB at [0;32m   6.51MiB/s[0m ETA [0;33m00:14[0m
+2025-11-23 03:03:05,931 - yt-dlp - DEBUG - [download] [0;94m 60.5%[0m of  238.40MiB at [0;32m   6.51MiB/s[0m ETA [0;33m00:14[0m
+2025-11-23 03:03:06,137 - yt-dlp - DEBUG - [download] [0;94m 61.2%[0m of  238.40MiB at [0;32m   6.74MiB/s[0m ETA [0;33m00:13[0m
+2025-11-23 03:03:06,137 - yt-dlp - DEBUG - [download] [0;94m 61.2%[0m of  238.40MiB at [0;32m   6.74MiB/s[0m ETA [0;33m00:13[0m
+2025-11-23 03:03:06,203 - yt-dlp - DEBUG - [download] [0;94m 61.2%[0m of  238.40MiB at [0;32m 680.89KiB/s[0m ETA [0;33m02:19[0m
+2025-11-23 03:03:06,203 - yt-dlp - DEBUG - [download] [0;94m 61.2%[0m of  238.40MiB at [0;32m 680.89KiB/s[0m ETA [0;33m02:19[0m
+2025-11-23 03:03:06,204 - yt-dlp - DEBUG - [download] [0;94m 61.2%[0m of  238.40MiB at [0;32m   1.09MiB/s[0m ETA [0;33m01:25[0m
+2025-11-23 03:03:06,204 - yt-dlp - DEBUG - [download] [0;94m 61.2%[0m of  238.40MiB at [0;32m   1.09MiB/s[0m ETA [0;33m01:25[0m
+2025-11-23 03:03:06,209 - yt-dlp - DEBUG - [download] [0;94m 61.2%[0m of  238.40MiB at [0;32m 971.67KiB/s[0m ETA [0;33m01:37[0m
+2025-11-23 03:03:06,209 - yt-dlp - DEBUG - [download] [0;94m 61.2%[0m of  238.40MiB at [0;32m 971.67KiB/s[0m ETA [0;33m01:37[0m
+2025-11-23 03:03:06,222 - yt-dlp - DEBUG - [download] [0;94m 61.2%[0m of  238.40MiB at [0;32m 728.89KiB/s[0m ETA [0;33m02:10[0m
+2025-11-23 03:03:06,222 - yt-dlp - DEBUG - [download] [0;94m 61.2%[0m of  238.40MiB at [0;32m 728.89KiB/s[0m ETA [0;33m02:10[0m
+2025-11-23 03:03:06,224 - yt-dlp - DEBUG - [download] [0;94m 61.2%[0m of  238.40MiB at [0;32m   1.34MiB/s[0m ETA [0;33m01:09[0m
+2025-11-23 03:03:06,224 - yt-dlp - DEBUG - [download] [0;94m 61.2%[0m of  238.40MiB at [0;32m   1.34MiB/s[0m ETA [0;33m01:09[0m
+2025-11-23 03:03:06,226 - yt-dlp - DEBUG - [download] [0;94m 61.2%[0m of  238.40MiB at [0;32m   2.57MiB/s[0m ETA [0;33m00:36[0m
+2025-11-23 03:03:06,226 - yt-dlp - DEBUG - [download] [0;94m 61.2%[0m of  238.40MiB at [0;32m   2.57MiB/s[0m ETA [0;33m00:36[0m
+2025-11-23 03:03:06,255 - yt-dlp - DEBUG - [download] [0;94m 61.2%[0m of  238.40MiB at [0;32m   2.32MiB/s[0m ETA [0;33m00:39[0m
+2025-11-23 03:03:06,255 - yt-dlp - DEBUG - [download] [0;94m 61.2%[0m of  238.40MiB at [0;32m   2.32MiB/s[0m ETA [0;33m00:39[0m
+2025-11-23 03:03:06,271 - yt-dlp - DEBUG - [download] [0;94m 61.3%[0m of  238.40MiB at [0;32m   3.62MiB/s[0m ETA [0;33m00:25[0m
+2025-11-23 03:03:06,271 - yt-dlp - DEBUG - [download] [0;94m 61.3%[0m of  238.40MiB at [0;32m   3.62MiB/s[0m ETA [0;33m00:25[0m
+2025-11-23 03:03:06,298 - yt-dlp - DEBUG - [download] [0;94m 61.4%[0m of  238.40MiB at [0;32m   5.19MiB/s[0m ETA [0;33m00:17[0m
+2025-11-23 03:03:06,298 - yt-dlp - DEBUG - [download] [0;94m 61.4%[0m of  238.40MiB at [0;32m   5.19MiB/s[0m ETA [0;33m00:17[0m
+2025-11-23 03:03:06,360 - yt-dlp - DEBUG - [download] [0;94m 61.6%[0m of  238.40MiB at [0;32m   6.31MiB/s[0m ETA [0;33m00:14[0m
+2025-11-23 03:03:06,360 - yt-dlp - DEBUG - [download] [0;94m 61.6%[0m of  238.40MiB at [0;32m   6.31MiB/s[0m ETA [0;33m00:14[0m
+2025-11-23 03:03:06,485 - yt-dlp - DEBUG - [download] [0;94m 62.0%[0m of  238.40MiB at [0;32m   7.07MiB/s[0m ETA [0;33m00:12[0m
+2025-11-23 03:03:06,485 - yt-dlp - DEBUG - [download] [0;94m 62.0%[0m of  238.40MiB at [0;32m   7.07MiB/s[0m ETA [0;33m00:12[0m
+2025-11-23 03:03:06,733 - yt-dlp - DEBUG - [download] [0;94m 62.8%[0m of  238.40MiB at [0;32m   7.53MiB/s[0m ETA [0;33m00:11[0m
+2025-11-23 03:03:06,733 - yt-dlp - DEBUG - [download] [0;94m 62.8%[0m of  238.40MiB at [0;32m   7.53MiB/s[0m ETA [0;33m00:11[0m
+2025-11-23 03:03:07,231 - yt-dlp - DEBUG - [download] [0;94m 64.5%[0m of  238.40MiB at [0;32m   7.77MiB/s[0m ETA [0;33m00:10[0m
+2025-11-23 03:03:07,231 - yt-dlp - DEBUG - [download] [0;94m 64.5%[0m of  238.40MiB at [0;32m   7.77MiB/s[0m ETA [0;33m00:10[0m
+2025-11-23 03:03:07,530 - yt-dlp - DEBUG - [download] [0;94m 65.2%[0m of  238.40MiB at [0;32m   7.17MiB/s[0m ETA [0;33m00:11[0m
+2025-11-23 03:03:07,530 - yt-dlp - DEBUG - [download] [0;94m 65.2%[0m of  238.40MiB at [0;32m   7.17MiB/s[0m ETA [0;33m00:11[0m
+2025-11-23 03:03:07,648 - yt-dlp - DEBUG - [download] [0;94m 65.2%[0m of  238.40MiB at [0;32m 721.17KiB/s[0m ETA [0;33m01:58[0m
+2025-11-23 03:03:07,648 - yt-dlp - DEBUG - [download] [0;94m 65.2%[0m of  238.40MiB at [0;32m 721.17KiB/s[0m ETA [0;33m01:58[0m
+2025-11-23 03:03:07,651 - yt-dlp - DEBUG - [download] [0;94m 65.2%[0m of  238.40MiB at [0;32m 674.40KiB/s[0m ETA [0;33m02:06[0m
+2025-11-23 03:03:07,651 - yt-dlp - DEBUG - [download] [0;94m 65.2%[0m of  238.40MiB at [0;32m 674.40KiB/s[0m ETA [0;33m02:06[0m
+2025-11-23 03:03:07,658 - yt-dlp - DEBUG - [download] [0;94m 65.2%[0m of  238.40MiB at [0;32m 615.12KiB/s[0m ETA [0;33m02:18[0m
+2025-11-23 03:03:07,658 - yt-dlp - DEBUG - [download] [0;94m 65.2%[0m of  238.40MiB at [0;32m 615.12KiB/s[0m ETA [0;33m02:18[0m
+2025-11-23 03:03:07,676 - yt-dlp - DEBUG - [download] [0;94m 65.2%[0m of  238.40MiB at [0;32m 503.29KiB/s[0m ETA [0;33m02:49[0m
+2025-11-23 03:03:07,676 - yt-dlp - DEBUG - [download] [0;94m 65.2%[0m of  238.40MiB at [0;32m 503.29KiB/s[0m ETA [0;33m02:49[0m
+2025-11-23 03:03:07,686 - yt-dlp - DEBUG - [download] [0;94m 65.2%[0m of  238.40MiB at [0;32m 779.51KiB/s[0m ETA [0;33m01:49[0m
+2025-11-23 03:03:07,686 - yt-dlp - DEBUG - [download] [0;94m 65.2%[0m of  238.40MiB at [0;32m 779.51KiB/s[0m ETA [0;33m01:49[0m
+2025-11-23 03:03:07,706 - yt-dlp - DEBUG - [download] [0;94m 65.2%[0m of  238.40MiB at [0;32m   1.03MiB/s[0m ETA [0;33m01:20[0m
+2025-11-23 03:03:07,706 - yt-dlp - DEBUG - [download] [0;94m 65.2%[0m of  238.40MiB at [0;32m   1.03MiB/s[0m ETA [0;33m01:20[0m
+2025-11-23 03:03:07,722 - yt-dlp - DEBUG - [download] [0;94m 65.2%[0m of  238.40MiB at [0;32m   1.64MiB/s[0m ETA [0;33m00:50[0m
+2025-11-23 03:03:07,722 - yt-dlp - DEBUG - [download] [0;94m 65.2%[0m of  238.40MiB at [0;32m   1.64MiB/s[0m ETA [0;33m00:50[0m
+2025-11-23 03:03:07,725 - yt-dlp - DEBUG - [download] [0;94m 65.3%[0m of  238.40MiB at [0;32m   3.18MiB/s[0m ETA [0;33m00:26[0m
+2025-11-23 03:03:07,725 - yt-dlp - DEBUG - [download] [0;94m 65.3%[0m of  238.40MiB at [0;32m   3.18MiB/s[0m ETA [0;33m00:26[0m
+2025-11-23 03:03:07,772 - yt-dlp - DEBUG - [download] [0;94m 65.4%[0m of  238.40MiB at [0;32m   3.98MiB/s[0m ETA [0;33m00:20[0m
+2025-11-23 03:03:07,772 - yt-dlp - DEBUG - [download] [0;94m 65.4%[0m of  238.40MiB at [0;32m   3.98MiB/s[0m ETA [0;33m00:20[0m
+2025-11-23 03:03:07,835 - yt-dlp - DEBUG - [download] [0;94m 65.6%[0m of  238.40MiB at [0;32m   5.31MiB/s[0m ETA [0;33m00:15[0m
+2025-11-23 03:03:07,835 - yt-dlp - DEBUG - [download] [0;94m 65.6%[0m of  238.40MiB at [0;32m   5.31MiB/s[0m ETA [0;33m00:15[0m
+2025-11-23 03:03:07,959 - yt-dlp - DEBUG - [download] [0;94m 66.0%[0m of  238.40MiB at [0;32m   6.40MiB/s[0m ETA [0;33m00:12[0m
+2025-11-23 03:03:07,959 - yt-dlp - DEBUG - [download] [0;94m 66.0%[0m of  238.40MiB at [0;32m   6.40MiB/s[0m ETA [0;33m00:12[0m
+2025-11-23 03:03:08,207 - yt-dlp - DEBUG - [download] [0;94m 66.8%[0m of  238.40MiB at [0;32m   7.13MiB/s[0m ETA [0;33m00:11[0m
+2025-11-23 03:03:08,207 - yt-dlp - DEBUG - [download] [0;94m 66.8%[0m of  238.40MiB at [0;32m   7.13MiB/s[0m ETA [0;33m00:11[0m
+2025-11-23 03:03:08,704 - yt-dlp - DEBUG - [download] [0;94m 68.5%[0m of  238.40MiB at [0;32m   7.56MiB/s[0m ETA [0;33m00:09[0m
+2025-11-23 03:03:08,704 - yt-dlp - DEBUG - [download] [0;94m 68.5%[0m of  238.40MiB at [0;32m   7.56MiB/s[0m ETA [0;33m00:09[0m
+2025-11-23 03:03:08,924 - yt-dlp - DEBUG - [download] [0;94m 69.3%[0m of  238.40MiB at [0;32m   7.66MiB/s[0m ETA [0;33m00:09[0m
+2025-11-23 03:03:08,924 - yt-dlp - DEBUG - [download] [0;94m 69.3%[0m of  238.40MiB at [0;32m   7.66MiB/s[0m ETA [0;33m00:09[0m
+2025-11-23 03:03:08,984 - yt-dlp - DEBUG - [download] [0;94m 69.3%[0m of  238.40MiB at [0;32m 627.51KiB/s[0m ETA [0;33m02:00[0m
+2025-11-23 03:03:08,984 - yt-dlp - DEBUG - [download] [0;94m 69.3%[0m of  238.40MiB at [0;32m 627.51KiB/s[0m ETA [0;33m02:00[0m
+2025-11-23 03:03:08,985 - yt-dlp - DEBUG - [download] [0;94m 69.3%[0m of  238.40MiB at [0;32m   1.07MiB/s[0m ETA [0;33m01:08[0m
+2025-11-23 03:03:08,985 - yt-dlp - DEBUG - [download] [0;94m 69.3%[0m of  238.40MiB at [0;32m   1.07MiB/s[0m ETA [0;33m01:08[0m
+2025-11-23 03:03:09,005 - yt-dlp - DEBUG - [download] [0;94m 69.3%[0m of  238.40MiB at [0;32m 306.06KiB/s[0m ETA [0;33m04:05[0m
+2025-11-23 03:03:09,005 - yt-dlp - DEBUG - [download] [0;94m 69.3%[0m of  238.40MiB at [0;32m 306.06KiB/s[0m ETA [0;33m04:05[0m
+2025-11-23 03:03:09,024 - yt-dlp - DEBUG - [download] [0;94m 69.3%[0m of  238.40MiB at [0;32m 357.71KiB/s[0m ETA [0;33m03:29[0m
+2025-11-23 03:03:09,024 - yt-dlp - DEBUG - [download] [0;94m 69.3%[0m of  238.40MiB at [0;32m 357.71KiB/s[0m ETA [0;33m03:29[0m
+2025-11-23 03:03:09,026 - yt-dlp - DEBUG - [download] [0;94m 69.3%[0m of  238.40MiB at [0;32m 701.92KiB/s[0m ETA [0;33m01:46[0m
+2025-11-23 03:03:09,026 - yt-dlp - DEBUG - [download] [0;94m 69.3%[0m of  238.40MiB at [0;32m 701.92KiB/s[0m ETA [0;33m01:46[0m
+2025-11-23 03:03:09,040 - yt-dlp - DEBUG - [download] [0;94m 69.3%[0m of  238.40MiB at [0;32m   1.06MiB/s[0m ETA [0;33m01:09[0m
+2025-11-23 03:03:09,040 - yt-dlp - DEBUG - [download] [0;94m 69.3%[0m of  238.40MiB at [0;32m   1.06MiB/s[0m ETA [0;33m01:09[0m
+2025-11-23 03:03:09,042 - yt-dlp - DEBUG - [download] [0;94m 69.3%[0m of  238.40MiB at [0;32m   2.08MiB/s[0m ETA [0;33m00:35[0m
+2025-11-23 03:03:09,042 - yt-dlp - DEBUG - [download] [0;94m 69.3%[0m of  238.40MiB at [0;32m   2.08MiB/s[0m ETA [0;33m00:35[0m
+2025-11-23 03:03:09,072 - yt-dlp - DEBUG - [download] [0;94m 69.4%[0m of  238.40MiB at [0;32m   2.78MiB/s[0m ETA [0;33m00:26[0m
+2025-11-23 03:03:09,072 - yt-dlp - DEBUG - [download] [0;94m 69.4%[0m of  238.40MiB at [0;32m   2.78MiB/s[0m ETA [0;33m00:26[0m
+2025-11-23 03:03:09,101 - yt-dlp - DEBUG - [download] [0;94m 69.5%[0m of  238.40MiB at [0;32m   4.20MiB/s[0m ETA [0;33m00:17[0m
+2025-11-23 03:03:09,101 - yt-dlp - DEBUG - [download] [0;94m 69.5%[0m of  238.40MiB at [0;32m   4.20MiB/s[0m ETA [0;33m00:17[0m
+2025-11-23 03:03:09,164 - yt-dlp - DEBUG - [download] [0;94m 69.7%[0m of  238.40MiB at [0;32m   5.51MiB/s[0m ETA [0;33m00:13[0m
+2025-11-23 03:03:09,164 - yt-dlp - DEBUG - [download] [0;94m 69.7%[0m of  238.40MiB at [0;32m   5.51MiB/s[0m ETA [0;33m00:13[0m
+2025-11-23 03:03:09,288 - yt-dlp - DEBUG - [download] [0;94m 70.1%[0m of  238.40MiB at [0;32m   6.54MiB/s[0m ETA [0;33m00:10[0m
+2025-11-23 03:03:09,288 - yt-dlp - DEBUG - [download] [0;94m 70.1%[0m of  238.40MiB at [0;32m   6.54MiB/s[0m ETA [0;33m00:10[0m
+2025-11-23 03:03:09,677 - yt-dlp - DEBUG - [download] [0;94m 70.9%[0m of  238.40MiB at [0;32m   5.76MiB/s[0m ETA [0;33m00:12[0m
+2025-11-23 03:03:09,677 - yt-dlp - DEBUG - [download] [0;94m 70.9%[0m of  238.40MiB at [0;32m   5.76MiB/s[0m ETA [0;33m00:12[0m
+2025-11-23 03:03:10,175 - yt-dlp - DEBUG - [download] [0;94m 72.6%[0m of  238.40MiB at [0;32m   6.71MiB/s[0m ETA [0;33m00:09[0m
+2025-11-23 03:03:10,175 - yt-dlp - DEBUG - [download] [0;94m 72.6%[0m of  238.40MiB at [0;32m   6.71MiB/s[0m ETA [0;33m00:09[0m
+2025-11-23 03:03:10,417 - yt-dlp - DEBUG - [download] [0;94m 73.4%[0m of  238.40MiB at [0;32m   6.94MiB/s[0m ETA [0;33m00:09[0m
+2025-11-23 03:03:10,417 - yt-dlp - DEBUG - [download] [0;94m 73.4%[0m of  238.40MiB at [0;32m   6.94MiB/s[0m ETA [0;33m00:09[0m
+2025-11-23 03:03:10,472 - yt-dlp - DEBUG - [download] [0;94m 73.4%[0m of  238.40MiB at [0;32m 725.41KiB/s[0m ETA [0;33m01:29[0m
+2025-11-23 03:03:10,472 - yt-dlp - DEBUG - [download] [0;94m 73.4%[0m of  238.40MiB at [0;32m 725.41KiB/s[0m ETA [0;33m01:29[0m
+2025-11-23 03:03:10,473 - yt-dlp - DEBUG - [download] [0;94m 73.4%[0m of  238.40MiB at [0;32m   1.17MiB/s[0m ETA [0;33m00:54[0m
+2025-11-23 03:03:10,473 - yt-dlp - DEBUG - [download] [0;94m 73.4%[0m of  238.40MiB at [0;32m   1.17MiB/s[0m ETA [0;33m00:54[0m
+2025-11-23 03:03:10,489 - yt-dlp - DEBUG - [download] [0;94m 73.4%[0m of  238.40MiB at [0;32m 394.12KiB/s[0m ETA [0;33m02:44[0m
+2025-11-23 03:03:10,489 - yt-dlp - DEBUG - [download] [0;94m 73.4%[0m of  238.40MiB at [0;32m 394.12KiB/s[0m ETA [0;33m02:44[0m
+2025-11-23 03:03:10,508 - yt-dlp - DEBUG - [download] [0;94m 73.4%[0m of  238.40MiB at [0;32m 400.88KiB/s[0m ETA [0;33m02:41[0m
+2025-11-23 03:03:10,508 - yt-dlp - DEBUG - [download] [0;94m 73.4%[0m of  238.40MiB at [0;32m 400.88KiB/s[0m ETA [0;33m02:41[0m
+2025-11-23 03:03:10,516 - yt-dlp - DEBUG - [download] [0;94m 73.4%[0m of  238.40MiB at [0;32m 682.91KiB/s[0m ETA [0;33m01:34[0m
+2025-11-23 03:03:10,516 - yt-dlp - DEBUG - [download] [0;94m 73.4%[0m of  238.40MiB at [0;32m 682.91KiB/s[0m ETA [0;33m01:34[0m
+2025-11-23 03:03:10,540 - yt-dlp - DEBUG - [download] [0;94m 73.5%[0m of  238.40MiB at [0;32m 908.13KiB/s[0m ETA [0;33m01:11[0m
+2025-11-23 03:03:10,540 - yt-dlp - DEBUG - [download] [0;94m 73.5%[0m of  238.40MiB at [0;32m 908.13KiB/s[0m ETA [0;33m01:11[0m
+2025-11-23 03:03:10,556 - yt-dlp - DEBUG - [download] [0;94m 73.5%[0m of  238.40MiB at [0;32m   1.46MiB/s[0m ETA [0;33m00:43[0m
+2025-11-23 03:03:10,556 - yt-dlp - DEBUG - [download] [0;94m 73.5%[0m of  238.40MiB at [0;32m   1.46MiB/s[0m ETA [0;33m00:43[0m
+2025-11-23 03:03:10,558 - yt-dlp - DEBUG - [download] [0;94m 73.5%[0m of  238.40MiB at [0;32m   2.86MiB/s[0m ETA [0;33m00:22[0m
+2025-11-23 03:03:10,558 - yt-dlp - DEBUG - [download] [0;94m 73.5%[0m of  238.40MiB at [0;32m   2.86MiB/s[0m ETA [0;33m00:22[0m
+2025-11-23 03:03:10,599 - yt-dlp - DEBUG - [download] [0;94m 73.6%[0m of  238.40MiB at [0;32m   3.90MiB/s[0m ETA [0;33m00:16[0m
+2025-11-23 03:03:10,599 - yt-dlp - DEBUG - [download] [0;94m 73.6%[0m of  238.40MiB at [0;32m   3.90MiB/s[0m ETA [0;33m00:16[0m
+2025-11-23 03:03:10,662 - yt-dlp - DEBUG - [download] [0;94m 73.9%[0m of  238.40MiB at [0;32m   5.23MiB/s[0m ETA [0;33m00:11[0m
+2025-11-23 03:03:10,662 - yt-dlp - DEBUG - [download] [0;94m 73.9%[0m of  238.40MiB at [0;32m   5.23MiB/s[0m ETA [0;33m00:11[0m
+2025-11-23 03:03:10,786 - yt-dlp - DEBUG - [download] [0;94m 74.3%[0m of  238.40MiB at [0;32m   6.34MiB/s[0m ETA [0;33m00:09[0m
+2025-11-23 03:03:10,786 - yt-dlp - DEBUG - [download] [0;94m 74.3%[0m of  238.40MiB at [0;32m   6.34MiB/s[0m ETA [0;33m00:09[0m
+2025-11-23 03:03:11,035 - yt-dlp - DEBUG - [download] [0;94m 75.1%[0m of  238.40MiB at [0;32m   7.09MiB/s[0m ETA [0;33m00:08[0m
+2025-11-23 03:03:11,035 - yt-dlp - DEBUG - [download] [0;94m 75.1%[0m of  238.40MiB at [0;32m   7.09MiB/s[0m ETA [0;33m00:08[0m
+2025-11-23 03:03:11,690 - yt-dlp - DEBUG - [download] [0;94m 76.8%[0m of  238.40MiB at [0;32m   6.56MiB/s[0m ETA [0;33m00:08[0m
+2025-11-23 03:03:11,690 - yt-dlp - DEBUG - [download] [0;94m 76.8%[0m of  238.40MiB at [0;32m   6.56MiB/s[0m ETA [0;33m00:08[0m
+2025-11-23 03:03:11,932 - yt-dlp - DEBUG - [download] [0;94m 77.6%[0m of  238.40MiB at [0;32m   6.82MiB/s[0m ETA [0;33m00:07[0m
+2025-11-23 03:03:11,932 - yt-dlp - DEBUG - [download] [0;94m 77.6%[0m of  238.40MiB at [0;32m   6.82MiB/s[0m ETA [0;33m00:07[0m
+2025-11-23 03:03:12,001 - yt-dlp - DEBUG - [download] [0;94m 77.6%[0m of  238.40MiB at [0;32m 504.97KiB/s[0m ETA [0;33m01:48[0m
+2025-11-23 03:03:12,001 - yt-dlp - DEBUG - [download] [0;94m 77.6%[0m of  238.40MiB at [0;32m 504.97KiB/s[0m ETA [0;33m01:48[0m
+2025-11-23 03:03:12,002 - yt-dlp - DEBUG - [download] [0;94m 77.6%[0m of  238.40MiB at [0;32m 882.02KiB/s[0m ETA [0;33m01:02[0m
+2025-11-23 03:03:12,002 - yt-dlp - DEBUG - [download] [0;94m 77.6%[0m of  238.40MiB at [0;32m 882.02KiB/s[0m ETA [0;33m01:02[0m
+2025-11-23 03:03:12,005 - yt-dlp - DEBUG - [download] [0;94m 77.6%[0m of  238.40MiB at [0;32m   1.03MiB/s[0m ETA [0;33m00:51[0m
+2025-11-23 03:03:12,005 - yt-dlp - DEBUG - [download] [0;94m 77.6%[0m of  238.40MiB at [0;32m   1.03MiB/s[0m ETA [0;33m00:51[0m
+2025-11-23 03:03:12,044 - yt-dlp - DEBUG - [download] [0;94m 77.6%[0m of  238.40MiB at [0;32m 330.87KiB/s[0m ETA [0;33m02:45[0m
+2025-11-23 03:03:12,044 - yt-dlp - DEBUG - [download] [0;94m 77.6%[0m of  238.40MiB at [0;32m 330.87KiB/s[0m ETA [0;33m02:45[0m
+2025-11-23 03:03:12,050 - yt-dlp - DEBUG - [download] [0;94m 77.6%[0m of  238.40MiB at [0;32m 600.94KiB/s[0m ETA [0;33m01:30[0m
+2025-11-23 03:03:12,050 - yt-dlp - DEBUG - [download] [0;94m 77.6%[0m of  238.40MiB at [0;32m 600.94KiB/s[0m ETA [0;33m01:30[0m
+2025-11-23 03:03:12,071 - yt-dlp - DEBUG - [download] [0;94m 77.6%[0m of  238.40MiB at [0;32m 864.23KiB/s[0m ETA [0;33m01:03[0m
+2025-11-23 03:03:12,071 - yt-dlp - DEBUG - [download] [0;94m 77.6%[0m of  238.40MiB at [0;32m 864.23KiB/s[0m ETA [0;33m01:03[0m
+2025-11-23 03:03:12,090 - yt-dlp - DEBUG - [download] [0;94m 77.7%[0m of  238.40MiB at [0;32m   1.36MiB/s[0m ETA [0;33m00:39[0m
+2025-11-23 03:03:12,090 - yt-dlp - DEBUG - [download] [0;94m 77.7%[0m of  238.40MiB at [0;32m   1.36MiB/s[0m ETA [0;33m00:39[0m
+2025-11-23 03:03:12,093 - yt-dlp - DEBUG - [download] [0;94m 77.7%[0m of  238.40MiB at [0;32m   2.65MiB/s[0m ETA [0;33m00:20[0m
+2025-11-23 03:03:12,093 - yt-dlp - DEBUG - [download] [0;94m 77.7%[0m of  238.40MiB at [0;32m   2.65MiB/s[0m ETA [0;33m00:20[0m
+2025-11-23 03:03:12,135 - yt-dlp - DEBUG - [download] [0;94m 77.8%[0m of  238.40MiB at [0;32m   3.65MiB/s[0m ETA [0;33m00:14[0m
+2025-11-23 03:03:12,135 - yt-dlp - DEBUG - [download] [0;94m 77.8%[0m of  238.40MiB at [0;32m   3.65MiB/s[0m ETA [0;33m00:14[0m
+2025-11-23 03:03:12,199 - yt-dlp - DEBUG - [download] [0;94m 78.0%[0m of  238.40MiB at [0;32m   4.99MiB/s[0m ETA [0;33m00:10[0m
+2025-11-23 03:03:12,199 - yt-dlp - DEBUG - [download] [0;94m 78.0%[0m of  238.40MiB at [0;32m   4.99MiB/s[0m ETA [0;33m00:10[0m
+2025-11-23 03:03:12,323 - yt-dlp - DEBUG - [download] [0;94m 78.5%[0m of  238.40MiB at [0;32m   6.16MiB/s[0m ETA [0;33m00:08[0m
+2025-11-23 03:03:12,323 - yt-dlp - DEBUG - [download] [0;94m 78.5%[0m of  238.40MiB at [0;32m   6.16MiB/s[0m ETA [0;33m00:08[0m
+2025-11-23 03:03:12,572 - yt-dlp - DEBUG - [download] [0;94m 79.3%[0m of  238.40MiB at [0;32m   6.98MiB/s[0m ETA [0;33m00:07[0m
+2025-11-23 03:03:12,572 - yt-dlp - DEBUG - [download] [0;94m 79.3%[0m of  238.40MiB at [0;32m   6.98MiB/s[0m ETA [0;33m00:07[0m
+2025-11-23 03:03:13,069 - yt-dlp - DEBUG - [download] [0;94m 81.0%[0m of  238.40MiB at [0;32m   7.47MiB/s[0m ETA [0;33m00:06[0m
+2025-11-23 03:03:13,069 - yt-dlp - DEBUG - [download] [0;94m 81.0%[0m of  238.40MiB at [0;32m   7.47MiB/s[0m ETA [0;33m00:06[0m
+2025-11-23 03:03:13,285 - yt-dlp - DEBUG - [download] [0;94m 81.7%[0m of  238.40MiB at [0;32m   7.58MiB/s[0m ETA [0;33m00:05[0m
+2025-11-23 03:03:13,285 - yt-dlp - DEBUG - [download] [0;94m 81.7%[0m of  238.40MiB at [0;32m   7.58MiB/s[0m ETA [0;33m00:05[0m
+2025-11-23 03:03:13,319 - yt-dlp - DEBUG - [download] [0;94m 81.7%[0m of  238.40MiB at [0;32m 697.08KiB/s[0m ETA [0;33m01:04[0m
+2025-11-23 03:03:13,319 - yt-dlp - DEBUG - [download] [0;94m 81.7%[0m of  238.40MiB at [0;32m 697.08KiB/s[0m ETA [0;33m01:04[0m
+2025-11-23 03:03:13,320 - yt-dlp - DEBUG - [download] [0;94m 81.7%[0m of  238.40MiB at [0;32m   1.15MiB/s[0m ETA [0;33m00:38[0m
+2025-11-23 03:03:13,320 - yt-dlp - DEBUG - [download] [0;94m 81.7%[0m of  238.40MiB at [0;32m   1.15MiB/s[0m ETA [0;33m00:38[0m
+2025-11-23 03:03:13,333 - yt-dlp - DEBUG - [download] [0;94m 81.7%[0m of  238.40MiB at [0;32m 461.51KiB/s[0m ETA [0;33m01:36[0m
+2025-11-23 03:03:13,333 - yt-dlp - DEBUG - [download] [0;94m 81.7%[0m of  238.40MiB at [0;32m 461.51KiB/s[0m ETA [0;33m01:36[0m
+2025-11-23 03:03:13,342 - yt-dlp - DEBUG - [download] [0;94m 81.7%[0m of  238.40MiB at [0;32m 631.60KiB/s[0m ETA [0;33m01:10[0m
+2025-11-23 03:03:13,342 - yt-dlp - DEBUG - [download] [0;94m 81.7%[0m of  238.40MiB at [0;32m 631.60KiB/s[0m ETA [0;33m01:10[0m
+2025-11-23 03:03:13,363 - yt-dlp - DEBUG - [download] [0;94m 81.7%[0m of  238.40MiB at [0;32m 678.73KiB/s[0m ETA [0;33m01:05[0m
+2025-11-23 03:03:13,363 - yt-dlp - DEBUG - [download] [0;94m 81.7%[0m of  238.40MiB at [0;32m 678.73KiB/s[0m ETA [0;33m01:05[0m
+2025-11-23 03:03:13,398 - yt-dlp - DEBUG - [download] [0;94m 81.7%[0m of  238.40MiB at [0;32m 791.10KiB/s[0m ETA [0;33m00:56[0m
+2025-11-23 03:03:13,398 - yt-dlp - DEBUG - [download] [0;94m 81.7%[0m of  238.40MiB at [0;32m 791.10KiB/s[0m ETA [0;33m00:56[0m
+2025-11-23 03:03:13,417 - yt-dlp - DEBUG - [download] [0;94m 81.8%[0m of  238.40MiB at [0;32m   1.25MiB/s[0m ETA [0;33m00:34[0m
+2025-11-23 03:03:13,417 - yt-dlp - DEBUG - [download] [0;94m 81.8%[0m of  238.40MiB at [0;32m   1.25MiB/s[0m ETA [0;33m00:34[0m
+2025-11-23 03:03:13,433 - yt-dlp - DEBUG - [download] [0;94m 81.8%[0m of  238.40MiB at [0;32m   2.16MiB/s[0m ETA [0;33m00:20[0m
+2025-11-23 03:03:13,433 - yt-dlp - DEBUG - [download] [0;94m 81.8%[0m of  238.40MiB at [0;32m   2.16MiB/s[0m ETA [0;33m00:20[0m
+2025-11-23 03:03:13,461 - yt-dlp - DEBUG - [download] [0;94m 81.9%[0m of  238.40MiB at [0;32m   3.48MiB/s[0m ETA [0;33m00:12[0m
+2025-11-23 03:03:13,461 - yt-dlp - DEBUG - [download] [0;94m 81.9%[0m of  238.40MiB at [0;32m   3.48MiB/s[0m ETA [0;33m00:12[0m
+2025-11-23 03:03:13,531 - yt-dlp - DEBUG - [download] [0;94m 82.1%[0m of  238.40MiB at [0;32m   4.70MiB/s[0m ETA [0;33m00:09[0m
+2025-11-23 03:03:13,531 - yt-dlp - DEBUG - [download] [0;94m 82.1%[0m of  238.40MiB at [0;32m   4.70MiB/s[0m ETA [0;33m00:09[0m
+2025-11-23 03:03:13,677 - yt-dlp - DEBUG - [download] [0;94m 82.5%[0m of  238.40MiB at [0;32m   5.57MiB/s[0m ETA [0;33m00:07[0m
+2025-11-23 03:03:13,677 - yt-dlp - DEBUG - [download] [0;94m 82.5%[0m of  238.40MiB at [0;32m   5.57MiB/s[0m ETA [0;33m00:07[0m
+2025-11-23 03:03:13,938 - yt-dlp - DEBUG - [download] [0;94m 83.4%[0m of  238.40MiB at [0;32m   6.45MiB/s[0m ETA [0;33m00:06[0m
+2025-11-23 03:03:13,938 - yt-dlp - DEBUG - [download] [0;94m 83.4%[0m of  238.40MiB at [0;32m   6.45MiB/s[0m ETA [0;33m00:06[0m
+2025-11-23 03:03:14,587 - yt-dlp - DEBUG - [download] [0;94m 85.1%[0m of  238.40MiB at [0;32m   6.30MiB/s[0m ETA [0;33m00:05[0m
+2025-11-23 03:03:14,587 - yt-dlp - DEBUG - [download] [0;94m 85.1%[0m of  238.40MiB at [0;32m   6.30MiB/s[0m ETA [0;33m00:05[0m
+2025-11-23 03:03:14,828 - yt-dlp - DEBUG - [download] [0;94m 85.9%[0m of  238.40MiB at [0;32m   6.61MiB/s[0m ETA [0;33m00:05[0m
+2025-11-23 03:03:14,828 - yt-dlp - DEBUG - [download] [0;94m 85.9%[0m of  238.40MiB at [0;32m   6.61MiB/s[0m ETA [0;33m00:05[0m
+2025-11-23 03:03:14,868 - yt-dlp - DEBUG - [download] [0;94m 85.9%[0m of  238.40MiB at [0;32m 700.57KiB/s[0m ETA [0;33m00:49[0m
+2025-11-23 03:03:14,868 - yt-dlp - DEBUG - [download] [0;94m 85.9%[0m of  238.40MiB at [0;32m 700.57KiB/s[0m ETA [0;33m00:49[0m
+2025-11-23 03:03:14,870 - yt-dlp - DEBUG - [download] [0;94m 85.9%[0m of  238.40MiB at [0;32m 836.74KiB/s[0m ETA [0;33m00:41[0m
+2025-11-23 03:03:14,870 - yt-dlp - DEBUG - [download] [0;94m 85.9%[0m of  238.40MiB at [0;32m 836.74KiB/s[0m ETA [0;33m00:41[0m
+2025-11-23 03:03:14,894 - yt-dlp - DEBUG - [download] [0;94m 85.9%[0m of  238.40MiB at [0;32m 260.01KiB/s[0m ETA [0;33m02:12[0m
+2025-11-23 03:03:14,894 - yt-dlp - DEBUG - [download] [0;94m 85.9%[0m of  238.40MiB at [0;32m 260.01KiB/s[0m ETA [0;33m02:12[0m
+2025-11-23 03:03:14,912 - yt-dlp - DEBUG - [download] [0;94m 85.9%[0m of  238.40MiB at [0;32m 331.47KiB/s[0m ETA [0;33m01:43[0m
+2025-11-23 03:03:14,912 - yt-dlp - DEBUG - [download] [0;94m 85.9%[0m of  238.40MiB at [0;32m 331.47KiB/s[0m ETA [0;33m01:43[0m
+2025-11-23 03:03:14,947 - yt-dlp - DEBUG - [download] [0;94m 85.9%[0m of  238.40MiB at [0;32m 384.98KiB/s[0m ETA [0;33m01:29[0m
+2025-11-23 03:03:14,947 - yt-dlp - DEBUG - [download] [0;94m 85.9%[0m of  238.40MiB at [0;32m 384.98KiB/s[0m ETA [0;33m01:29[0m
+2025-11-23 03:03:14,969 - yt-dlp - DEBUG - [download] [0;94m 85.9%[0m of  238.40MiB at [0;32m 616.17KiB/s[0m ETA [0;33m00:55[0m
+2025-11-23 03:03:14,969 - yt-dlp - DEBUG - [download] [0;94m 85.9%[0m of  238.40MiB at [0;32m 616.17KiB/s[0m ETA [0;33m00:55[0m
+2025-11-23 03:03:14,978 - yt-dlp - DEBUG - [download] [0;94m 85.9%[0m of  238.40MiB at [0;32m   1.12MiB/s[0m ETA [0;33m00:30[0m
+2025-11-23 03:03:14,978 - yt-dlp - DEBUG - [download] [0;94m 85.9%[0m of  238.40MiB at [0;32m   1.12MiB/s[0m ETA [0;33m00:30[0m
+2025-11-23 03:03:15,000 - yt-dlp - DEBUG - [download] [0;94m 86.0%[0m of  238.40MiB at [0;32m   1.86MiB/s[0m ETA [0;33m00:17[0m
+2025-11-23 03:03:15,000 - yt-dlp - DEBUG - [download] [0;94m 86.0%[0m of  238.40MiB at [0;32m   1.86MiB/s[0m ETA [0;33m00:17[0m
+2025-11-23 03:03:15,028 - yt-dlp - DEBUG - [download] [0;94m 86.1%[0m of  238.40MiB at [0;32m   3.08MiB/s[0m ETA [0;33m00:10[0m
+2025-11-23 03:03:15,028 - yt-dlp - DEBUG - [download] [0;94m 86.1%[0m of  238.40MiB at [0;32m   3.08MiB/s[0m ETA [0;33m00:10[0m
+2025-11-23 03:03:15,101 - yt-dlp - DEBUG - [download] [0;94m 86.3%[0m of  238.40MiB at [0;32m   4.26MiB/s[0m ETA [0;33m00:07[0m
+2025-11-23 03:03:15,101 - yt-dlp - DEBUG - [download] [0;94m 86.3%[0m of  238.40MiB at [0;32m   4.26MiB/s[0m ETA [0;33m00:07[0m
+2025-11-23 03:03:15,227 - yt-dlp - DEBUG - [download] [0;94m 86.7%[0m of  238.40MiB at [0;32m   5.54MiB/s[0m ETA [0;33m00:05[0m
+2025-11-23 03:03:15,227 - yt-dlp - DEBUG - [download] [0;94m 86.7%[0m of  238.40MiB at [0;32m   5.54MiB/s[0m ETA [0;33m00:05[0m
+2025-11-23 03:03:15,617 - yt-dlp - DEBUG - [download] [0;94m 87.6%[0m of  238.40MiB at [0;32m   5.33MiB/s[0m ETA [0;33m00:05[0m
+2025-11-23 03:03:15,617 - yt-dlp - DEBUG - [download] [0;94m 87.6%[0m of  238.40MiB at [0;32m   5.33MiB/s[0m ETA [0;33m00:05[0m
+2025-11-23 03:03:16,161 - yt-dlp - DEBUG - [download] [0;94m 89.2%[0m of  238.40MiB at [0;32m   6.18MiB/s[0m ETA [0;33m00:04[0m
+2025-11-23 03:03:16,161 - yt-dlp - DEBUG - [download] [0;94m 89.2%[0m of  238.40MiB at [0;32m   6.18MiB/s[0m ETA [0;33m00:04[0m
+2025-11-23 03:03:16,577 - yt-dlp - DEBUG - [download] [0;94m 90.0%[0m of  238.40MiB at [0;32m   5.71MiB/s[0m ETA [0;33m00:04[0m
+2025-11-23 03:03:16,577 - yt-dlp - DEBUG - [download] [0;94m 90.0%[0m of  238.40MiB at [0;32m   5.71MiB/s[0m ETA [0;33m00:04[0m
+2025-11-23 03:03:16,626 - yt-dlp - DEBUG - [download] [0;94m 90.0%[0m of  238.40MiB at [0;32m 597.14KiB/s[0m ETA [0;33m00:41[0m
+2025-11-23 03:03:16,626 - yt-dlp - DEBUG - [download] [0;94m 90.0%[0m of  238.40MiB at [0;32m 597.14KiB/s[0m ETA [0;33m00:41[0m
+2025-11-23 03:03:16,628 - yt-dlp - DEBUG - [download] [0;94m 90.0%[0m of  238.40MiB at [0;32m   1.00MiB/s[0m ETA [0;33m00:23[0m
+2025-11-23 03:03:16,628 - yt-dlp - DEBUG - [download] [0;94m 90.0%[0m of  238.40MiB at [0;32m   1.00MiB/s[0m ETA [0;33m00:23[0m
+2025-11-23 03:03:16,642 - yt-dlp - DEBUG - [download] [0;94m 90.0%[0m of  238.40MiB at [0;32m 409.75KiB/s[0m ETA [0;33m00:59[0m
+2025-11-23 03:03:16,642 - yt-dlp - DEBUG - [download] [0;94m 90.0%[0m of  238.40MiB at [0;32m 409.75KiB/s[0m ETA [0;33m00:59[0m
+2025-11-23 03:03:16,669 - yt-dlp - DEBUG - [download] [0;94m 90.0%[0m of  238.40MiB at [0;32m 334.95KiB/s[0m ETA [0;33m01:12[0m
+2025-11-23 03:03:16,669 - yt-dlp - DEBUG - [download] [0;94m 90.0%[0m of  238.40MiB at [0;32m 334.95KiB/s[0m ETA [0;33m01:12[0m
+2025-11-23 03:03:16,690 - yt-dlp - DEBUG - [download] [0;94m 90.0%[0m of  238.40MiB at [0;32m 475.46KiB/s[0m ETA [0;33m00:51[0m
+2025-11-23 03:03:16,690 - yt-dlp - DEBUG - [download] [0;94m 90.0%[0m of  238.40MiB at [0;32m 475.46KiB/s[0m ETA [0;33m00:51[0m
+2025-11-23 03:03:16,694 - yt-dlp - DEBUG - [download] [0;94m 90.0%[0m of  238.40MiB at [0;32m 907.07KiB/s[0m ETA [0;33m00:26[0m
+2025-11-23 03:03:16,694 - yt-dlp - DEBUG - [download] [0;94m 90.0%[0m of  238.40MiB at [0;32m 907.07KiB/s[0m ETA [0;33m00:26[0m
+2025-11-23 03:03:16,728 - yt-dlp - DEBUG - [download] [0;94m 90.0%[0m of  238.40MiB at [0;32m   1.20MiB/s[0m ETA [0;33m00:19[0m
+2025-11-23 03:03:16,728 - yt-dlp - DEBUG - [download] [0;94m 90.0%[0m of  238.40MiB at [0;32m   1.20MiB/s[0m ETA [0;33m00:19[0m
+2025-11-23 03:03:16,751 - yt-dlp - DEBUG - [download] [0;94m 90.1%[0m of  238.40MiB at [0;32m   1.97MiB/s[0m ETA [0;33m00:12[0m
+2025-11-23 03:03:16,751 - yt-dlp - DEBUG - [download] [0;94m 90.1%[0m of  238.40MiB at [0;32m   1.97MiB/s[0m ETA [0;33m00:12[0m
+2025-11-23 03:03:16,779 - yt-dlp - DEBUG - [download] [0;94m 90.2%[0m of  238.40MiB at [0;32m   3.24MiB/s[0m ETA [0;33m00:07[0m
+2025-11-23 03:03:16,779 - yt-dlp - DEBUG - [download] [0;94m 90.2%[0m of  238.40MiB at [0;32m   3.24MiB/s[0m ETA [0;33m00:07[0m
+2025-11-23 03:03:16,847 - yt-dlp - DEBUG - [download] [0;94m 90.4%[0m of  238.40MiB at [0;32m   4.49MiB/s[0m ETA [0;33m00:05[0m
+2025-11-23 03:03:16,847 - yt-dlp - DEBUG - [download] [0;94m 90.4%[0m of  238.40MiB at [0;32m   4.49MiB/s[0m ETA [0;33m00:05[0m
+2025-11-23 03:03:16,972 - yt-dlp - DEBUG - [download] [0;94m 90.8%[0m of  238.40MiB at [0;32m   5.75MiB/s[0m ETA [0;33m00:03[0m
+2025-11-23 03:03:16,972 - yt-dlp - DEBUG - [download] [0;94m 90.8%[0m of  238.40MiB at [0;32m   5.75MiB/s[0m ETA [0;33m00:03[0m
+2025-11-23 03:03:17,222 - yt-dlp - DEBUG - [download] [0;94m 91.7%[0m of  238.40MiB at [0;32m   6.70MiB/s[0m ETA [0;33m00:02[0m
+2025-11-23 03:03:17,222 - yt-dlp - DEBUG - [download] [0;94m 91.7%[0m of  238.40MiB at [0;32m   6.70MiB/s[0m ETA [0;33m00:02[0m
+2025-11-23 03:03:17,957 - yt-dlp - DEBUG - [download] [0;94m 93.3%[0m of  238.40MiB at [0;32m   6.01MiB/s[0m ETA [0;33m00:02[0m
+2025-11-23 03:03:17,957 - yt-dlp - DEBUG - [download] [0;94m 93.3%[0m of  238.40MiB at [0;32m   6.01MiB/s[0m ETA [0;33m00:02[0m
+2025-11-23 03:03:18,141 - yt-dlp - DEBUG - [download] [0;94m 94.0%[0m of  238.40MiB at [0;32m   6.29MiB/s[0m ETA [0;33m00:02[0m
+2025-11-23 03:03:18,141 - yt-dlp - DEBUG - [download] [0;94m 94.0%[0m of  238.40MiB at [0;32m   6.29MiB/s[0m ETA [0;33m00:02[0m
+2025-11-23 03:03:18,206 - yt-dlp - DEBUG - [download] [0;94m 94.0%[0m of  238.40MiB at [0;32m 615.54KiB/s[0m ETA [0;33m00:23[0m
+2025-11-23 03:03:18,206 - yt-dlp - DEBUG - [download] [0;94m 94.0%[0m of  238.40MiB at [0;32m 615.54KiB/s[0m ETA [0;33m00:23[0m
+2025-11-23 03:03:18,207 - yt-dlp - DEBUG - [download] [0;94m 94.0%[0m of  238.40MiB at [0;32m   1.07MiB/s[0m ETA [0;33m00:13[0m
+2025-11-23 03:03:18,207 - yt-dlp - DEBUG - [download] [0;94m 94.0%[0m of  238.40MiB at [0;32m   1.07MiB/s[0m ETA [0;33m00:13[0m
+2025-11-23 03:03:18,208 - yt-dlp - DEBUG - [download] [0;94m 94.0%[0m of  238.40MiB at [0;32m   1.53MiB/s[0m ETA [0;33m00:09[0m
+2025-11-23 03:03:18,208 - yt-dlp - DEBUG - [download] [0;94m 94.0%[0m of  238.40MiB at [0;32m   1.53MiB/s[0m ETA [0;33m00:09[0m
+2025-11-23 03:03:18,210 - yt-dlp - DEBUG - [download] [0;94m 94.0%[0m of  238.40MiB at [0;32m   2.34MiB/s[0m ETA [0;33m00:06[0m
+2025-11-23 03:03:18,210 - yt-dlp - DEBUG - [download] [0;94m 94.0%[0m of  238.40MiB at [0;32m   2.34MiB/s[0m ETA [0;33m00:06[0m
+2025-11-23 03:03:18,249 - yt-dlp - DEBUG - [download] [0;94m 94.0%[0m of  238.40MiB at [0;32m 698.45KiB/s[0m ETA [0;33m00:20[0m
+2025-11-23 03:03:18,249 - yt-dlp - DEBUG - [download] [0;94m 94.0%[0m of  238.40MiB at [0;32m 698.45KiB/s[0m ETA [0;33m00:20[0m
+2025-11-23 03:03:18,270 - yt-dlp - DEBUG - [download] [0;94m 94.0%[0m of  238.40MiB at [0;32m 953.78KiB/s[0m ETA [0;33m00:15[0m
+2025-11-23 03:03:18,270 - yt-dlp - DEBUG - [download] [0;94m 94.0%[0m of  238.40MiB at [0;32m 953.78KiB/s[0m ETA [0;33m00:15[0m
+2025-11-23 03:03:18,279 - yt-dlp - DEBUG - [download] [0;94m 94.0%[0m of  238.40MiB at [0;32m   1.65MiB/s[0m ETA [0;33m00:08[0m
+2025-11-23 03:03:18,279 - yt-dlp - DEBUG - [download] [0;94m 94.0%[0m of  238.40MiB at [0;32m   1.65MiB/s[0m ETA [0;33m00:08[0m
+2025-11-23 03:03:18,303 - yt-dlp - DEBUG - [download] [0;94m 94.1%[0m of  238.40MiB at [0;32m   2.51MiB/s[0m ETA [0;33m00:05[0m
+2025-11-23 03:03:18,303 - yt-dlp - DEBUG - [download] [0;94m 94.1%[0m of  238.40MiB at [0;32m   2.51MiB/s[0m ETA [0;33m00:05[0m
+2025-11-23 03:03:18,354 - yt-dlp - DEBUG - [download] [0;94m 94.2%[0m of  238.40MiB at [0;32m   3.32MiB/s[0m ETA [0;33m00:04[0m
+2025-11-23 03:03:18,354 - yt-dlp - DEBUG - [download] [0;94m 94.2%[0m of  238.40MiB at [0;32m   3.32MiB/s[0m ETA [0;33m00:04[0m
+2025-11-23 03:03:18,417 - yt-dlp - DEBUG - [download] [0;94m 94.4%[0m of  238.40MiB at [0;32m   4.68MiB/s[0m ETA [0;33m00:02[0m
+2025-11-23 03:03:18,417 - yt-dlp - DEBUG - [download] [0;94m 94.4%[0m of  238.40MiB at [0;32m   4.68MiB/s[0m ETA [0;33m00:02[0m
+2025-11-23 03:03:18,542 - yt-dlp - DEBUG - [download] [0;94m 94.8%[0m of  238.40MiB at [0;32m   5.92MiB/s[0m ETA [0;33m00:02[0m
+2025-11-23 03:03:18,542 - yt-dlp - DEBUG - [download] [0;94m 94.8%[0m of  238.40MiB at [0;32m   5.92MiB/s[0m ETA [0;33m00:02[0m
+2025-11-23 03:03:18,791 - yt-dlp - DEBUG - [download] [0;94m 95.7%[0m of  238.40MiB at [0;32m   6.81MiB/s[0m ETA [0;33m00:01[0m
+2025-11-23 03:03:18,791 - yt-dlp - DEBUG - [download] [0;94m 95.7%[0m of  238.40MiB at [0;32m   6.81MiB/s[0m ETA [0;33m00:01[0m
+2025-11-23 03:03:19,288 - yt-dlp - DEBUG - [download] [0;94m 97.3%[0m of  238.40MiB at [0;32m   7.38MiB/s[0m ETA [0;33m00:00[0m
+2025-11-23 03:03:19,288 - yt-dlp - DEBUG - [download] [0;94m 97.3%[0m of  238.40MiB at [0;32m   7.38MiB/s[0m ETA [0;33m00:00[0m
+2025-11-23 03:03:19,626 - yt-dlp - DEBUG - [download] [0;94m 98.0%[0m of  238.40MiB at [0;32m   6.74MiB/s[0m ETA [0;33m00:00[0m
+2025-11-23 03:03:19,626 - yt-dlp - DEBUG - [download] [0;94m 98.0%[0m of  238.40MiB at [0;32m   6.74MiB/s[0m ETA [0;33m00:00[0m
+2025-11-23 03:03:19,715 - yt-dlp - DEBUG - [download] [0;94m 98.0%[0m of  238.40MiB at [0;32m 458.34KiB/s[0m ETA [0;33m00:10[0m
+2025-11-23 03:03:19,715 - yt-dlp - DEBUG - [download] [0;94m 98.0%[0m of  238.40MiB at [0;32m 458.34KiB/s[0m ETA [0;33m00:10[0m
+2025-11-23 03:03:19,716 - yt-dlp - DEBUG - [download] [0;94m 98.0%[0m of  238.40MiB at [0;32m 862.73KiB/s[0m ETA [0;33m00:05[0m
+2025-11-23 03:03:19,716 - yt-dlp - DEBUG - [download] [0;94m 98.0%[0m of  238.40MiB at [0;32m 862.73KiB/s[0m ETA [0;33m00:05[0m
+2025-11-23 03:03:19,719 - yt-dlp - DEBUG - [download] [0;94m 98.0%[0m of  238.40MiB at [0;32m   1.02MiB/s[0m ETA [0;33m00:04[0m
+2025-11-23 03:03:19,719 - yt-dlp - DEBUG - [download] [0;94m 98.0%[0m of  238.40MiB at [0;32m   1.02MiB/s[0m ETA [0;33m00:04[0m
+2025-11-23 03:03:19,746 - yt-dlp - DEBUG - [download] [0;94m 98.0%[0m of  238.40MiB at [0;32m 456.39KiB/s[0m ETA [0;33m00:10[0m
+2025-11-23 03:03:19,746 - yt-dlp - DEBUG - [download] [0;94m 98.0%[0m of  238.40MiB at [0;32m 456.39KiB/s[0m ETA [0;33m00:10[0m
+2025-11-23 03:03:19,762 - yt-dlp - DEBUG - [download] [0;94m 98.0%[0m of  238.40MiB at [0;32m 632.69KiB/s[0m ETA [0;33m00:07[0m
+2025-11-23 03:03:19,762 - yt-dlp - DEBUG - [download] [0;94m 98.0%[0m of  238.40MiB at [0;32m 632.69KiB/s[0m ETA [0;33m00:07[0m
+2025-11-23 03:03:19,803 - yt-dlp - DEBUG - [download] [0;94m 98.0%[0m of  238.40MiB at [0;32m 702.17KiB/s[0m ETA [0;33m00:06[0m
+2025-11-23 03:03:19,803 - yt-dlp - DEBUG - [download] [0;94m 98.0%[0m of  238.40MiB at [0;32m 702.17KiB/s[0m ETA [0;33m00:06[0m
+2025-11-23 03:03:19,835 - yt-dlp - DEBUG - [download] [0;94m 98.1%[0m of  238.40MiB at [0;32m   1.01MiB/s[0m ETA [0;33m00:04[0m
+2025-11-23 03:03:19,835 - yt-dlp - DEBUG - [download] [0;94m 98.1%[0m of  238.40MiB at [0;32m   1.01MiB/s[0m ETA [0;33m00:04[0m
+2025-11-23 03:03:19,850 - yt-dlp - DEBUG - [download] [0;94m 98.1%[0m of  238.40MiB at [0;32m   1.82MiB/s[0m ETA [0;33m00:02[0m
+2025-11-23 03:03:19,850 - yt-dlp - DEBUG - [download] [0;94m 98.1%[0m of  238.40MiB at [0;32m   1.82MiB/s[0m ETA [0;33m00:02[0m
+2025-11-23 03:03:19,884 - yt-dlp - DEBUG - [download] [0;94m 98.2%[0m of  238.40MiB at [0;32m   2.91MiB/s[0m ETA [0;33m00:01[0m
+2025-11-23 03:03:19,884 - yt-dlp - DEBUG - [download] [0;94m 98.2%[0m of  238.40MiB at [0;32m   2.91MiB/s[0m ETA [0;33m00:01[0m
+2025-11-23 03:03:19,957 - yt-dlp - DEBUG - [download] [0;94m 98.4%[0m of  238.40MiB at [0;32m   4.10MiB/s[0m ETA [0;33m00:00[0m
+2025-11-23 03:03:19,957 - yt-dlp - DEBUG - [download] [0;94m 98.4%[0m of  238.40MiB at [0;32m   4.10MiB/s[0m ETA [0;33m00:00[0m
+2025-11-23 03:03:20,082 - yt-dlp - DEBUG - [download] [0;94m 98.9%[0m of  238.40MiB at [0;32m   5.42MiB/s[0m ETA [0;33m00:00[0m
+2025-11-23 03:03:20,082 - yt-dlp - DEBUG - [download] [0;94m 98.9%[0m of  238.40MiB at [0;32m   5.42MiB/s[0m ETA [0;33m00:00[0m
+2025-11-23 03:03:20,330 - yt-dlp - DEBUG - [download] [0;94m 99.7%[0m of  238.40MiB at [0;32m   6.48MiB/s[0m ETA [0;33m00:00[0m
+2025-11-23 03:03:20,330 - yt-dlp - DEBUG - [download] [0;94m 99.7%[0m of  238.40MiB at [0;32m   6.48MiB/s[0m ETA [0;33m00:00[0m
+2025-11-23 03:03:20,420 - yt-dlp - DEBUG - [download] [0;94m100.0%[0m of  238.40MiB at [0;32m   6.69MiB/s[0m ETA [0;33m00:00[0m
+2025-11-23 03:03:20,420 - yt-dlp - DEBUG - [download] [0;94m100.0%[0m of  238.40MiB at [0;32m   6.69MiB/s[0m ETA [0;33m00:00[0m
+2025-11-23 03:03:20,422 - yt-dlp - DEBUG - [download] 100% of  238.40MiB in [1;37m00:00:35[0m at [0;32m6.69MiB/s[0m
+2025-11-23 03:03:20,422 - yt-dlp - DEBUG - [download] 100% of  238.40MiB in [1;37m00:00:35[0m at [0;32m6.69MiB/s[0m
+2025-11-23 03:03:20,423 - yt-dlp - DEBUG - [debug] Invoking http downloader on "https://rr7---sn-u0g3uxax3-pnur.googlevideo.com/videoplayback?expire=1763877759&ei=H08iaYyfN_Wo8uMPxM6z4Ac&ip=46.1.54.101&id=o-AKx_qCfFQf_QElOpd6msZ8LrNRsEbwDb2pjhE7mW-Aai&itag=251&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=83&met=1763856159%2C&mh=S5&mm=31%2C29&mn=sn-u0g3uxax3-pnur%2Csn-hgn7rnll&ms=au%2Crdu&mv=m&mvi=7&pcm2cms=yes&pl=23&rms=au%2Cau&initcwndbps=1946250&bui=AdEuB5TE9bFjEfJYY0UzB9zyzUKV8VqFx3c_e5nQn2tlvREP5LZVXqjsSMNJV1FzPA5Qh0149DQ_Uscd&spc=6b0G_JgQveWi&vprv=1&svpuc=1&mime=audio%2Fwebm&rqh=1&gir=yes&clen=61899006&dur=4208.601&lmt=1763592450952056&mt=1763855816&fvip=3&keepalive=yes&fexp=51552689%2C51565115%2C51565681%2C51580968&c=ANDROID&txp=4432534&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRgIhAPpFhICJC2pxOa55X1qvHDXQ9gfTb3K0HkRkXPJWNmSTAiEAzJr1xsoqF0_zfqQT5c5FGf9NkTF1Laa81fD3R6ep7A8%3D&lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpcm2cms%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRQIgPvnrYSsiIFVDp8qPGM_mJYoYiU4plWv_qZ_pQu8kyLgCIQD7c7JspQgKKKe9cGP_4-WMLyytQdageC65cq5YgNaBKw%3D%3D"
+2025-11-23 03:03:20,423 - yt-dlp - DEBUG - [debug] Invoking http downloader on "https://rr7---sn-u0g3uxax3-pnur.googlevideo.com/videoplayback?expire=1763877759&ei=H08iaYyfN_Wo8uMPxM6z4Ac&ip=46.1.54.101&id=o-AKx_qCfFQf_QElOpd6msZ8LrNRsEbwDb2pjhE7mW-Aai&itag=251&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=83&met=1763856159%2C&mh=S5&mm=31%2C29&mn=sn-u0g3uxax3-pnur%2Csn-hgn7rnll&ms=au%2Crdu&mv=m&mvi=7&pcm2cms=yes&pl=23&rms=au%2Cau&initcwndbps=1946250&bui=AdEuB5TE9bFjEfJYY0UzB9zyzUKV8VqFx3c_e5nQn2tlvREP5LZVXqjsSMNJV1FzPA5Qh0149DQ_Uscd&spc=6b0G_JgQveWi&vprv=1&svpuc=1&mime=audio%2Fwebm&rqh=1&gir=yes&clen=61899006&dur=4208.601&lmt=1763592450952056&mt=1763855816&fvip=3&keepalive=yes&fexp=51552689%2C51565115%2C51565681%2C51580968&c=ANDROID&txp=4432534&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRgIhAPpFhICJC2pxOa55X1qvHDXQ9gfTb3K0HkRkXPJWNmSTAiEAzJr1xsoqF0_zfqQT5c5FGf9NkTF1Laa81fD3R6ep7A8%3D&lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpcm2cms%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRQIgPvnrYSsiIFVDp8qPGM_mJYoYiU4plWv_qZ_pQu8kyLgCIQD7c7JspQgKKKe9cGP_4-WMLyytQdageC65cq5YgNaBKw%3D%3D"
+2025-11-23 03:03:20,518 - yt-dlp - DEBUG - [debug] File locking is not supported. Proceeding without locking
+2025-11-23 03:03:20,518 - yt-dlp - DEBUG - [debug] File locking is not supported. Proceeding without locking
+2025-11-23 03:03:20,519 - yt-dlp - DEBUG - [download] Destination: D:\_Under_All\Masaüstü\nasıl şarkı yapıyorum？.f251.webm
+2025-11-23 03:03:20,519 - yt-dlp - DEBUG - [download] Destination: D:\_Under_All\Masaüstü\nasıl şarkı yapıyorum？.f251.webm
+2025-11-23 03:03:20,519 - yt-dlp - DEBUG - [download] [0;94m  0.0%[0m of   59.03MiB at [0;32m 520.13KiB/s[0m ETA [0;33m01:56[0m
+2025-11-23 03:03:20,519 - yt-dlp - DEBUG - [download] [0;94m  0.0%[0m of   59.03MiB at [0;32m 520.13KiB/s[0m ETA [0;33m01:56[0m
+2025-11-23 03:03:20,522 - yt-dlp - DEBUG - [download] [0;94m  0.0%[0m of   59.03MiB at [0;32m 568.62KiB/s[0m ETA [0;33m01:46[0m
+2025-11-23 03:03:20,522 - yt-dlp - DEBUG - [download] [0;94m  0.0%[0m of   59.03MiB at [0;32m 568.62KiB/s[0m ETA [0;33m01:46[0m
+2025-11-23 03:03:20,558 - yt-dlp - DEBUG - [download] [0;94m  0.0%[0m of   59.03MiB at [0;32m 172.81KiB/s[0m ETA [0;33m05:49[0m
+2025-11-23 03:03:20,558 - yt-dlp - DEBUG - [download] [0;94m  0.0%[0m of   59.03MiB at [0;32m 172.81KiB/s[0m ETA [0;33m05:49[0m
+2025-11-23 03:03:20,583 - yt-dlp - DEBUG - [download] [0;94m  0.0%[0m of   59.03MiB at [0;32m 229.22KiB/s[0m ETA [0;33m04:23[0m
+2025-11-23 03:03:20,583 - yt-dlp - DEBUG - [download] [0;94m  0.0%[0m of   59.03MiB at [0;32m 229.22KiB/s[0m ETA [0;33m04:23[0m
+2025-11-23 03:03:20,603 - yt-dlp - DEBUG - [download] [0;94m  0.1%[0m of   59.03MiB at [0;32m 365.35KiB/s[0m ETA [0;33m02:45[0m
+2025-11-23 03:03:20,603 - yt-dlp - DEBUG - [download] [0;94m  0.1%[0m of   59.03MiB at [0;32m 365.35KiB/s[0m ETA [0;33m02:45[0m
+2025-11-23 03:03:20,605 - yt-dlp - DEBUG - [download] [0;94m  0.1%[0m of   59.03MiB at [0;32m 715.32KiB/s[0m ETA [0;33m01:24[0m
+2025-11-23 03:03:20,605 - yt-dlp - DEBUG - [download] [0;94m  0.1%[0m of   59.03MiB at [0;32m 715.32KiB/s[0m ETA [0;33m01:24[0m
+2025-11-23 03:03:20,647 - yt-dlp - DEBUG - [download] [0;94m  0.2%[0m of   59.03MiB at [0;32m 978.32KiB/s[0m ETA [0;33m01:01[0m
+2025-11-23 03:03:20,647 - yt-dlp - DEBUG - [download] [0;94m  0.2%[0m of   59.03MiB at [0;32m 978.32KiB/s[0m ETA [0;33m01:01[0m
+2025-11-23 03:03:20,672 - yt-dlp - DEBUG - [download] [0;94m  0.4%[0m of   59.03MiB at [0;32m   1.61MiB/s[0m ETA [0;33m00:36[0m
+2025-11-23 03:03:20,672 - yt-dlp - DEBUG - [download] [0;94m  0.4%[0m of   59.03MiB at [0;32m   1.61MiB/s[0m ETA [0;33m00:36[0m
+2025-11-23 03:03:20,700 - yt-dlp - DEBUG - [download] [0;94m  0.8%[0m of   59.03MiB at [0;32m   2.73MiB/s[0m ETA [0;33m00:21[0m
+2025-11-23 03:03:20,700 - yt-dlp - DEBUG - [download] [0;94m  0.8%[0m of   59.03MiB at [0;32m   2.73MiB/s[0m ETA [0;33m00:21[0m
+2025-11-23 03:03:20,772 - yt-dlp - DEBUG - [download] [0;94m  1.7%[0m of   59.03MiB at [0;32m   3.92MiB/s[0m ETA [0;33m00:14[0m
+2025-11-23 03:03:20,772 - yt-dlp - DEBUG - [download] [0;94m  1.7%[0m of   59.03MiB at [0;32m   3.92MiB/s[0m ETA [0;33m00:14[0m
+2025-11-23 03:03:20,896 - yt-dlp - DEBUG - [download] [0;94m  3.4%[0m of   59.03MiB at [0;32m   5.27MiB/s[0m ETA [0;33m00:10[0m
+2025-11-23 03:03:20,896 - yt-dlp - DEBUG - [download] [0;94m  3.4%[0m of   59.03MiB at [0;32m   5.27MiB/s[0m ETA [0;33m00:10[0m
+2025-11-23 03:03:21,145 - yt-dlp - DEBUG - [download] [0;94m  6.8%[0m of   59.03MiB at [0;32m   6.37MiB/s[0m ETA [0;33m00:08[0m
+2025-11-23 03:03:21,145 - yt-dlp - DEBUG - [download] [0;94m  6.8%[0m of   59.03MiB at [0;32m   6.37MiB/s[0m ETA [0;33m00:08[0m
+2025-11-23 03:03:21,832 - yt-dlp - DEBUG - [download] [0;94m 13.6%[0m of   59.03MiB at [0;32m   6.09MiB/s[0m ETA [0;33m00:08[0m
+2025-11-23 03:03:21,832 - yt-dlp - DEBUG - [download] [0;94m 13.6%[0m of   59.03MiB at [0;32m   6.09MiB/s[0m ETA [0;33m00:08[0m
+2025-11-23 03:03:22,054 - yt-dlp - DEBUG - [download] [0;94m 16.7%[0m of   59.03MiB at [0;32m   6.40MiB/s[0m ETA [0;33m00:07[0m
+2025-11-23 03:03:22,054 - yt-dlp - DEBUG - [download] [0;94m 16.7%[0m of   59.03MiB at [0;32m   6.40MiB/s[0m ETA [0;33m00:07[0m
+2025-11-23 03:03:22,103 - yt-dlp - DEBUG - [download] [0;94m 16.7%[0m of   59.03MiB at [0;32m 704.69KiB/s[0m ETA [0;33m01:11[0m
+2025-11-23 03:03:22,103 - yt-dlp - DEBUG - [download] [0;94m 16.7%[0m of   59.03MiB at [0;32m 704.69KiB/s[0m ETA [0;33m01:11[0m
+2025-11-23 03:03:22,104 - yt-dlp - DEBUG - [download] [0;94m 16.7%[0m of   59.03MiB at [0;32m   1.17MiB/s[0m ETA [0;33m00:42[0m
+2025-11-23 03:03:22,104 - yt-dlp - DEBUG - [download] [0;94m 16.7%[0m of   59.03MiB at [0;32m   1.17MiB/s[0m ETA [0;33m00:42[0m
+2025-11-23 03:03:22,123 - yt-dlp - DEBUG - [download] [0;94m 16.7%[0m of   59.03MiB at [0;32m 315.80KiB/s[0m ETA [0;33m02:39[0m
+2025-11-23 03:03:22,123 - yt-dlp - DEBUG - [download] [0;94m 16.7%[0m of   59.03MiB at [0;32m 315.80KiB/s[0m ETA [0;33m02:39[0m
+2025-11-23 03:03:22,149 - yt-dlp - DEBUG - [download] [0;94m 16.7%[0m of   59.03MiB at [0;32m 311.45KiB/s[0m ETA [0;33m02:41[0m
+2025-11-23 03:03:22,149 - yt-dlp - DEBUG - [download] [0;94m 16.7%[0m of   59.03MiB at [0;32m 311.45KiB/s[0m ETA [0;33m02:41[0m
+2025-11-23 03:03:22,170 - yt-dlp - DEBUG - [download] [0;94m 16.7%[0m of   59.03MiB at [0;32m 450.17KiB/s[0m ETA [0;33m01:51[0m
+2025-11-23 03:03:22,170 - yt-dlp - DEBUG - [download] [0;94m 16.7%[0m of   59.03MiB at [0;32m 450.17KiB/s[0m ETA [0;33m01:51[0m
+2025-11-23 03:03:22,221 - yt-dlp - DEBUG - [download] [0;94m 16.8%[0m of   59.03MiB at [0;32m 526.63KiB/s[0m ETA [0;33m01:35[0m
+2025-11-23 03:03:22,221 - yt-dlp - DEBUG - [download] [0;94m 16.8%[0m of   59.03MiB at [0;32m 526.63KiB/s[0m ETA [0;33m01:35[0m
+2025-11-23 03:03:22,246 - yt-dlp - DEBUG - [download] [0;94m 16.9%[0m of   59.03MiB at [0;32m 874.18KiB/s[0m ETA [0;33m00:57[0m
+2025-11-23 03:03:22,246 - yt-dlp - DEBUG - [download] [0;94m 16.9%[0m of   59.03MiB at [0;32m 874.18KiB/s[0m ETA [0;33m00:57[0m
+2025-11-23 03:03:22,266 - yt-dlp - DEBUG - [download] [0;94m 17.1%[0m of   59.03MiB at [0;32m   1.51MiB/s[0m ETA [0;33m00:32[0m
+2025-11-23 03:03:22,266 - yt-dlp - DEBUG - [download] [0;94m 17.1%[0m of   59.03MiB at [0;32m   1.51MiB/s[0m ETA [0;33m00:32[0m
+2025-11-23 03:03:22,317 - yt-dlp - DEBUG - [download] [0;94m 17.5%[0m of   59.03MiB at [0;32m   2.31MiB/s[0m ETA [0;33m00:21[0m
+2025-11-23 03:03:22,317 - yt-dlp - DEBUG - [download] [0;94m 17.5%[0m of   59.03MiB at [0;32m   2.31MiB/s[0m ETA [0;33m00:21[0m
+2025-11-23 03:03:22,379 - yt-dlp - DEBUG - [download] [0;94m 18.4%[0m of   59.03MiB at [0;32m   3.60MiB/s[0m ETA [0;33m00:13[0m
+2025-11-23 03:03:22,379 - yt-dlp - DEBUG - [download] [0;94m 18.4%[0m of   59.03MiB at [0;32m   3.60MiB/s[0m ETA [0;33m00:13[0m
+2025-11-23 03:03:22,504 - yt-dlp - DEBUG - [download] [0;94m 20.1%[0m of   59.03MiB at [0;32m   4.97MiB/s[0m ETA [0;33m00:09[0m
+2025-11-23 03:03:22,504 - yt-dlp - DEBUG - [download] [0;94m 20.1%[0m of   59.03MiB at [0;32m   4.97MiB/s[0m ETA [0;33m00:09[0m
+2025-11-23 03:03:22,753 - yt-dlp - DEBUG - [download] [0;94m 23.4%[0m of   59.03MiB at [0;32m   6.14MiB/s[0m ETA [0;33m00:07[0m
+2025-11-23 03:03:22,753 - yt-dlp - DEBUG - [download] [0;94m 23.4%[0m of   59.03MiB at [0;32m   6.14MiB/s[0m ETA [0;33m00:07[0m
+2025-11-23 03:03:23,251 - yt-dlp - DEBUG - [download] [0;94m 30.2%[0m of   59.03MiB at [0;32m   6.96MiB/s[0m ETA [0;33m00:05[0m
+2025-11-23 03:03:23,251 - yt-dlp - DEBUG - [download] [0;94m 30.2%[0m of   59.03MiB at [0;32m   6.96MiB/s[0m ETA [0;33m00:05[0m
+2025-11-23 03:03:23,549 - yt-dlp - DEBUG - [download] [0;94m 33.6%[0m of   59.03MiB at [0;32m   6.90MiB/s[0m ETA [0;33m00:05[0m
+2025-11-23 03:03:23,549 - yt-dlp - DEBUG - [download] [0;94m 33.6%[0m of   59.03MiB at [0;32m   6.90MiB/s[0m ETA [0;33m00:05[0m
+2025-11-23 03:03:23,590 - yt-dlp - DEBUG - [download] [0;94m 33.6%[0m of   59.03MiB at [0;32m 662.71KiB/s[0m ETA [0;33m01:00[0m
+2025-11-23 03:03:23,590 - yt-dlp - DEBUG - [download] [0;94m 33.6%[0m of   59.03MiB at [0;32m 662.71KiB/s[0m ETA [0;33m01:00[0m
+2025-11-23 03:03:23,591 - yt-dlp - DEBUG - [download] [0;94m 33.6%[0m of   59.03MiB at [0;32m   1.07MiB/s[0m ETA [0;33m00:36[0m
+2025-11-23 03:03:23,591 - yt-dlp - DEBUG - [download] [0;94m 33.6%[0m of   59.03MiB at [0;32m   1.07MiB/s[0m ETA [0;33m00:36[0m
+2025-11-23 03:03:23,618 - yt-dlp - DEBUG - [download] [0;94m 33.6%[0m of   59.03MiB at [0;32m 234.09KiB/s[0m ETA [0;33m02:51[0m
+2025-11-23 03:03:23,618 - yt-dlp - DEBUG - [download] [0;94m 33.6%[0m of   59.03MiB at [0;32m 234.09KiB/s[0m ETA [0;33m02:51[0m
+2025-11-23 03:03:23,628 - yt-dlp - DEBUG - [download] [0;94m 33.6%[0m of   59.03MiB at [0;32m 380.13KiB/s[0m ETA [0;33m01:45[0m
+2025-11-23 03:03:23,628 - yt-dlp - DEBUG - [download] [0;94m 33.6%[0m of   59.03MiB at [0;32m 380.13KiB/s[0m ETA [0;33m01:45[0m
+2025-11-23 03:03:23,655 - yt-dlp - DEBUG - [download] [0;94m 33.7%[0m of   59.03MiB at [0;32m 467.71KiB/s[0m ETA [0;33m01:25[0m
+2025-11-23 03:03:23,655 - yt-dlp - DEBUG - [download] [0;94m 33.7%[0m of   59.03MiB at [0;32m 467.71KiB/s[0m ETA [0;33m01:25[0m
+2025-11-23 03:03:23,674 - yt-dlp - DEBUG - [download] [0;94m 33.7%[0m of   59.03MiB at [0;32m 736.53KiB/s[0m ETA [0;33m00:54[0m
+2025-11-23 03:03:23,674 - yt-dlp - DEBUG - [download] [0;94m 33.7%[0m of   59.03MiB at [0;32m 736.53KiB/s[0m ETA [0;33m00:54[0m
+2025-11-23 03:03:23,676 - yt-dlp - DEBUG - [download] [0;94m 33.8%[0m of   59.03MiB at [0;32m   1.42MiB/s[0m ETA [0;33m00:27[0m
+2025-11-23 03:03:23,676 - yt-dlp - DEBUG - [download] [0;94m 33.8%[0m of   59.03MiB at [0;32m   1.42MiB/s[0m ETA [0;33m00:27[0m
+2025-11-23 03:03:23,720 - yt-dlp - DEBUG - [download] [0;94m 34.0%[0m of   59.03MiB at [0;32m   1.90MiB/s[0m ETA [0;33m00:20[0m
+2025-11-23 03:03:23,720 - yt-dlp - DEBUG - [download] [0;94m 34.0%[0m of   59.03MiB at [0;32m   1.90MiB/s[0m ETA [0;33m00:20[0m
+2025-11-23 03:03:23,773 - yt-dlp - DEBUG - [download] [0;94m 34.4%[0m of   59.03MiB at [0;32m   2.71MiB/s[0m ETA [0;33m00:14[0m
+2025-11-23 03:03:23,773 - yt-dlp - DEBUG - [download] [0;94m 34.4%[0m of   59.03MiB at [0;32m   2.71MiB/s[0m ETA [0;33m00:14[0m
+2025-11-23 03:03:23,847 - yt-dlp - DEBUG - [download] [0;94m 35.3%[0m of   59.03MiB at [0;32m   3.86MiB/s[0m ETA [0;33m00:09[0m
+2025-11-23 03:03:23,847 - yt-dlp - DEBUG - [download] [0;94m 35.3%[0m of   59.03MiB at [0;32m   3.86MiB/s[0m ETA [0;33m00:09[0m
+2025-11-23 03:03:23,972 - yt-dlp - DEBUG - [download] [0;94m 37.0%[0m of   59.03MiB at [0;32m   5.22MiB/s[0m ETA [0;33m00:07[0m
+2025-11-23 03:03:23,972 - yt-dlp - DEBUG - [download] [0;94m 37.0%[0m of   59.03MiB at [0;32m   5.22MiB/s[0m ETA [0;33m00:07[0m
+2025-11-23 03:03:24,219 - yt-dlp - DEBUG - [download] [0;94m 40.4%[0m of   59.03MiB at [0;32m   6.34MiB/s[0m ETA [0;33m00:05[0m
+2025-11-23 03:03:24,219 - yt-dlp - DEBUG - [download] [0;94m 40.4%[0m of   59.03MiB at [0;32m   6.34MiB/s[0m ETA [0;33m00:05[0m
+2025-11-23 03:03:24,717 - yt-dlp - DEBUG - [download] [0;94m 47.2%[0m of   59.03MiB at [0;32m   7.09MiB/s[0m ETA [0;33m00:04[0m
+2025-11-23 03:03:24,717 - yt-dlp - DEBUG - [download] [0;94m 47.2%[0m of   59.03MiB at [0;32m   7.09MiB/s[0m ETA [0;33m00:04[0m
+2025-11-23 03:03:24,956 - yt-dlp - DEBUG - [download] [0;94m 50.5%[0m of   59.03MiB at [0;32m   7.27MiB/s[0m ETA [0;33m00:04[0m
+2025-11-23 03:03:24,956 - yt-dlp - DEBUG - [download] [0;94m 50.5%[0m of   59.03MiB at [0;32m   7.27MiB/s[0m ETA [0;33m00:04[0m
+2025-11-23 03:03:25,013 - yt-dlp - DEBUG - [download] [0;94m 50.5%[0m of   59.03MiB at [0;32m 790.78KiB/s[0m ETA [0;33m00:38[0m
+2025-11-23 03:03:25,013 - yt-dlp - DEBUG - [download] [0;94m 50.5%[0m of   59.03MiB at [0;32m 790.78KiB/s[0m ETA [0;33m00:38[0m
+2025-11-23 03:03:25,014 - yt-dlp - DEBUG - [download] [0;94m 50.5%[0m of   59.03MiB at [0;32m   1.25MiB/s[0m ETA [0;33m00:23[0m
+2025-11-23 03:03:25,014 - yt-dlp - DEBUG - [download] [0;94m 50.5%[0m of   59.03MiB at [0;32m   1.25MiB/s[0m ETA [0;33m00:23[0m
+2025-11-23 03:03:25,032 - yt-dlp - DEBUG - [download] [0;94m 50.5%[0m of   59.03MiB at [0;32m 339.67KiB/s[0m ETA [0;33m01:28[0m
+2025-11-23 03:03:25,032 - yt-dlp - DEBUG - [download] [0;94m 50.5%[0m of   59.03MiB at [0;32m 339.67KiB/s[0m ETA [0;33m01:28[0m
+2025-11-23 03:03:25,074 - yt-dlp - DEBUG - [download] [0;94m 50.5%[0m of   59.03MiB at [0;32m 238.55KiB/s[0m ETA [0;33m02:05[0m
+2025-11-23 03:03:25,074 - yt-dlp - DEBUG - [download] [0;94m 50.5%[0m of   59.03MiB at [0;32m 238.55KiB/s[0m ETA [0;33m02:05[0m
+2025-11-23 03:03:25,102 - yt-dlp - DEBUG - [download] [0;94m 50.5%[0m of   59.03MiB at [0;32m 341.57KiB/s[0m ETA [0;33m01:27[0m
+2025-11-23 03:03:25,102 - yt-dlp - DEBUG - [download] [0;94m 50.5%[0m of   59.03MiB at [0;32m 341.57KiB/s[0m ETA [0;33m01:27[0m
+2025-11-23 03:03:25,122 - yt-dlp - DEBUG - [download] [0;94m 50.6%[0m of   59.03MiB at [0;32m 568.08KiB/s[0m ETA [0;33m00:52[0m
+2025-11-23 03:03:25,122 - yt-dlp - DEBUG - [download] [0;94m 50.6%[0m of   59.03MiB at [0;32m 568.08KiB/s[0m ETA [0;33m00:52[0m
+2025-11-23 03:03:25,170 - yt-dlp - DEBUG - [download] [0;94m 50.7%[0m of   59.03MiB at [0;32m 801.69KiB/s[0m ETA [0;33m00:37[0m
+2025-11-23 03:03:25,170 - yt-dlp - DEBUG - [download] [0;94m 50.7%[0m of   59.03MiB at [0;32m 801.69KiB/s[0m ETA [0;33m00:37[0m
+2025-11-23 03:03:25,203 - yt-dlp - DEBUG - [download] [0;94m 50.9%[0m of   59.03MiB at [0;32m   1.30MiB/s[0m ETA [0;33m00:22[0m
+2025-11-23 03:03:25,203 - yt-dlp - DEBUG - [download] [0;94m 50.9%[0m of   59.03MiB at [0;32m   1.30MiB/s[0m ETA [0;33m00:22[0m
+2025-11-23 03:03:25,235 - yt-dlp - DEBUG - [download] [0;94m 51.3%[0m of   59.03MiB at [0;32m   2.23MiB/s[0m ETA [0;33m00:12[0m
+2025-11-23 03:03:25,235 - yt-dlp - DEBUG - [download] [0;94m 51.3%[0m of   59.03MiB at [0;32m   2.23MiB/s[0m ETA [0;33m00:12[0m
+2025-11-23 03:03:25,316 - yt-dlp - DEBUG - [download] [0;94m 52.1%[0m of   59.03MiB at [0;32m   3.27MiB/s[0m ETA [0;33m00:08[0m
+2025-11-23 03:03:25,316 - yt-dlp - DEBUG - [download] [0;94m 52.1%[0m of   59.03MiB at [0;32m   3.27MiB/s[0m ETA [0;33m00:08[0m
+2025-11-23 03:03:25,631 - yt-dlp - DEBUG - [download] [0;94m 53.8%[0m of   59.03MiB at [0;32m   3.23MiB/s[0m ETA [0;33m00:08[0m
+2025-11-23 03:03:25,631 - yt-dlp - DEBUG - [download] [0;94m 53.8%[0m of   59.03MiB at [0;32m   3.23MiB/s[0m ETA [0;33m00:08[0m
+2025-11-23 03:03:25,885 - yt-dlp - DEBUG - [download] [0;94m 57.2%[0m of   59.03MiB at [0;32m   4.58MiB/s[0m ETA [0;33m00:05[0m
+2025-11-23 03:03:25,885 - yt-dlp - DEBUG - [download] [0;94m 57.2%[0m of   59.03MiB at [0;32m   4.58MiB/s[0m ETA [0;33m00:05[0m
+2025-11-23 03:03:26,382 - yt-dlp - DEBUG - [download] [0;94m 64.0%[0m of   59.03MiB at [0;32m   5.83MiB/s[0m ETA [0;33m00:03[0m
+2025-11-23 03:03:26,382 - yt-dlp - DEBUG - [download] [0;94m 64.0%[0m of   59.03MiB at [0;32m   5.83MiB/s[0m ETA [0;33m00:03[0m
+2025-11-23 03:03:26,603 - yt-dlp - DEBUG - [download] [0;94m 67.1%[0m of   59.03MiB at [0;32m   6.16MiB/s[0m ETA [0;33m00:03[0m
+2025-11-23 03:03:26,603 - yt-dlp - DEBUG - [download] [0;94m 67.1%[0m of   59.03MiB at [0;32m   6.16MiB/s[0m ETA [0;33m00:03[0m
+2025-11-23 03:03:26,666 - yt-dlp - DEBUG - [download] [0;94m 67.1%[0m of   59.03MiB at [0;32m 614.91KiB/s[0m ETA [0;33m00:32[0m
+2025-11-23 03:03:26,666 - yt-dlp - DEBUG - [download] [0;94m 67.1%[0m of   59.03MiB at [0;32m 614.91KiB/s[0m ETA [0;33m00:32[0m
+2025-11-23 03:03:26,667 - yt-dlp - DEBUG - [download] [0;94m 67.1%[0m of   59.03MiB at [0;32m   1.05MiB/s[0m ETA [0;33m00:18[0m
+2025-11-23 03:03:26,667 - yt-dlp - DEBUG - [download] [0;94m 67.1%[0m of   59.03MiB at [0;32m   1.05MiB/s[0m ETA [0;33m00:18[0m
+2025-11-23 03:03:26,702 - yt-dlp - DEBUG - [download] [0;94m 67.1%[0m of   59.03MiB at [0;32m 188.21KiB/s[0m ETA [0;33m01:45[0m
+2025-11-23 03:03:26,702 - yt-dlp - DEBUG - [download] [0;94m 67.1%[0m of   59.03MiB at [0;32m 188.21KiB/s[0m ETA [0;33m01:45[0m
+2025-11-23 03:03:26,714 - yt-dlp - DEBUG - [download] [0;94m 67.1%[0m of   59.03MiB at [0;32m 303.81KiB/s[0m ETA [0;33m01:05[0m
+2025-11-23 03:03:26,714 - yt-dlp - DEBUG - [download] [0;94m 67.1%[0m of   59.03MiB at [0;32m 303.81KiB/s[0m ETA [0;33m01:05[0m
+2025-11-23 03:03:26,752 - yt-dlp - DEBUG - [download] [0;94m 67.1%[0m of   59.03MiB at [0;32m 356.59KiB/s[0m ETA [0;33m00:55[0m
+2025-11-23 03:03:26,752 - yt-dlp - DEBUG - [download] [0;94m 67.1%[0m of   59.03MiB at [0;32m 356.59KiB/s[0m ETA [0;33m00:55[0m
+2025-11-23 03:03:26,801 - yt-dlp - DEBUG - [download] [0;94m 67.2%[0m of   59.03MiB at [0;32m 463.75KiB/s[0m ETA [0;33m00:42[0m
+2025-11-23 03:03:26,801 - yt-dlp - DEBUG - [download] [0;94m 67.2%[0m of   59.03MiB at [0;32m 463.75KiB/s[0m ETA [0;33m00:42[0m
+2025-11-23 03:03:26,838 - yt-dlp - DEBUG - [download] [0;94m 67.3%[0m of   59.03MiB at [0;32m 732.00KiB/s[0m ETA [0;33m00:27[0m
+2025-11-23 03:03:26,838 - yt-dlp - DEBUG - [download] [0;94m 67.3%[0m of   59.03MiB at [0;32m 732.00KiB/s[0m ETA [0;33m00:27[0m
+2025-11-23 03:03:26,865 - yt-dlp - DEBUG - [download] [0;94m 67.5%[0m of   59.03MiB at [0;32m   1.24MiB/s[0m ETA [0;33m00:15[0m
+2025-11-23 03:03:26,865 - yt-dlp - DEBUG - [download] [0;94m 67.5%[0m of   59.03MiB at [0;32m   1.24MiB/s[0m ETA [0;33m00:15[0m
+2025-11-23 03:03:26,900 - yt-dlp - DEBUG - [download] [0;94m 67.9%[0m of   59.03MiB at [0;32m   2.12MiB/s[0m ETA [0;33m00:08[0m
+2025-11-23 03:03:26,900 - yt-dlp - DEBUG - [download] [0;94m 67.9%[0m of   59.03MiB at [0;32m   2.12MiB/s[0m ETA [0;33m00:08[0m
+2025-11-23 03:03:26,986 - yt-dlp - DEBUG - [download] [0;94m 68.8%[0m of   59.03MiB at [0;32m   3.11MiB/s[0m ETA [0;33m00:05[0m
+2025-11-23 03:03:26,986 - yt-dlp - DEBUG - [download] [0;94m 68.8%[0m of   59.03MiB at [0;32m   3.11MiB/s[0m ETA [0;33m00:05[0m
+2025-11-23 03:03:27,111 - yt-dlp - DEBUG - [download] [0;94m 70.4%[0m of   59.03MiB at [0;32m   4.48MiB/s[0m ETA [0;33m00:03[0m
+2025-11-23 03:03:27,111 - yt-dlp - DEBUG - [download] [0;94m 70.4%[0m of   59.03MiB at [0;32m   4.48MiB/s[0m ETA [0;33m00:03[0m
+2025-11-23 03:03:27,398 - yt-dlp - DEBUG - [download] [0;94m 73.8%[0m of   59.03MiB at [0;32m   5.45MiB/s[0m ETA [0;33m00:02[0m
+2025-11-23 03:03:27,398 - yt-dlp - DEBUG - [download] [0;94m 73.8%[0m of   59.03MiB at [0;32m   5.45MiB/s[0m ETA [0;33m00:02[0m
+2025-11-23 03:03:28,042 - yt-dlp - DEBUG - [download] [0;94m 80.6%[0m of   59.03MiB at [0;32m   5.81MiB/s[0m ETA [0;33m00:01[0m
+2025-11-23 03:03:28,042 - yt-dlp - DEBUG - [download] [0;94m 80.6%[0m of   59.03MiB at [0;32m   5.81MiB/s[0m ETA [0;33m00:01[0m
+2025-11-23 03:03:28,245 - yt-dlp - DEBUG - [download] [0;94m 83.4%[0m of   59.03MiB at [0;32m   6.12MiB/s[0m ETA [0;33m00:01[0m
+2025-11-23 03:03:28,245 - yt-dlp - DEBUG - [download] [0;94m 83.4%[0m of   59.03MiB at [0;32m   6.12MiB/s[0m ETA [0;33m00:01[0m
+2025-11-23 03:03:28,282 - yt-dlp - DEBUG - [download] [0;94m 83.4%[0m of   59.03MiB at [0;32m 619.27KiB/s[0m ETA [0;33m00:16[0m
+2025-11-23 03:03:28,282 - yt-dlp - DEBUG - [download] [0;94m 83.4%[0m of   59.03MiB at [0;32m 619.27KiB/s[0m ETA [0;33m00:16[0m
+2025-11-23 03:03:28,283 - yt-dlp - DEBUG - [download] [0;94m 83.4%[0m of   59.03MiB at [0;32m   1.03MiB/s[0m ETA [0;33m00:09[0m
+2025-11-23 03:03:28,283 - yt-dlp - DEBUG - [download] [0;94m 83.4%[0m of   59.03MiB at [0;32m   1.03MiB/s[0m ETA [0;33m00:09[0m
+2025-11-23 03:03:28,288 - yt-dlp - DEBUG - [download] [0;94m 83.4%[0m of   59.03MiB at [0;32m 892.81KiB/s[0m ETA [0;33m00:11[0m
+2025-11-23 03:03:28,288 - yt-dlp - DEBUG - [download] [0;94m 83.4%[0m of   59.03MiB at [0;32m 892.81KiB/s[0m ETA [0;33m00:11[0m
+2025-11-23 03:03:28,310 - yt-dlp - DEBUG - [download] [0;94m 83.5%[0m of   59.03MiB at [0;32m 495.93KiB/s[0m ETA [0;33m00:20[0m
+2025-11-23 03:03:28,310 - yt-dlp - DEBUG - [download] [0;94m 83.5%[0m of   59.03MiB at [0;32m 495.93KiB/s[0m ETA [0;33m00:20[0m
+2025-11-23 03:03:28,356 - yt-dlp - DEBUG - [download] [0;94m 83.5%[0m of   59.03MiB at [0;32m 410.35KiB/s[0m ETA [0;33m00:24[0m
+2025-11-23 03:03:28,356 - yt-dlp - DEBUG - [download] [0;94m 83.5%[0m of   59.03MiB at [0;32m 410.35KiB/s[0m ETA [0;33m00:24[0m
+2025-11-23 03:03:28,383 - yt-dlp - DEBUG - [download] [0;94m 83.5%[0m of   59.03MiB at [0;32m 614.15KiB/s[0m ETA [0;33m00:16[0m
+2025-11-23 03:03:28,383 - yt-dlp - DEBUG - [download] [0;94m 83.5%[0m of   59.03MiB at [0;32m 614.15KiB/s[0m ETA [0;33m00:16[0m
+2025-11-23 03:03:28,404 - yt-dlp - DEBUG - [download] [0;94m 83.6%[0m of   59.03MiB at [0;32m   1.00MiB/s[0m ETA [0;33m00:09[0m
+2025-11-23 03:03:28,404 - yt-dlp - DEBUG - [download] [0;94m 83.6%[0m of   59.03MiB at [0;32m   1.00MiB/s[0m ETA [0;33m00:09[0m
+2025-11-23 03:03:28,447 - yt-dlp - DEBUG - [download] [0;94m 83.8%[0m of   59.03MiB at [0;32m   1.49MiB/s[0m ETA [0;33m00:06[0m
+2025-11-23 03:03:28,447 - yt-dlp - DEBUG - [download] [0;94m 83.8%[0m of   59.03MiB at [0;32m   1.49MiB/s[0m ETA [0;33m00:06[0m
+2025-11-23 03:03:28,486 - yt-dlp - DEBUG - [download] [0;94m 84.3%[0m of   59.03MiB at [0;32m   2.42MiB/s[0m ETA [0;33m00:03[0m
+2025-11-23 03:03:28,486 - yt-dlp - DEBUG - [download] [0;94m 84.3%[0m of   59.03MiB at [0;32m   2.42MiB/s[0m ETA [0;33m00:03[0m
+2025-11-23 03:03:28,549 - yt-dlp - DEBUG - [download] [0;94m 85.1%[0m of   59.03MiB at [0;32m   3.72MiB/s[0m ETA [0;33m00:02[0m
+2025-11-23 03:03:28,549 - yt-dlp - DEBUG - [download] [0;94m 85.1%[0m of   59.03MiB at [0;32m   3.72MiB/s[0m ETA [0;33m00:02[0m
+2025-11-23 03:03:28,673 - yt-dlp - DEBUG - [download] [0;94m 86.8%[0m of   59.03MiB at [0;32m   5.09MiB/s[0m ETA [0;33m00:01[0m
+2025-11-23 03:03:28,673 - yt-dlp - DEBUG - [download] [0;94m 86.8%[0m of   59.03MiB at [0;32m   5.09MiB/s[0m ETA [0;33m00:01[0m
+2025-11-23 03:03:28,922 - yt-dlp - DEBUG - [download] [0;94m 90.2%[0m of   59.03MiB at [0;32m   6.23MiB/s[0m ETA [0;33m00:00[0m
+2025-11-23 03:03:28,922 - yt-dlp - DEBUG - [download] [0;94m 90.2%[0m of   59.03MiB at [0;32m   6.23MiB/s[0m ETA [0;33m00:00[0m
+2025-11-23 03:03:29,515 - yt-dlp - DEBUG - [download] [0;94m 97.0%[0m of   59.03MiB at [0;32m   6.48MiB/s[0m ETA [0;33m00:00[0m
+2025-11-23 03:03:29,515 - yt-dlp - DEBUG - [download] [0;94m 97.0%[0m of   59.03MiB at [0;32m   6.48MiB/s[0m ETA [0;33m00:00[0m
+2025-11-23 03:03:29,808 - yt-dlp - DEBUG - [download] [0;94m100.0%[0m of   59.03MiB at [0;32m   6.40MiB/s[0m ETA [0;33m00:00[0m
+2025-11-23 03:03:29,808 - yt-dlp - DEBUG - [download] [0;94m100.0%[0m of   59.03MiB at [0;32m   6.40MiB/s[0m ETA [0;33m00:00[0m
+2025-11-23 03:03:29,809 - yt-dlp - DEBUG - [download] 100% of   59.03MiB in [1;37m00:00:09[0m at [0;32m6.29MiB/s[0m
+2025-11-23 03:03:29,809 - yt-dlp - DEBUG - [download] 100% of   59.03MiB in [1;37m00:00:09[0m at [0;32m6.29MiB/s[0m
+2025-11-23 03:03:29,824 - yt-dlp - DEBUG - [Merger] Merging formats into "D:\_Under_All\Masaüstü\nasıl şarkı yapıyorum？.mp4"
+2025-11-23 03:03:29,824 - yt-dlp - DEBUG - [Merger] Merging formats into "D:\_Under_All\Masaüstü\nasıl şarkı yapıyorum？.mp4"
+2025-11-23 03:03:29,825 - yt-dlp - DEBUG - [debug] ffmpeg command line: "D:\_Under_All\Masaüstü\YouTube Video Dowload Tool\ffmpeg" -y -loglevel repeat+info -i "file:D:\_Under_All\Masaüstü\nasıl şarkı yapıyorum？.f398.mp4" -i "file:D:\_Under_All\Masaüstü\nasıl şarkı yapıyorum？.f251.webm" -c copy -map 0:v:0 -map 1:a:0 -movflags +faststart "file:D:\_Under_All\Masaüstü\nasıl şarkı yapıyorum？.temp.mp4"
+2025-11-23 03:03:29,825 - yt-dlp - DEBUG - [debug] ffmpeg command line: "D:\_Under_All\Masaüstü\YouTube Video Dowload Tool\ffmpeg" -y -loglevel repeat+info -i "file:D:\_Under_All\Masaüstü\nasıl şarkı yapıyorum？.f398.mp4" -i "file:D:\_Under_All\Masaüstü\nasıl şarkı yapıyorum？.f251.webm" -c copy -map 0:v:0 -map 1:a:0 -movflags +faststart "file:D:\_Under_All\Masaüstü\nasıl şarkı yapıyorum？.temp.mp4"
+2025-11-23 03:03:32,412 - yt-dlp - DEBUG - Deleting original file D:\_Under_All\Masaüstü\nasıl şarkı yapıyorum？.f251.webm (pass -k to keep)
+2025-11-23 03:03:32,412 - yt-dlp - DEBUG - Deleting original file D:\_Under_All\Masaüstü\nasıl şarkı yapıyorum？.f251.webm (pass -k to keep)
+2025-11-23 03:03:32,420 - yt-dlp - DEBUG - Deleting original file D:\_Under_All\Masaüstü\nasıl şarkı yapıyorum？.f398.mp4 (pass -k to keep)
+2025-11-23 03:03:32,420 - yt-dlp - DEBUG - Deleting original file D:\_Under_All\Masaüstü\nasıl şarkı yapıyorum？.f398.mp4 (pass -k to keep)

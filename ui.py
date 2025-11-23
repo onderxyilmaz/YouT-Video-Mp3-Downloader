@@ -9,6 +9,9 @@ from tkinter import filedialog, messagebox
 from config import APP_VERSION, APP_NAME, DEVELOPER_NAME, WINDOW_WIDTH, WINDOW_HEIGHT, URL_CHECK_DEBOUNCE, Config
 from utils import validate_url, get_default_downloads_folder, check_ffmpeg, get_ffmpeg_path
 from downloader import DownloadManager, FFmpegInstaller
+from settings_window import SettingsWindow
+from history_window import HistoryWindow
+from database import DownloadHistory
 
 
 ctk.set_appearance_mode("dark")
@@ -34,6 +37,9 @@ class YouTubeDownloaderUI:
         # Config
         self.config = Config()
 
+        # Database
+        self.db = DownloadHistory()
+
         # URL kontrolü için debounce timer
         self.url_check_timer = None
 
@@ -56,7 +62,7 @@ class YouTubeDownloaderUI:
     def create_widgets(self):
         """Tüm widget'ları oluşturur"""
         main_frame = ctk.CTkFrame(self.root)
-        main_frame.pack(fill="both", expand=True, padx=20, pady=20)
+        main_frame.pack(fill="both", expand=True, padx=20, pady=(5, 20))
 
         # Başlık
         self._create_header(main_frame)
@@ -87,25 +93,59 @@ class YouTubeDownloaderUI:
 
     def _create_header(self, parent):
         """Başlık bölümünü oluşturur"""
+        header_frame = ctk.CTkFrame(parent, fg_color="transparent")
+        header_frame.pack(fill="x", pady=(0, 5))
+
+        # Üst satır: Başlık (ortada) ve sağda butonlar
+        top_row = ctk.CTkFrame(header_frame, fg_color="transparent")
+        top_row.pack(fill="x", pady=(0, 0))
+
+        # Başlık ortada
         title_label = ctk.CTkLabel(
-            parent,
+            top_row,
             text=APP_NAME,
             font=ctk.CTkFont(size=24, weight="bold")
         )
-        title_label.pack(pady=(10, 5))
+        title_label.pack(side="top", pady=(8, 2))
 
+        # Alt satır: Versiyon yazısı başlığın hemen altında ortalı
         version_label = ctk.CTkLabel(
-            parent,
+            header_frame,
             text=APP_VERSION,
             font=ctk.CTkFont(size=11),
             text_color="gray"
         )
         version_label.pack(pady=(0, 10))
 
+        # Sağ üst köşe: Geçmiş ve Ayarlar butonları
+        buttons_frame = ctk.CTkFrame(header_frame, fg_color="transparent")
+        # Butonları versiyon yazısından biraz daha aşağıya al
+        buttons_frame.place(relx=1.0, rely=0.0, x=-30, y=45, anchor="ne")
+
+        history_button = ctk.CTkButton(
+            buttons_frame,
+            text="📋 Geçmiş",
+            command=self.show_history,
+            width=90,
+            height=32,
+            font=ctk.CTkFont(size=12)
+        )
+        history_button.pack(side="left", padx=5)
+
+        settings_button = ctk.CTkButton(
+            buttons_frame,
+            text="⚙ Ayarlar",
+            command=self.show_settings,
+            width=90,
+            height=32,
+            font=ctk.CTkFont(size=12)
+        )
+        settings_button.pack(side="left")
+
     def _create_ffmpeg_section(self, parent):
         """FFmpeg durum ve kurulum bölümünü oluşturur"""
         self.ffmpeg_frame = ctk.CTkFrame(parent, fg_color="transparent")
-        self.ffmpeg_frame.pack(pady=(0, 20))
+        self.ffmpeg_frame.pack(pady=(5, 20))
 
         if self.has_ffmpeg:
             self.ffmpeg_status_label = ctk.CTkLabel(
@@ -422,14 +462,60 @@ class YouTubeDownloaderUI:
 
     def _download_thread(self, url, output_path, download_type):
         """İndirme thread'i"""
+        video_title = None
+        file_path = None
+        file_size = None
+
         try:
+            # Kalite ayarlarını al
+            video_quality = self.config.get_video_quality()
+            audio_quality = self.config.get_audio_quality()
+
             # Progress ve status callback'leri ile manager oluştur
+            max_retries = self.config.get_max_retries()
+            auto_retry = self.config.get_auto_retry()
+
             manager = DownloadManager(
                 progress_callback=lambda v: self.root.after_idle(lambda: self.update_progress(v)),
-                status_callback=lambda m, c: self.root.after_idle(lambda: self.update_status(m, c))
+                status_callback=lambda m, c: self.root.after_idle(lambda: self.update_status(m, c)),
+                max_retries=max_retries
             )
 
-            manager.download(url, output_path, download_type)
+            # Video bilgilerini al
+            try:
+                import yt_dlp
+                with yt_dlp.YoutubeDL({'quiet': True}) as ydl:
+                    info = ydl.extract_info(url, download=False)
+                    video_title = info.get('title', 'Başlık alınamadı')
+            except:
+                video_title = "Başlık alınamadı"
+
+            # Kalite ayarlarını downloader'a geç
+            manager.download(url, output_path, download_type, auto_retry=auto_retry,
+                           video_quality=video_quality, audio_quality=audio_quality)
+
+            # İndirilen dosya bilgilerini al
+            try:
+                # En son oluşturulan dosyayı bul
+                files = [os.path.join(output_path, f) for f in os.listdir(output_path)]
+                files = [f for f in files if os.path.isfile(f)]
+                if files:
+                    file_path = max(files, key=os.path.getctime)
+                    file_size = os.path.getsize(file_path)
+            except:
+                pass
+
+            # Veritabanına kaydet
+            quality = self.config.get_video_quality() if download_type == "video" else self.config.get_audio_quality()
+            self.db.add_download(
+                url=url,
+                title=video_title,
+                download_type=download_type,
+                quality=quality,
+                file_path=file_path,
+                file_size=file_size,
+                status='başarılı'
+            )
 
             def on_success():
                 messagebox.showinfo("Başarılı", "İndirme tamamlandı!")
@@ -440,6 +526,16 @@ class YouTubeDownloaderUI:
 
         except Exception as e:
             error_msg = str(e)
+
+            # Hatalı indirmeyi veritabanına kaydet
+            self.db.add_download(
+                url=url,
+                title=video_title,
+                download_type=download_type,
+                quality=self.config.get_video_quality() if download_type == "video" else self.config.get_audio_quality(),
+                status='başarısız',
+                error_message=error_msg
+            )
 
             def on_error():
                 self.update_status(f"Hata: {error_msg[:50]}...", "red")
@@ -650,3 +746,13 @@ class YouTubeDownloaderUI:
             hover_color="darkgray"
         )
         close_button.pack(pady=(10, 0))
+
+    def show_settings(self):
+        """Ayarlar penceresini gösterir"""
+        settings = SettingsWindow(self.root, self.config)
+        settings.show()
+
+    def show_history(self):
+        """İndirme geçmişi penceresini gösterir"""
+        history = HistoryWindow(self.root)
+        history.show()

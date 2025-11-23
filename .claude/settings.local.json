@@ -10,7 +10,8 @@
       "Bash(where:*)",
       "Bash(C:Python312python.exe --version 2)",
       "Bash(nul)",
-      "Bash(\"C:\\Program Files (x86)\\Inno Setup 6\\ISCC.exe\" installer_script.iss)"
+      "Bash(\"C:\\Program Files (x86)\\Inno Setup 6\\ISCC.exe\" installer_script.iss)",
+      "Bash(yt-dlp:*)"
     ],
     "deny": [],
     "ask": []

@@ -67,23 +67,25 @@ def check_ffmpeg():
 
 
 def get_ffmpeg_path():
-    """FFmpeg'in yolunu döndürür"""
+    """FFmpeg'in yolunu döndürür (tam yol olarak)"""
     # Önce sistem PATH'inde kontrol et
     system_ffmpeg = shutil.which("ffmpeg")
     if system_ffmpeg:
-        return system_ffmpeg
+        return os.path.abspath(system_ffmpeg)
     # Sonra proje klasöründe kontrol et
     local_ffmpeg = os.path.join(os.path.dirname(__file__), "ffmpeg.exe")
     if os.path.exists(local_ffmpeg):
-        return local_ffmpeg
+        # Göreceli yolu tam yola çevir
+        return os.path.abspath(local_ffmpeg)
     return None
 
 
 def get_ffmpeg_location():
-    """yt-dlp için FFmpeg konumunu döndürür (sadece dizin)"""
+    """yt-dlp için FFmpeg konumunu döndürür (sadece dizin - tam yol olarak)"""
     ffmpeg_path = get_ffmpeg_path()
     if ffmpeg_path and os.path.exists(ffmpeg_path):
-        return os.path.dirname(ffmpeg_path)
+        # Tam yolun dizinini al
+        return os.path.abspath(os.path.dirname(ffmpeg_path))
     return None
 
 
